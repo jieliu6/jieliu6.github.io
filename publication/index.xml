@@ -11,6 +11,15 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Unsupervised embedding of single-cell Hi-C data</title>
+      <link>https://jieliu6.github.io/publication/unsupervised_embedding_hi_c/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/unsupervised_embedding_hi_c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Comprehensive statistical inference of the clonal structure of cancer from multiple biopsies</title>
       <link>https://jieliu6.github.io/publication/themis/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
@@ -134,15 +143,6 @@
       <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/publication/bayesian-estimation-of-latently-grouped/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Genetic Variants Improve Breast Cancer Risk Prediction on Mammograms</title>
-      <link>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</link>
-      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</guid>
       <description></description>
     </item>
     
