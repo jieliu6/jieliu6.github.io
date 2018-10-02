@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 on Jie Liu</title>
+    <link>https://jieliu6.github.io/publication_types/4/</link>
+    <description>Recent content in 4 on Jie Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Jie Liu</copyright>
+    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jieliu6.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Predicting Breast Cancer and Prostate Cancer Susceptibility from Single Nucleotide Polymorphisms</title>
+      <link>https://jieliu6.github.io/publication/predicting-breast-cancer-and-prostate-cancer/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/predicting-breast-cancer-and-prostate-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structure Learning of Undirected Graphical Models with Contrastive Divergence</title>
+      <link>https://jieliu6.github.io/publication/structure-learning-of-undirected-graphic-models/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/structure-learning-of-undirected-graphic-models/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

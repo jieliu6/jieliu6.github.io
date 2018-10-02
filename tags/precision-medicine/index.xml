@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>precision-medicine on Jie Liu</title>
+    <link>https://jieliu6.github.io/tags/precision-medicine/</link>
+    <description>Recent content in precision-medicine on Jie Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Jie Liu</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jieliu6.github.io/tags/precision-medicine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Personalized Breast Cancer Diagnosis</title>
+      <link>https://jieliu6.github.io/project/radiogenomics/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/project/radiogenomics/</guid>
+      <description>High hopes for using genetic profiling for personalized medicine have been, in part, driven by the rapid progress of genome-wide association studies, which continue identifying more common genetic variants associated with diseases with high population prevalence. In particular, the recent Collaborative Oncological Gene-environment Study (COGS), which pooled large quantities of genetic data via a massive international collaboration, more than doubled the number of known susceptibility loci that are associated to common cancers (breast, ovarian and prostate cancers).</description>
+    </item>
+    
+    <item>
+      <title>Tumor Heterogeneity Anaysis</title>
+      <link>https://jieliu6.github.io/project/themis/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/project/themis/</guid>
+      <description>Cancer is heterogeneous in the sense that the cancer cells in a tumor are not genetically identical, but form distinct clones, defined as subpopulations of cancer cells that host the same genomic aberrations. In aggressive and metastatic cancers, these genomic aberrations quickly evolve, resulting in extreme spatial and temporal heterogeneity (Shah et al. 2012, Nowell 1976). Therefore, multiple biopsies over different locations and at different time points need to be collected and sequenced in order to capture the complexity of tumor genomic landscapes and provide insight into how tumors evolve and escape treatment (Gerlinger et al.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,9 +6,11 @@
     <description>Recent content in Publications on Jie Liu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Jie Liu</copyright>
+    <copyright>&amp;copy; 2018 Jie Liu</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://jieliu6.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Unsupervised embedding of single-cell Hi-C data</title>
@@ -34,8 +36,7 @@
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
@@ -143,6 +144,87 @@
       <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/publication/bayesian-estimation-of-latently-grouped/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic Variants Improve Breast Cancer Risk Prediction on Mammograms</title>
+      <link>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Breast Cancer and Prostate Cancer Susceptibility from Single Nucleotide Polymorphisms</title>
+      <link>https://jieliu6.github.io/publication/predicting-breast-cancer-and-prostate-cancer/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/predicting-breast-cancer-and-prostate-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structure Learning of Undirected Graphical Models with Contrastive Divergence</title>
+      <link>https://jieliu6.github.io/publication/structure-learning-of-undirected-graphic-models/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/structure-learning-of-undirected-graphic-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphical-model Based Multiple Testing under Dependence, with Applications to Genome-wide Association Studies</title>
+      <link>https://jieliu6.github.io/publication/graphic-model-based-multiple-testing/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/graphic-model-based-multiple-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-Dimensional Structured Feature Screening Using Binary Markov Random Fields</title>
+      <link>https://jieliu6.github.io/publication/high-dimensional-structured-feature-screening/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/high-dimensional-structured-feature-screening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Collective Ranking Method for Genome-wide Association Studies</title>
+      <link>https://jieliu6.github.io/publication/a-collective-ranking0method-for/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/a-collective-ranking0method-for/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-Sectional Stock Return Analysis Using Support Vector Regression</title>
+      <link>https://jieliu6.github.io/publication/cross-sectional-stock-return/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/cross-sectional-stock-return/</guid>
+      <description>* indicates equal contribution</description>
+    </item>
+    
+    <item>
+      <title>Meta-prediction of Phosphorylation Sites with Weighted Voting and Restricted Grid Search Parameter Selection</title>
+      <link>https://jieliu6.github.io/publication/meta-prediction-of-phosphoylation-sites/</link>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/meta-prediction-of-phosphoylation-sites/</guid>
+      <description>* indicates equal contribution</description>
+    </item>
+    
+    <item>
+      <title>Meta-prediction of Protein Subcellular Localization with Reduced Voting</title>
+      <link>https://jieliu6.github.io/publication/meta-prediction-of-protein-subcellular/</link>
+      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/meta-prediction-of-protein-subcellular/</guid>
       <description></description>
     </item>
     

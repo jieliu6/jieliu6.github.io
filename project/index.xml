@@ -6,9 +6,11 @@
     <description>Recent content in Projects on Jie Liu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Jie Liu</copyright>
+    <copyright>&amp;copy; 2018 Jie Liu</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://jieliu6.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Multiple Testing Under Dependence</title>
@@ -16,32 +18,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/project/multiple-testing/</guid>
-      <description>&lt;p&gt;Observations from large-scale multiple testing problems often exhibit dependence in the sense that whether the null hypothesis of one test is true or not (termed &lt;em&gt;underlying true state&lt;/em&gt;) depends on the underlying true states of other tests.
-For instance, in genome-wide association studies, researchers collect hundreds of thousands of highly correlated genetic markers (single-nucleotide polymorphisms, or SNPs) with the purpose of identifying the subset of markers associated with a heritable disease or trait.
-In functional magnetic resonance imaging studies of the brain, thousands of spatially correlated voxels are collected while subjects are performing certain tasks, with the purpose of detecting the relevant voxels.
-The most popular family of large-scale multiple testing procedures is the false discovery rate analysis.
-However, all these classical multiple testing procedures ignore the correlation structure among the individual factors, and the question is &lt;em&gt;whether we can reduce the false non-discovery rate by leveraging the dependence, while still controlling the false discovery rate in multiple testing&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Graphical models provide an elegant way of representing dependence.
-With recent advances in graphical models, especially more efficient algorithms for inference and parameter estimation, it is feasible to use these models to leverage the dependence between individual tests in multiple testing problems.
-More specifically, we can use graphical models to explicitly model the underlying true states of the hypotheses as random variables to encode the dependence, and then model the observed test statistics independently given their underlying true states.
-We propose a multiple testing procedure based on a Markov-random-field-coupled mixture model which allows arbitrary dependence structures.
-In our model, the underlying true states of the hypotheses form a Markov random field, and the observed test statistics are assumed to be independent given the underlying true states.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../img/TED-1.jpg&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;This model requires more sophisticated algorithms for parameter estimation and inference.
-For parameter estimation, we design a novel EM algorithm with MCMC in the E-step and a contrastive divergence style algorithm in the M-step.
-We show that there is a lower bound of the log likelihood which nondecreases over the EM iterations except for some MCMC error introduced in the E-step.
-We use the MCMC algorithm to infer the posterior probability that each hypothesis is null (termed &lt;em&gt;local index of significance&lt;/em&gt; or &lt;em&gt;LIS&lt;/em&gt;).
-Finally, the false discovery rate can be controlled by thresholding the LIS.&lt;/p&gt;
-
-&lt;p&gt;In addition, we design a semiparametric variation of the graphical model which nonparametrically estimates the $f_1$ function &amp;mdash; the density function of the test statistic under the alternative hypothesis.
-This is particularly important in some practical problems where $f_1$ is heterogeneous among multiple hypotheses, and cannot be estimated with a simple parametric distribution.
-The remainder of the graphical model is still estimated parametrically.
-The inference of the posterior probability and the false discovery rate control in this semiparametric variation remain the same as the parametric procedure.
-More important, this semiparametric approach exactly generalizes the local FDR procedure (Efron et al., 2001) and connects with the BH procedure (Benjamini and Hochberg, 1995).&lt;/p&gt;
-</description>
+      <description>Observations from large-scale multiple testing problems often exhibit dependence in the sense that whether the null hypothesis of one test is true or not (termed underlying true state) depends on the underlying true states of other tests. For instance, in genome-wide association studies, researchers collect hundreds of thousands of highly correlated genetic markers (single-nucleotide polymorphisms, or SNPs) with the purpose of identifying the subset of markers associated with a heritable disease or trait.</description>
     </item>
     
     <item>
@@ -50,13 +27,7 @@ More important, this semiparametric approach exactly generalizes the local FDR p
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/project/radiogenomics/</guid>
-      <description>&lt;p&gt;High hopes for using genetic profiling for personalized medicine have been, in part, driven by the rapid progress of genome-wide association studies, which continue identifying more common genetic variants associated with diseases with high population prevalence. In particular, the recent Collaborative Oncological Gene-environment Study (COGS), which pooled large quantities of genetic data via a massive international collaboration, more than doubled the number of known susceptibility loci that are associated to common cancers (breast, ovarian and prostate cancers). For breast cancer, over 130 institutions have collaborated and identified 41 new breast cancer associated variants. One way these genetic variants could be used in clinical breast cancer care is in individualized screening recommendations and personalized diagnosis. Early attempts to incorporate genetic variants into breast cancer risk models revealed modest improvements in risk prediction accuracy. For example, adding seven SNPs to the Gail model only increased the area under the ROC curve (AUROC) from 0.607 to 0.632 (Gail 2008, 2009). When ten SNPs were added to the Gail model, the AUROC increased from 0.580 to 0.618 on another dataset (Wacholder et al 2010). Incorporating these genetic variants with the mammographic findings to assess individualized risk will be highly relevant to clinical breast cancer diagnosis.&lt;/p&gt;
-
-&lt;p&gt;We incorporated the genetic variants and consolidated a list of 77 SNPs which reflect the state of the art of breast cancer GWAS. We used the descriptors that radiologists observe on mammograms using the standardized lexicon in breast imaging, the Breast Imaging Reporting and Data System (BI-RADS). These mammography features included the shape and the margin of masses, the shape and the distribution of microcalcifications, background breast density and other associated findings. We built naïve Bayes models, using the 49 mammography features together with the 77 genetic variants (Combined-77 model). We observed that the inclusion of the genetic variants significantly improved the breast cancer diagnostic model. We discovered that the mammographic findings were more predictive for high-risk women, whereas the genetic variants were more predictive for low-risk women, which demonstrated the potential benefit of combining genetic variants and mammographic findings for personalized breast cancer diagnosis.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../img/radiogenomics_result1.jpg&#34;&gt;
-&lt;img src=&#34;../../img/radiogenomics_result2.jpg&#34;&gt;&lt;/p&gt;
-</description>
+      <description>High hopes for using genetic profiling for personalized medicine have been, in part, driven by the rapid progress of genome-wide association studies, which continue identifying more common genetic variants associated with diseases with high population prevalence. In particular, the recent Collaborative Oncological Gene-environment Study (COGS), which pooled large quantities of genetic data via a massive international collaboration, more than doubled the number of known susceptibility loci that are associated to common cancers (breast, ovarian and prostate cancers).</description>
     </item>
     
     <item>
@@ -65,37 +36,7 @@ More important, this semiparametric approach exactly generalizes the local FDR p
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/project/themis/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Cancer is heterogeneous in the sense that the cancer cells in a tumor are not genetically identical, but form distinct clones, defined as subpopulations of cancer cells that host the same genomic aberrations&lt;/strong&gt;.
-In aggressive and metastatic cancers, these genomic aberrations quickly evolve, resulting in extreme spatial and temporal heterogeneity (Shah et al. 2012, Nowell 1976).
-Therefore, multiple biopsies over different locations and at different time points need to be collected and sequenced in order to capture the complexity of tumor genomic landscapes and provide insight into how tumors evolve and escape treatment (Gerlinger et al. 2014, Frampton et al. 2013).
-Accordingly, computational tools are needed to accurately characterize the clonal structure of cancer and reveal how that structure evolves over time.&lt;/p&gt;
-
-&lt;p&gt;In recent years, a large number of computational tools and statistical models have been developed to analyze tumor heterogeneity from DNA sequencing data.
-However, &lt;strong&gt;most of these tools only model one type of genomic aberration&lt;/strong&gt;, such as single-nucleotide variants (SNVs), copy number alterations (CNAs), or structural variants.
-Restricting the analysis to a single type of mutation not only reduces statistical power to accurately detect the clonal structure within the tumor, but also prevents us from understanding interactions among different types of mutations.
-Furthermore, many SNV-based methods assume that no copy number changes have occurred, which is extremely improbable.
-Therefore, their estimation of the prevalence of a given clone can be inaccurate, and the corresponding heterogeneity results may be misleading.
-Existing methods that capture SNVs and CNAs in the same model (i.e., phyloWGS from Deshwar et al. 2015, SPRUCE from El-Kebir et al. 2015, and Canopy from Jiang et al. 2016) require running a CNA-calling algorithm before heterogeneity analysis, but accurate CNA characterization also depends on heterogeneity analysis.&lt;/p&gt;
-
-&lt;p&gt;Most existing tools are &lt;strong&gt;designed to analyze a single tumor biopsy and are not suitable for jointly analyzing multiple biopsies&lt;/strong&gt;.
-As DNA sequencing becomes more affordable, we can more easily collect multiple biopsies from a single patient during treatment.
-If we only perform heterogeneity analysis on the individual biopsies, then we are unable to detect clones that are shared across different biopsies from the same patient, and we fail to address important questions about how the tumor cells evolve, metastasize and escape treatment.&lt;/p&gt;
-
-&lt;p&gt;Finally, although most of models are free and publicly available, it is &lt;strong&gt;difficult to extend them by adding new assumptions and new types of biological data&lt;/strong&gt;.
-Even under the best of circumstances, significant effort is required for users to fully understand the source code.
-In many situations, data structures and computational algorithms prohibit other investigators from modifying the model to accommodate their special needs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../img/THEMIS-1.png&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;To address these challenges, &lt;strong&gt;we propose THEMIS (Tumor Heterogeneity Extensible Modeling via an Integrative System), which allows us to jointly characterize different types of genomic aberrations from multiple biopsies using a dynamic graphical model&lt;/strong&gt; (in figure above).
-We implement our model via an extensible modeling platform, the Graphical Models Toolkit (GMTK) (Bilmes and Zweig 2002), which makes our approach open, reproducible and easy for others to extend.
-To extend the model, users only have to modify the model specification files; GMTK then automatically handles the required computation.
-Simulation experiments demonstrate that THEMIS significantly increases the accuracy of recovering tumor subclones and their genotypes, compared with its ancestor, TITAN (Ha et al. 2012).
-Single cell DNA sequencing confirms that individual nuclei can be segregated into one of the two tumor subclones identified by THEMIS.
-We applied THEMIS to three tumor biopsies from one cancer patient, thereby revealing the mutation accumulation history of the patient, tracking cancer progression, and identifying mutations related to developing resistance following various treatments.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../img/THEMIS-2.png&#34;&gt;&lt;/p&gt;
-</description>
+      <description>Cancer is heterogeneous in the sense that the cancer cells in a tumor are not genetically identical, but form distinct clones, defined as subpopulations of cancer cells that host the same genomic aberrations. In aggressive and metastatic cancers, these genomic aberrations quickly evolve, resulting in extreme spatial and temporal heterogeneity (Shah et al. 2012, Nowell 1976). Therefore, multiple biopsies over different locations and at different time points need to be collected and sequenced in order to capture the complexity of tumor genomic landscapes and provide insight into how tumors evolve and escape treatment (Gerlinger et al.</description>
     </item>
     
   </channel>

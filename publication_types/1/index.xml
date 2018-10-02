@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Jie Liu</title>
+    <link>https://jieliu6.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Jie Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Jie Liu</copyright>
+    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jieliu6.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unsupervised embedding of single-cell Hi-C data</title>
+      <link>https://jieliu6.github.io/publication/unsupervised_embedding_hi_c/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/unsupervised_embedding_hi_c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discriminatory power of common genetic variants in personalized breast cancer diagnosis</title>
+      <link>https://jieliu6.github.io/publication/discriminatory-power/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/discriminatory-power/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
+      <link>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
+      <link>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</link>
+      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing a Clinical Utility Framework to Evaluate Prediction Models in Radiogenomics</title>
+      <link>https://jieliu6.github.io/publication/developing-a-clinical-utility/</link>
+      <pubDate>Sat, 21 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/developing-a-clinical-utility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing the Value of Mammographic Features and Genetic Variants in Breast Cancer Risk Prediction</title>
+      <link>https://jieliu6.github.io/publication/comparing-the-value-of-mammographic-feature/</link>
+      <pubDate>Fri, 14 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/comparing-the-value-of-mammographic-feature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple Testing under Dependence via Semiparametric Graphical Models</title>
+      <link>https://jieliu6.github.io/publication/multiple-testing-under-dependence-via-semiparametric-graphic-models/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/multiple-testing-under-dependence-via-semiparametric-graphic-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Heterogeneous Hidden Markov Random Fields</title>
+      <link>https://jieliu6.github.io/publication/learning-heterogeneous-hidden-markov-random-field/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/learning-heterogeneous-hidden-markov-random-field/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Genetic Variants Improve Personalized Breast Cancer Diagnosis</title>
+      <link>https://jieliu6.github.io/publication/new-genetic-variants-improve/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/new-genetic-variants-improve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Estimation of Latently-grouped Parameters in Undirected Graphical Models</title>
+      <link>https://jieliu6.github.io/publication/bayesian-estimation-of-latently-grouped/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/bayesian-estimation-of-latently-grouped/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Collective Ranking Method for Genome-wide Association Studies</title>
+      <link>https://jieliu6.github.io/publication/a-collective-ranking0method-for/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/a-collective-ranking0method-for/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta-prediction of Phosphorylation Sites with Weighted Voting and Restricted Grid Search Parameter Selection</title>
+      <link>https://jieliu6.github.io/publication/meta-prediction-of-phosphoylation-sites/</link>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/meta-prediction-of-phosphoylation-sites/</guid>
+      <description>* indicates equal contribution</description>
+    </item>
+    
+    <item>
+      <title>Meta-prediction of Protein Subcellular Localization with Reduced Voting</title>
+      <link>https://jieliu6.github.io/publication/meta-prediction-of-protein-subcellular/</link>
+      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/meta-prediction-of-protein-subcellular/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

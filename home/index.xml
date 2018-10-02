@@ -6,9 +6,76 @@
     <description>Recent content in Homes on Jie Liu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Jie Liu</copyright>
+    <copyright>&amp;copy; 2018 Jie Liu</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://jieliu6.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://jieliu6.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/home/about/</guid>
+      <description>Biography I received my Ph.D. in computer science from the University of Wisconsin-Madison. I am currently a postdoctoral fellow in the Genome Sciences Department at the University of Washington. My research areas are machine learning and its applications in biomedical informatics.
+I will join as an assistant professor in the Department of Computational Medicine and Bioinformatics  at the University of Michigan, Ann Arbor in January 2019. Interested students/postdocs can reach out to me via email.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://jieliu6.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://jieliu6.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://jieliu6.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>https://jieliu6.github.io/home/service/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/home/service/</guid>
+      <description>Journal Referee Journal of the American Statistical Association, Data Mining and Knowledge Discovery, Machine Learning, Genome Research, Cell Systems, Bioinformatics, Pattern Recognition Letters, Journal of Digital Imaging, Economic Modelling
+Conference Program Committee ICLR 2019, AMIA Informatics Summit 2019, NIPS 2018, ISMB 2018, AMIA 2018, ICML 2018, RECOMB 2018, ICLR 2018, AMIA Informatics Summit 2018, NIPS-MLCB 2017, NIPS 2017, AMIA 2017, AMIA-TBI/CRI 2017, AAAI 2017, NIPS 2016, AMIA 2016, AAAI 2016, AMIA-TBI/CRI 2016, ACMBCB 2016, MLSB 2016, NIPS 2015, IJCAI 2015, AMIA 2015, AMIA-TBI/CRI 2015, AISTATS 2015, WABI2015, NIPS 2014, UAI 2014, AAAI 2014, AMIA 2014, IJCAI 2013, AMIA 2013, GENSIPS 2012</description>
+    </item>
+    
+    <item>
+      <title>Awards</title>
+      <link>https://jieliu6.github.io/home/awards/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/home/awards/</guid>
+      <description> (2015) Washington Research Foundation Innovation Postdoctoral Fellowship (2014) AMIA Marco Ramoni Distinguished Paper Award (2014) Moore/Sloan Data Science Postdoctoral Fellowship  </description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://jieliu6.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/home/teaching/</guid>
+      <description> Courses  Guest instructor, CS 760 Machine Learning, UW-Madison, 2014 Spring. Guest instructor, STAT 992 Large-scale inference, UW-Madison, 2013 Spring. Teaching assistant, Introduction to Artificial Intelligence, Peking University, 2005 Spring.  Mentees  John T Halloran, PhD student, Department of Electrical Engineering, University of Washington Charles Kwong, PhD student, Department of Computer Sciences, UW-Madison Sinong Geng, Graduate student, Department of Statistics, UW-Madison  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://jieliu6.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

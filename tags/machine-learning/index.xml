@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content tagged as &#39;Machine Learning&#39; on Jie Liu</title>
+    <link>https://jieliu6.github.io/tags/machine-learning/</link>
+    <description>Recent content in Content tagged as &#39;Machine Learning&#39; on Jie Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Jie Liu</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jieliu6.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multiple Testing Under Dependence</title>
+      <link>https://jieliu6.github.io/project/multiple-testing/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/project/multiple-testing/</guid>
+      <description>Observations from large-scale multiple testing problems often exhibit dependence in the sense that whether the null hypothesis of one test is true or not (termed underlying true state) depends on the underlying true states of other tests. For instance, in genome-wide association studies, researchers collect hundreds of thousands of highly correlated genetic markers (single-nucleotide polymorphisms, or SNPs) with the purpose of identifying the subset of markers associated with a heritable disease or trait.</description>
+    </item>
+    
+    <item>
+      <title>Tumor Heterogeneity Anaysis</title>
+      <link>https://jieliu6.github.io/project/themis/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/project/themis/</guid>
+      <description>Cancer is heterogeneous in the sense that the cancer cells in a tumor are not genetically identical, but form distinct clones, defined as subpopulations of cancer cells that host the same genomic aberrations. In aggressive and metastatic cancers, these genomic aberrations quickly evolve, resulting in extreme spatial and temporal heterogeneity (Shah et al. 2012, Nowell 1976). Therefore, multiple biopsies over different locations and at different time points need to be collected and sequenced in order to capture the complexity of tumor genomic landscapes and provide insight into how tumors evolve and escape treatment (Gerlinger et al.</description>
+    </item>
+    
+  </channel>
+</rss>
