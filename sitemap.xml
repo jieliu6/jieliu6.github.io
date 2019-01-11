@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://jieliu6.github.io/people/jie-liu/</loc>
+      <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://jieliu6.github.io/publication/unsupervised_embedding_hi_c/</loc>
       <lastmod>2018-07-01T00:00:00+00:00</lastmod>
     </url>
@@ -12,8 +20,40 @@
     
     <url>
     
+      <loc>https://jieliu6.github.io/project/multiple-testing/</loc>
+      <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://jieliu6.github.io/project/radiogenomics/</loc>
+      <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://jieliu6.github.io/project/themis/</loc>
+      <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://jieliu6.github.io/publication/themis/</loc>
       <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://jieliu6.github.io/post/</loc>
+      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
   
@@ -38,30 +78,6 @@
     
       <loc>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</loc>
       <lastmod>2016-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://jieliu6.github.io/project/multiple-testing/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://jieliu6.github.io/project/radiogenomics/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://jieliu6.github.io/project/themis/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -280,8 +296,17 @@
     
     <url>
     
+      <loc>https://jieliu6.github.io/people/</loc>
+      <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://jieliu6.github.io/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-09-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -325,8 +350,17 @@
     
     <url>
     
+      <loc>https://jieliu6.github.io/tags/people/</loc>
+      <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://jieliu6.github.io/tags/precision-medicine/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-09-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

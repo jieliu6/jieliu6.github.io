@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jie Liu on Jie Liu</title>
+    <title>Jie Liu Lab on Jie Liu Lab</title>
     <link>https://jieliu6.github.io/</link>
-    <description>Recent content in Jie Liu on Jie Liu</description>
+    <description>Recent content in Jie Liu Lab on Jie Liu Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Jie Liu</copyright>
+    <copyright>&amp;copy; 2017-2019 Jie Liu</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Jie Liu</title>
+      <link>https://jieliu6.github.io/people/jie-liu/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/people/jie-liu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Unsupervised embedding of single-cell Hi-C data</title>
@@ -20,28 +29,9 @@
     </item>
     
     <item>
-      <title>Comprehensive statistical inference of the clonal structure of cancer from multiple biopsies</title>
-      <link>https://jieliu6.github.io/publication/themis/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/publication/themis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multiple Testing under Dependence via Graphical Models</title>
-      <link>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Multiple Testing Under Dependence</title>
       <link>https://jieliu6.github.io/project/multiple-testing/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/project/multiple-testing/</guid>
       <description>&lt;p&gt;Observations from large-scale multiple testing problems often exhibit dependence in the sense that whether the null hypothesis of one test is true or not (termed &lt;em&gt;underlying true state&lt;/em&gt;) depends on the underlying true states of other tests.
@@ -75,10 +65,12 @@ More important, this semiparametric approach exactly generalizes the local FDR p
     <item>
       <title>Personalized Breast Cancer Diagnosis</title>
       <link>https://jieliu6.github.io/project/radiogenomics/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/project/radiogenomics/</guid>
-      <description>&lt;p&gt;High hopes for using genetic profiling for personalized medicine have been, in part, driven by the rapid progress of genome-wide association studies, which continue identifying more common genetic variants associated with diseases with high population prevalence. In particular, the recent Collaborative Oncological Gene-environment Study (COGS), which pooled large quantities of genetic data via a massive international collaboration, more than doubled the number of known susceptibility loci that are associated to common cancers (breast, ovarian and prostate cancers). For breast cancer, over 130 institutions have collaborated and identified 41 new breast cancer associated variants. One way these genetic variants could be used in clinical breast cancer care is in individualized screening recommendations and personalized diagnosis. Early attempts to incorporate genetic variants into breast cancer risk models revealed modest improvements in risk prediction accuracy. For example, adding seven SNPs to the Gail model only increased the area under the ROC curve (AUROC) from 0.607 to 0.632 (Gail 2008, 2009). When ten SNPs were added to the Gail model, the AUROC increased from 0.580 to 0.618 on another dataset (Wacholder et al 2010). Incorporating these genetic variants with the mammographic findings to assess individualized risk will be highly relevant to clinical breast cancer diagnosis.&lt;/p&gt;
+      <description>&lt;p&gt;+++&lt;/p&gt;
+
+&lt;p&gt;High hopes for using genetic profiling for personalized medicine have been, in part, driven by the rapid progress of genome-wide association studies, which continue identifying more common genetic variants associated with diseases with high population prevalence. In particular, the recent Collaborative Oncological Gene-environment Study (COGS), which pooled large quantities of genetic data via a massive international collaboration, more than doubled the number of known susceptibility loci that are associated to common cancers (breast, ovarian and prostate cancers). For breast cancer, over 130 institutions have collaborated and identified 41 new breast cancer associated variants. One way these genetic variants could be used in clinical breast cancer care is in individualized screening recommendations and personalized diagnosis. Early attempts to incorporate genetic variants into breast cancer risk models revealed modest improvements in risk prediction accuracy. For example, adding seven SNPs to the Gail model only increased the area under the ROC curve (AUROC) from 0.607 to 0.632 (Gail 2008, 2009). When ten SNPs were added to the Gail model, the AUROC increased from 0.580 to 0.618 on another dataset (Wacholder et al 2010). Incorporating these genetic variants with the mammographic findings to assess individualized risk will be highly relevant to clinical breast cancer diagnosis.&lt;/p&gt;
 
 &lt;p&gt;We incorporated the genetic variants and consolidated a list of 77 SNPs which reflect the state of the art of breast cancer GWAS. We used the descriptors that radiologists observe on mammograms using the standardized lexicon in breast imaging, the Breast Imaging Reporting and Data System (BI-RADS). These mammography features included the shape and the margin of masses, the shape and the distribution of microcalcifications, background breast density and other associated findings. We built naïve Bayes models, using the 49 mammography features together with the 77 genetic variants (Combined-77 model). We observed that the inclusion of the genetic variants significantly improved the breast cancer diagnostic model. We discovered that the mammographic findings were more predictive for high-risk women, whereas the genetic variants were more predictive for low-risk women, which demonstrated the potential benefit of combining genetic variants and mammographic findings for personalized breast cancer diagnosis.&lt;/p&gt;
 
@@ -90,7 +82,7 @@ More important, this semiparametric approach exactly generalizes the local FDR p
     <item>
       <title>Tumor Heterogeneity Anaysis</title>
       <link>https://jieliu6.github.io/project/themis/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/project/themis/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Cancer is heterogeneous in the sense that the cancer cells in a tumor are not genetically identical, but form distinct clones, defined as subpopulations of cancer cells that host the same genomic aberrations&lt;/strong&gt;.
@@ -123,6 +115,25 @@ Single cell DNA sequencing confirms that individual nuclei can be segregated int
 We applied THEMIS to three tumor biopsies from one cancer patient, thereby revealing the mutation accumulation history of the patient, tracking cancer progression, and identifying mutations related to developing resistance following various treatments.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../img/THEMIS-2.png&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comprehensive statistical inference of the clonal structure of cancer from multiple biopsies</title>
+      <link>https://jieliu6.github.io/publication/themis/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/themis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple Testing under Dependence via Graphical Models</title>
+      <link>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
@@ -195,15 +206,6 @@ We applied THEMIS to three tumor biopsies from one cancer patient, thereby revea
       <pubDate>Fri, 14 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/publication/comparing-the-value-of-mammographic-feature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multiple Testing under Dependence via Semiparametric Graphical Models</title>
-      <link>https://jieliu6.github.io/publication/multiple-testing-under-dependence-via-semiparametric-graphic-models/</link>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/publication/multiple-testing-under-dependence-via-semiparametric-graphic-models/</guid>
       <description></description>
     </item>
     

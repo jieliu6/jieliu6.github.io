@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>people on Jie Liu Lab</title>
+    <link>https://jieliu6.github.io/tags/people/</link>
+    <description>Recent content in people on Jie Liu Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017-2019 Jie Liu</copyright>
+    <lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jieliu6.github.io/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jie Liu</title>
+      <link>https://jieliu6.github.io/people/jie-liu/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/people/jie-liu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
