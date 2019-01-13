@@ -13,3 +13,8 @@ h1 {
 h3.academic-title a{
   font-size: 1rem;
 }
+
+.card-preview-img {
+  margin: 0 auto;
+
+}
