@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Jie Liu Lab</title>
+    <title>Tags on Liu Lab</title>
     <link>https://jieliu6.github.io/tags/</link>
-    <description>Recent content in Tags on Jie Liu Lab</description>
+    <description>Recent content in Tags on Liu Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2019 Jie Liu</copyright>
@@ -18,6 +18,15 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4D Nucleome</title>
+      <link>https://jieliu6.github.io/tags/4d-nucleome/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/tags/4d-nucleome/</guid>
       <description></description>
     </item>
     

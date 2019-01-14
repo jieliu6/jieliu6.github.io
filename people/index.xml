@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Peoples on Jie Liu Lab</title>
+    <title>Peoples on Liu Lab</title>
     <link>https://jieliu6.github.io/people/</link>
-    <description>Recent content in Peoples on Jie Liu Lab</description>
+    <description>Recent content in Peoples on Liu Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2019 Jie Liu</copyright>
@@ -31,29 +31,29 @@
     </item>
     
     <item>
-      <title>Shuze Wang</title>
-      <link>https://jieliu6.github.io/people/wang/</link>
-      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      <title>Zijun Gao</title>
+      <link>https://jieliu6.github.io/people/gao/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jieliu6.github.io/people/wang/</guid>
+      <guid>https://jieliu6.github.io/people/gao/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yuanhao Huang</title>
       <link>https://jieliu6.github.io/people/huang/</link>
-      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/people/huang/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Zijun Gao</title>
-      <link>https://jieliu6.github.io/people/gao/</link>
-      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      <title>Shuze Wang</title>
+      <link>https://jieliu6.github.io/people/wang/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jieliu6.github.io/people/gao/</guid>
+      <guid>https://jieliu6.github.io/people/wang/</guid>
       <description></description>
     </item>
     

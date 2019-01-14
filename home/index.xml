@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Jie Liu Lab</title>
+    <title>Homes on Liu Lab</title>
     <link>https://jieliu6.github.io/home/</link>
-    <description>Recent content in Homes on Jie Liu Lab</description>
+    <description>Recent content in Homes on Liu Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2019 Jie Liu</copyright>
@@ -18,8 +18,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/home/about/</guid>
-      <description>About I received my Ph.D. in computer science from the University of Wisconsin-Madison. I was a postdoctoral fellow in the Genome Sciences Department at the University of Washington before joining Department of Computational Medicine and Bioinformatics  at the University of Michigan, Ann Arbor as assistant professor in January 2019.
-My research areas are machine learning and its applications in biomedical informatics. I have positions available for graduate students and postdocs.</description>
+      <description>About Dr. Liu&amp;rsquo;s research lab aims to develop machine learning approaches for real-world bioinformatics and medical informatics problems. We believe that computational methods are essential in order to understand many of these molecular biology problems, including the dynamics of genome conformation and nuclear organization, gene regulation, cellular networks, and the genetic basis of human diseases.
+Liu Lab currently has openings for graduate students and postdocs. Please reach out to Dr.</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ My research areas are machine learning and its applications in biomedical inform
     </item>
     
     <item>
-      <title>Member</title>
+      <title>Members</title>
       <link>https://jieliu6.github.io/home/members/</link>
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       
