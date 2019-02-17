@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2019 Jie Liu</copyright>
-    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jieliu6.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stochastic Learning for Sparse Discrete Markov Random Fields with Controlled Gradient Approximation Error</title>
+      <link>https://jieliu6.github.io/publication/stochastic-learning-for-sparse-discrete-markov-random-fields/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/stochastic-learning-for-sparse-discrete-markov-random-fields/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Unsupervised embedding of single-cell Hi-C data</title>
@@ -194,10 +203,10 @@
     
     <item>
       <title>A Collective Ranking Method for Genome-wide Association Studies</title>
-      <link>https://jieliu6.github.io/publication/a-collective-ranking0method-for/</link>
+      <link>https://jieliu6.github.io/publication/a-collective-ranking-method-for/</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://jieliu6.github.io/publication/a-collective-ranking0method-for/</guid>
+      <guid>https://jieliu6.github.io/publication/a-collective-ranking-method-for/</guid>
       <description></description>
     </item>
     

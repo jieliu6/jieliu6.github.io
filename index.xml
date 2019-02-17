@@ -7,53 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2019 Jie Liu</copyright>
-    <lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Jie Liu</title>
-      <link>https://jieliu6.github.io/people/liu/</link>
-      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/people/liu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fan Feng</title>
-      <link>https://jieliu6.github.io/people/feng/</link>
-      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/people/feng/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zijun Gao</title>
-      <link>https://jieliu6.github.io/people/gao/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/people/gao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yuanhao Huang</title>
-      <link>https://jieliu6.github.io/people/huang/</link>
-      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/people/huang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shuze Wang</title>
-      <link>https://jieliu6.github.io/people/wang/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/people/wang/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>scHi-C embedding</title>
@@ -63,6 +18,15 @@
       <guid>https://jieliu6.github.io/project/hic-embedding/</guid>
       <description>&lt;p&gt;Single-cell Hi-C (scHi-C) data promises to enable scientists to interrogate the 3D architecture of DNA in the nucleus of the cell, studying how this structure varies stochastically or along developmental or cell cycle axes.  However, Hi-C data analysis requires methods that take into account the unique characteristics of this type of data.  In this work, we explore whether methods that have been developed previously for the analysis of bulk Hi-C data can be applied to scHi-C data.  We apply methods designed for analysis of bulk Hi-C data to scHi-C data in conjunction with unsupervised embedding.  We find that one of these methods, HiCRep, when used in conjunction with multidimensional scaling (MDS), strongly outperforms three other methods, including a technique that has been used previously for scHi-C analysis.  We also provide evidence that the HiCRep/MDS method is robust to extremely low per-cell sequencing depth, that this robustness is improved even further when high-coverage and low-coverage cells are projected together, and that the method can be used to jointly embed cells from multiple published datasets.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Stochastic Learning for Sparse Discrete Markov Random Fields with Controlled Gradient Approximation Error</title>
+      <link>https://jieliu6.github.io/publication/stochastic-learning-for-sparse-discrete-markov-random-fields/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/stochastic-learning-for-sparse-discrete-markov-random-fields/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -207,6 +171,42 @@ We applied THEMIS to three tumor biopsies from one cancer patient, thereby revea
       <pubDate>Sat, 23 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/publication/comparing-mammography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
+      <link>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing a Utility Decision Framework to Evaluate Predictive Models in Breast Cancer Risk Estimation</title>
+      <link>https://jieliu6.github.io/publication/develop-a-utility/</link>
+      <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/develop-a-utility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
+      <link>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</link>
+      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing a Clinical Utility Framework to Evaluate Prediction Models in Radiogenomics</title>
+      <link>https://jieliu6.github.io/publication/developing-a-clinical-utility/</link>
+      <pubDate>Sat, 21 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/developing-a-clinical-utility/</guid>
       <description></description>
     </item>
     
