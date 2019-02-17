@@ -7,25 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2019 Jie Liu</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jieliu6.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
+      <title>Liu Lab</title>
       <link>https://jieliu6.github.io/home/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/home/about/</guid>
-      <description>About Dr. Liu&amp;rsquo;s research lab aims to develop machine learning approaches for real-world bioinformatics and medical informatics problems. We believe that computational methods are essential in order to understand many of these molecular biology problems, including the dynamics of genome conformation and nuclear organization, gene regulation, cellular networks, and the genetic basis of human diseases.
-Liu Lab currently has openings for graduate students and postdocs. Please reach out to Dr.</description>
+      <description></description>
     </item>
     
     <item>
       <title>Projects</title>
       <link>https://jieliu6.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/home/projects/</guid>
       <description></description>
@@ -43,9 +42,18 @@ Liu Lab currently has openings for graduate students and postdocs. Please reach 
     <item>
       <title>Publications</title>
       <link>https://jieliu6.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://jieliu6.github.io/home/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/home/posts/</guid>
       <description></description>
     </item>
     
@@ -59,9 +67,18 @@ Liu Lab currently has openings for graduate students and postdocs. Please reach 
     </item>
     
     <item>
+      <title>People</title>
+      <link>https://jieliu6.github.io/home/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/home/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://jieliu6.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/home/contact/</guid>
       <description></description>

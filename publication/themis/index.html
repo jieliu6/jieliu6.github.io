@@ -5,11 +5,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Source Themes Academic 4.0.0">
   <meta name="generator" content="Hugo 0.53" />
-  <meta name="author" content="Jie Liu">
 
   
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jie Liu">
+
   
   
   
@@ -60,7 +73,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -78,7 +92,15 @@
 
   <link rel="stylesheet" href="/styles.css">
   
-  <link rel="stylesheet" href="/css/custom.css">
+    
+    
+    
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.ebcc293e0ff15413156d4a7cb46ea08b.css">
   
 
   
@@ -86,7 +108,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-132341814-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -122,7 +144,7 @@
   <meta property="og:site_name" content="Liu Lab">
   <meta property="og:url" content="https://jieliu6.github.io/publication/themis/">
   <meta property="og:title" content="Comprehensive statistical inference of the clonal structure of cancer from multiple biopsies | Liu Lab">
-  <meta property="og:description" content="A comprehensive characterization of tumor genetic heterogeneity is critical for understanding how cancers evolve and escape treatment. Although many algorithms have been developed for capturing tumor heterogeneity, they are designed for analyzing either a single type of genomic aberration or individual biopsies. Here we present THEMIS (Tumor Heterogeneity Extensible Modeling via an Integrative System), which allows for the joint analysis of different types of genomic aberrations from multiple biopsies taken from the same patient, using a dynamic graphical model. Simulation experiments demonstrate higher accuracy of THEMIS over its ancestor, TITAN. The heterogeneity analysis results from THEMIS are validated with single cell DNA sequencing from a clinical tumor biopsy. When THEMIS is used to analyze tumor heterogeneity among multiple biopsies from the same patient, it helps to reveal the mutation accumulation history, track cancer progression, and identify the mutations related to treatment resistance. We implement our model via an extensible modeling platform, which makes our approach open, reproducible, and easy for others to extend."><meta property="og:image" content="https://jieliu6.github.io/img/portrait.png">
+  <meta property="og:description" content="A comprehensive characterization of tumor genetic heterogeneity is critical for understanding how cancers evolve and escape treatment. Although many algorithms have been developed for capturing tumor heterogeneity, they are designed for analyzing either a single type of genomic aberration or individual biopsies. Here we present THEMIS (Tumor Heterogeneity Extensible Modeling via an Integrative System), which allows for the joint analysis of different types of genomic aberrations from multiple biopsies taken from the same patient, using a dynamic graphical model. Simulation experiments demonstrate higher accuracy of THEMIS over its ancestor, TITAN. The heterogeneity analysis results from THEMIS are validated with single cell DNA sequencing from a clinical tumor biopsy. When THEMIS is used to analyze tumor heterogeneity among multiple biopsies from the same patient, it helps to reveal the mutation accumulation history, track cancer progression, and identify the mutations related to treatment resistance. We implement our model via an extensible modeling platform, which makes our approach open, reproducible, and easy for others to extend."><meta property="og:image" content="https://jieliu6.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2017-09-01T00:00:00&#43;00:00">
@@ -131,6 +153,32 @@
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
   
 
@@ -153,7 +201,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -274,9 +323,9 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#members">
+          <a class="nav-link" href="/#people">
             
-            <span>Members</span>
+            <span>People</span>
             
           </a>
         </li>
@@ -307,6 +356,10 @@
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -351,78 +404,34 @@
   
     
 
+
+
+<meta content="2017-09-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2017-09-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
 <div class="article-metadata">
 
   
-  
-  
-  <div>
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name"><strong>J Liu</strong></span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">J Halloran</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">J Bilmes</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">R Daza</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">C Lee</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">E Mahen</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">D Prunkard</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">C Song</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">S Blau</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">M Dorschner</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">V Gadi</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">J Shendure</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">A Blau</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">W Noble</span>
-    </span>
-    
-  </div>
-  
-
   <span class="article-date">
     
-    <meta content="2017-09-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-    <time datetime="2017-09-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
-      Sep 1, 2017
-    </time>
+    
+      
+    
+    <time>September 2017</time>
   </span>
-  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Jie Liu">
-  </span>
-
   
 
-  
   
 
   
 
   
   
+
+  
+
+  
+    
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
@@ -530,38 +539,6 @@
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://en.wikipedia.org/wiki/Oncogenomics" target="_blank" rel="noopener">
-    
-    Cancer Genomics
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="http://melodi.ee.washington.edu/~bilmes/mypubs/bilmes-spm-dgm-2010.pdf" target="_blank" rel="noopener">
-    
-    Dynamic Graphical Models
-  </a>
-
 
 </div>
 
@@ -585,6 +562,9 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
+            
+
+            
             
             <a href="/publication/#2">
               Journal article
@@ -611,20 +591,6 @@
     </div>
     <div class="d-md-none space-below"></div>
     
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9" itemprop="datePublished">
-            September, 2017
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-sm-none space-below"></div>
 
     <div class="space-below"></div>
 
@@ -763,24 +729,42 @@
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
     
     
+      
     
     
     
-    <script src="/js/academic.min.70f0041f5a24c6a675ac218c98d7ef71.js"></script>
-
     
+    <script src="/js/academic.min.c1b0baf12cd491effaeeb294faf1e83e.js"></script>
 
   </body>
 </html>

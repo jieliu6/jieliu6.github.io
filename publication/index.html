@@ -5,17 +5,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Source Themes Academic 4.0.0">
   <meta name="generator" content="Hugo 0.53" />
-  <meta name="author" content="Jie Liu">
+
+  
 
   
   
   
   
+  
+    
+    
     
   
-  <meta name="description" content="Assistant Professor of Computational Medicine and Bioinformatics">
+  
+
+  <meta name="author" content="Jie Liu">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Assistant Professor">
 
   
   <link rel="alternate" hreflang="en-us" href="https://jieliu6.github.io/publication/">
@@ -57,6 +70,14 @@
       
     
     
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
 
     
 
@@ -71,7 +92,15 @@
 
   <link rel="stylesheet" href="/styles.css">
   
-  <link rel="stylesheet" href="/css/custom.css">
+    
+    
+    
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.ebcc293e0ff15413156d4a7cb46ea08b.css">
   
 
   
@@ -79,7 +108,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-132341814-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -115,13 +144,39 @@
   <meta property="og:site_name" content="Liu Lab">
   <meta property="og:url" content="https://jieliu6.github.io/publication/">
   <meta property="og:title" content="Publications | Liu Lab">
-  <meta property="og:description" content="Assistant Professor of Computational Medicine and Bioinformatics"><meta property="og:image" content="https://jieliu6.github.io/img/portrait.png">
+  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://jieliu6.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-01-01T00:00:00&#43;00:00">
+  <meta property="og:updated_time" content="2018-07-01T00:00:00&#43;00:00">
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
   
 
@@ -144,7 +199,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -265,9 +321,9 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#members">
+          <a class="nav-link" href="/#people">
             
-            <span>Members</span>
+            <span>People</span>
             
           </a>
         </li>
@@ -298,6 +354,10 @@
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -426,31 +486,22 @@
         
       
 
-      <div class="form-row mb-3">
+      <div class="form-row mb-4">
         <div class="col-auto">
-          Filter by type:
+          <input type="search" class="filter-search" placeholder="Search..." autocapitalize="off"
+          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
         </div>
         <div class="col-auto">
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">All</option>
+            <option value="*">Type</option>
             
-            <option value=".pubtype-1">
-              Conference paper
-            </option>
-            
-            <option value=".pubtype-2">
-              Journal article
-            </option>
-            
-            <option value=".pubtype-4">
-              Report
-            </option>
+
             
           </select>
         </div>
         <div class="col-auto">
           <select class="pub-filters form-control form-control-sm" data-filter-group="year">
-            <option value="*">All</option>
+            <option value="*">Date</option>
             
             
             
@@ -510,11 +561,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, D Lin, G Yardimci, W Noble</span>.
+
+  
+  
+
+  (2018).
   <a href="/publication/unsupervised_embedding_hi_c/" itemprop="name">Unsupervised embedding of single-cell Hi-C data</a>.
-  In <em>ISMB</em>,
-  2018.
+  In <em>ISMB</em>.
+  
   <p>
 
 
@@ -542,6 +596,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -557,11 +614,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, J Halloran, J Bilmes, R Daza, C Lee, E Mahen, D Prunkard, C Song, S Blau, M Dorschner, V Gadi, J Shendure, A Blau, W Noble</span>.
+
+  
+  
+
+  (2017).
   <a href="/publication/themis/" itemprop="name">Comprehensive statistical inference of the clonal structure of cancer from multiple biopsies</a>.
-  In <em>Scientific Reports</em>,
-  2017.
+  In <em>Scientific Reports</em>.
+  
   <p>
 
 
@@ -608,39 +668,10 @@
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://en.wikipedia.org/wiki/Oncogenomics" target="_blank" rel="noopener">
-    
-    Cancer Genomics
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://melodi.ee.washington.edu/~bilmes/mypubs/bilmes-spm-dgm-2010.pdf" target="_blank" rel="noopener">
-    
-    Dynamic Graphical Models
-  </a>
-
 </p>
+
+  
+  
 </div>
 
           
@@ -656,11 +687,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, C Zhang, D Page</span>.
+
+  
+  
+
+  (2016).
   <a href="/publication/multiple-testing-under-dependence/" itemprop="name">Multiple Testing under Dependence via Graphical Models</a>.
-  In <em>Annals of Applied Statistics</em>,
-  2016.
+  In <em>Annals of Applied Statistics</em>.
+  
   <p>
 
 
@@ -699,55 +733,10 @@
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://en.wikipedia.org/wiki/Multiple_comparisons_problem" target="_blank" rel="noopener">
-    
-    Multiple Testing
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://en.wikipedia.org/wiki/Graphical_model" target="_blank" rel="noopener">
-    
-    Graphic Model
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://en.wikipedia.org/wiki/Genome-wide_association_study" target="_blank" rel="noopener">
-    
-    GWAS
-  </a>
-
 </p>
+
+  
+  
 </div>
 
           
@@ -763,11 +752,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    J Fan, Y Wu, M Yuan, D Page, <strong>J Liu</strong>, I Ong, P Peissig, ES Burnside</span>.
+
+  
+  
+
+  (2016).
   <a href="/publication/structure-leverage-methods/" itemprop="name">Structure-leveraged Methods in Breast Cancer Risk Prediction</a>.
-  In <em>JMLR</em>,
-  2016.
+  In <em>JMLR</em>.
+  
   <p>
 
 
@@ -807,6 +799,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -822,11 +817,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Y Wu, C Abbey, <strong>J Liu</strong>, I Ong, P Peissig, A Onitilo, J Fan, M Yuan, E Burnside</span>.
+
+  
+  
+
+  (2016).
   <a href="/publication/discriminatory-power/" itemprop="name">Discriminatory power of common genetic variants in personalized breast cancer diagnosis</a>.
-  In <em>SPIE Medical Imaging conference</em>,
-  2016.
+  In <em>SPIE Medical Imaging conference</em>.
+  
   <p>
 
 
@@ -862,6 +860,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -877,11 +878,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    ES Burnside, <strong>J Liu</strong>, Y Wu, A Onitilo, C McCarty, D Page, P Peissig, A Trentham-Dietz, T Kitchner, J Fan, M Yuan</span>.
+
+  
+  
+
+  (2016).
   <a href="/publication/comparing-mammography/" itemprop="name">Comparing Mammography Abnormality Features to Genetic Variants in the Prediction of Breast Cancer in Women Recommended for Breast Biopsy</a>.
-  In <em>Acad Radiol</em>,
-  2016.
+  In <em>Acad Radiol</em>.
+  
   <p>
 
 
@@ -923,6 +927,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -938,11 +945,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    J Weiss, F Kuusisto, K Boyd, <strong>J Liu</strong>, D Page</span>.
+
+  
+  
+
+  (2015).
   <a href="/publication/machine-learning-for-treatment-assignment/" itemprop="name">Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</a>.
-  In <em>AMIA Symposium</em>,
-  2015.
+  In <em>AMIA Symposium</em>.
+  
   <p>
 
 
@@ -976,6 +986,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -991,11 +1004,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Y Wu, C Abbey, X Chen, <strong>J Liu</strong>, D Page, O Algoz, P Peissig, A Onitilo, ES Burnside</span>.
+
+  
+  
+
+  (2015).
   <a href="/publication/develop-a-utility/" itemprop="name">Developing a Utility Decision Framework to Evaluate Predictive Models in Breast Cancer Risk Estimation</a>.
-  In <em>J. of Medical Imaging</em>,
-  2015.
+  In <em>J. of Medical Imaging</em>.
+  
   <p>
 
 
@@ -1029,6 +1045,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1044,11 +1063,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, Y Wu, I Ong, D Page, P Peissig, C McCarty, A Onitilo, ES Burnside</span>.
+
+  
+  
+
+  (2015).
   <a href="/publication/leverage-interaction-between-genetic-variants/" itemprop="name">Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</a>.
-  In <em>AMIA Joint Summits</em>,
-  2015.
+  In <em>AMIA Joint Summits</em>.
+  
   <p>
 
 
@@ -1088,6 +1110,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1103,11 +1128,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Y Wu, <strong>J Liu</strong>, A del Rio, D Page, O Alagoz, P Peissig, A Onitilo, ES Burnside</span>.
+
+  
+  
+
+  (2015).
   <a href="/publication/developing-a-clinical-utility/" itemprop="name">Developing a Clinical Utility Framework to Evaluate Prediction Models in Radiogenomics</a>.
-  In <em>SPIE Medical Imaging conference</em>,
-  2015.
+  In <em>SPIE Medical Imaging conference</em>.
+  
   <p>
 
 
@@ -1143,6 +1171,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1158,11 +1189,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Y Wu, <strong>J Liu</strong>, D Page, P Peissig, C McCarty, A Onitilo, ES Burnside</span>.
+
+  
+  
+
+  (2014).
   <a href="/publication/comparing-the-value-of-mammographic-feature/" itemprop="name">Comparing the Value of Mammographic Features and Genetic Variants in Breast Cancer Risk Prediction</a>.
-  In <em>AMIA Symposium</em>,
-  2014.
+  In <em>AMIA Symposium</em>.
+  
   <p>
 
 
@@ -1202,6 +1236,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1217,11 +1254,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, C Zhang, ES Burnside, D Page</span>.
+
+  
+  
+
+  (2014).
   <a href="/publication/multiple-testing-under-dependence-via-semiparametric-graphic-models/" itemprop="name">Multiple Testing under Dependence via Semiparametric Graphical Models</a>.
-  In <em>ICML</em>,
-  2014.
+  In <em>ICML</em>.
+  
   <p>
 
 
@@ -1269,6 +1309,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1284,11 +1327,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, D Page, P Peissig, C McCarty, A Onitilo, A Trentham-Dietz, ES Burnside</span>.
+
+  
+  
+
+  (2014).
   <a href="/publication/new-genetic-variants-improve/" itemprop="name">New Genetic Variants Improve Personalized Breast Cancer Diagnosis</a>.
-  In <em>AMIA-TBI</em>,
-  2014.
+  In <em>AMIA-TBI</em>.
+  
   <p>
 
 
@@ -1327,23 +1373,10 @@
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.cs.wisc.edu/news/2014-04-24-phd-candidate-wins-award-translational-bioinformatics" target="_blank" rel="noopener">
-    
-    Marco Ramoni Distinguished Paper Award
-  </a>
-
 </p>
+
+  
+  
 </div>
 
           
@@ -1359,11 +1392,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, C Zhang, ES Burnside, D Page</span>.
+
+  
+  
+
+  (2014).
   <a href="/publication/learning-heterogeneous-hidden-markov-random-field/" itemprop="name">Learning Heterogeneous Hidden Markov Random Fields</a>.
-  In <em>AISTATS</em>,
-  2014.
+  In <em>AISTATS</em>.
+  
   <p>
 
 
@@ -1397,6 +1433,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1412,11 +1451,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, D Page</span>.
+
+  
+  
+
+  (2013).
   <a href="/publication/bayesian-estimation-of-latently-grouped/" itemprop="name">Bayesian Estimation of Latently-grouped Parameters in Undirected Graphical Models</a>.
-  In <em>NIPS</em>,
-  2013.
+  In <em>NIPS</em>.
+  
   <p>
 
 
@@ -1450,6 +1492,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1465,11 +1510,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, D Page, P Peissig, C McCarty, A Onitilo, A Trentham-Dietz, ES Burnside</span>.
+
+  
+  
+
+  (2013).
   <a href="/publication/genetic-variants-improve-breast-cancer/" itemprop="name">Genetic Variants Improve Breast Cancer Risk Prediction on Mammograms</a>.
-  In <em>AMIA Symposium</em>,
-  2013.
+  In <em>AMIA Symposium</em>.
+  
   <p>
 
 
@@ -1509,6 +1557,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1524,11 +1575,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, D Page</span>.
+
+  
+  
+
+  (2013).
   <a href="/publication/structure-learning-of-undirected-graphic-models/" itemprop="name">Structure Learning of Undirected Graphical Models with Contrastive Divergence</a>.
-  In <em>ICML Workshop</em>,
-  2013.
+  In <em>ICML Workshop</em>.
+  
   <p>
 
 
@@ -1562,6 +1616,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1577,11 +1634,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, ES Burnside, D Page</span>.
+
+  
+  
+
+  (2013).
   <a href="/publication/predicting-breast-cancer-and-prostate-cancer/" itemprop="name">Predicting Breast Cancer and Prostate Cancer Susceptibility from Single Nucleotide Polymorphisms</a>.
-  In <em>ICML Workshop</em>,
-  2013.
+  In <em>ICML Workshop</em>.
+  
   <p>
 
 
@@ -1615,6 +1675,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1630,11 +1693,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, C Zhang, C McCarty, P Peissig, ES Burnside, D Page</span>.
+
+  
+  
+
+  (2012).
   <a href="/publication/graphic-model-based-multiple-testing/" itemprop="name">Graphical-model Based Multiple Testing under Dependence, with Applications to Genome-wide Association Studies</a>.
-  In <em>UAI</em>,
-  2012.
+  In <em>UAI</em>.
+  
   <p>
 
 
@@ -1682,6 +1748,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1697,11 +1766,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, C Zhang, C McCarty, P Peissig, ES Burnside, D Page</span>.
+
+  
+  
+
+  (2012).
   <a href="/publication/high-dimensional-structured-feature-screening/" itemprop="name">High-Dimensional Structured Feature Screening Using Binary Markov Random Fields</a>.
-  In <em>AISTAT</em>,
-  2012.
+  In <em>AISTAT</em>.
+  
   <p>
 
 
@@ -1749,6 +1821,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1764,11 +1839,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, H Vidaillet, ES Burnside, D Page</span>.
+
+  
+  
+
+  (2012).
   <a href="/publication/a-collective-ranking0method-for/" itemprop="name">A Collective Ranking Method for Genome-wide Association Studies</a>.
-  In <em>ACM-BCB</em>,
-  2012.
+  In <em>ACM-BCB</em>.
+  
   <p>
 
 
@@ -1802,6 +1880,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1817,11 +1898,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>*, Z Hu*, S Tan</span>.
+
+  
+  
+
+  (2009).
   <a href="/publication/cross-sectional-stock-return/" itemprop="name">Cross-Sectional Stock Return Analysis Using Support Vector Regression</a>.
-  In <em>Applied Economics Letters</em>,
-  2009.
+  In <em>Applied Economics Letters</em>.
+  
   <p>
 
 
@@ -1855,6 +1939,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1870,11 +1957,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    J Wan, S Kang, C Tang, Y Ren, <strong>J Liu</strong>, X Gao, A Banerjee, L Ellis, T Li</span>.
+
+  
+  
+
+  (2008).
   <a href="/publication/meta-prediction-of-phosphoylation-sites/" itemprop="name">Meta-prediction of Phosphorylation Sites with Weighted Voting and Restricted Grid Search Parameter Selection</a>.
-  In <em>Nucleic Acids Res</em>,
-  2008.
+  In <em>Nucleic Acids Res</em>.
+  
   <p>
 
 
@@ -1908,6 +1998,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -1923,11 +2016,14 @@
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    <strong>J Liu</strong>, S Kang, C Tang, LB Ellis, T Li</span>.
+
+  
+  
+
+  (2007).
   <a href="/publication/meta-prediction-of-protein-subcellular/" itemprop="name">Meta-prediction of Protein Subcellular Localization with Reduced Voting</a>.
-  In <em>Nucleic Acids Res</em>,
-  2007.
+  In <em>Nucleic Acids Res</em>.
+  
   <p>
 
 
@@ -1961,6 +2057,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -2041,6 +2140,10 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
 
       
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
 
       
       
@@ -2056,6 +2159,8 @@
     
 
     
+    
+    <script>hljs.initHighlightingOnLoad();</script>
     
 
     
@@ -2080,24 +2185,42 @@
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
     
     
+      
     
     
     
-    <script src="/js/academic.min.70f0041f5a24c6a675ac218c98d7ef71.js"></script>
-
     
+    <script src="/js/academic.min.c1b0baf12cd491effaeeb294faf1e83e.js"></script>
 
   </body>
 </html>

@@ -5,11 +5,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Source Themes Academic 4.0.0">
   <meta name="generator" content="Hugo 0.53" />
-  <meta name="author" content="Jie Liu">
 
   
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jie Liu">
+
   
   
   
@@ -60,7 +73,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -78,7 +92,15 @@
 
   <link rel="stylesheet" href="/styles.css">
   
-  <link rel="stylesheet" href="/css/custom.css">
+    
+    
+    
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.ebcc293e0ff15413156d4a7cb46ea08b.css">
   
 
   
@@ -86,7 +108,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-132341814-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -122,7 +144,7 @@
   <meta property="og:site_name" content="Liu Lab">
   <meta property="og:url" content="https://jieliu6.github.io/publication/multiple-testing-under-dependence/">
   <meta property="og:title" content="Multiple Testing under Dependence via Graphical Models | Liu Lab">
-  <meta property="og:description" content="Large-scale multiple testing tasks often exhibit dependence. Leveraging the dependence between individual tests is still one challenging and important problem in statistics. With recent advances in graphical models, it is feasible to use them to capture the dependence among multiple hypotheses. We propose a multiple testing procedure which is based on a Markov-random-field-coupled mixture model. The underlying true states of hypotheses are represented by a latent binary Markov random field, and the observed test statistics appear as the coupled mixture variables. The model can be learned by a novel EM algorithm. The next step is to infer the posterior probability that each hypothesis is null (termed local index of significance), and the false discovery rate can be controlled accordingly. We also provide a semiparametric variation of the graphical model which is useful in the situation where $f_1$ (the density function of the test statistic under the alternative hypothesis) is heterogeneous among multiple hypotheses. This semiparametric approach exactly generalizes the local FDR procedure [J. Amer. Statist. Assoc. 96 (2001) 1151–1160] and connects with the BH procedure [J. Roy. Statist. Soc. Ser. B 57 (1995) 289–300]. Simulations show that the numerical performance of multiple testing can be improved substantially by using our procedure. We apply the procedure to a real-world genome-wide association study on breast cancer, and we identify several SNPs with strong association evidence."><meta property="og:image" content="https://jieliu6.github.io/img/portrait.png">
+  <meta property="og:description" content="Large-scale multiple testing tasks often exhibit dependence. Leveraging the dependence between individual tests is still one challenging and important problem in statistics. With recent advances in graphical models, it is feasible to use them to capture the dependence among multiple hypotheses. We propose a multiple testing procedure which is based on a Markov-random-field-coupled mixture model. The underlying true states of hypotheses are represented by a latent binary Markov random field, and the observed test statistics appear as the coupled mixture variables. The model can be learned by a novel EM algorithm. The next step is to infer the posterior probability that each hypothesis is null (termed local index of significance), and the false discovery rate can be controlled accordingly. We also provide a semiparametric variation of the graphical model which is useful in the situation where $f_1$ (the density function of the test statistic under the alternative hypothesis) is heterogeneous among multiple hypotheses. This semiparametric approach exactly generalizes the local FDR procedure [J. Amer. Statist. Assoc. 96 (2001) 1151–1160] and connects with the BH procedure [J. Roy. Statist. Soc. Ser. B 57 (1995) 289–300]. Simulations show that the numerical performance of multiple testing can be improved substantially by using our procedure. We apply the procedure to a real-world genome-wide association study on breast cancer, and we identify several SNPs with strong association evidence."><meta property="og:image" content="https://jieliu6.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2016-09-01T00:00:00&#43;00:00">
@@ -131,6 +153,32 @@
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
   
 
@@ -153,7 +201,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -274,9 +323,9 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#members">
+          <a class="nav-link" href="/#people">
             
-            <span>Members</span>
+            <span>People</span>
             
           </a>
         </li>
@@ -307,6 +356,10 @@
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -351,45 +404,34 @@
   
     
 
+
+
+<meta content="2016-09-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2016-09-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
 <div class="article-metadata">
 
   
-  
-  
-  <div>
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name"><strong>J Liu</strong></span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">C Zhang</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">D Page</span>
-    </span>
-    
-  </div>
-  
-
   <span class="article-date">
     
-    <meta content="2016-09-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-    <time datetime="2016-09-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
-      Sep 1, 2016
-    </time>
+    
+      
+    
+    <time>September 2016</time>
   </span>
-  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Jie Liu">
-  </span>
-
   
 
-  
   
 
   
 
   
   
+
+  
+
+  
+    
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
@@ -489,54 +531,6 @@
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://en.wikipedia.org/wiki/Multiple_comparisons_problem" target="_blank" rel="noopener">
-    
-    Multiple Testing
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://en.wikipedia.org/wiki/Graphical_model" target="_blank" rel="noopener">
-    
-    Graphic Model
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://en.wikipedia.org/wiki/Genome-wide_association_study" target="_blank" rel="noopener">
-    
-    GWAS
-  </a>
-
 
 </div>
 
@@ -560,6 +554,9 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
+            
+
+            
             
             <a href="/publication/#2">
               Journal article
@@ -586,20 +583,6 @@
     </div>
     <div class="d-md-none space-below"></div>
     
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9" itemprop="datePublished">
-            September, 2016
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-sm-none space-below"></div>
 
     <div class="space-below"></div>
 
@@ -728,24 +711,42 @@
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
     
     
+      
     
     
     
-    <script src="/js/academic.min.70f0041f5a24c6a675ac218c98d7ef71.js"></script>
-
     
+    <script src="/js/academic.min.c1b0baf12cd491effaeeb294faf1e83e.js"></script>
 
   </body>
 </html>
