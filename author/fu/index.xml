@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liu Lab</title>
+    <link>https://jieliu6.github.io/author/fu/</link>
+    <description>Recent content on Liu Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017-2019 Jie Liu</copyright>
+    
+	<atom:link href="https://jieliu6.github.io/author/fu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
