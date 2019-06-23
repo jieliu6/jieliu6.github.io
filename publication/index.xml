@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2019 Jie Liu</copyright>
-    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jieliu6.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jointly embedding multiple single-cell omics measurements</title>
+      <link>https://jieliu6.github.io/publication/jointly-embedding-multiiple-single-cell/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/jointly-embedding-multiiple-single-cell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systematic proteomics of endogenous human cohesin reveals an interaction with diverse splicing factors and RNA binding proteins required for mitotic progression</title>
+      <link>https://jieliu6.github.io/publication/systematic-proteomics-of-endogenous-human-cohesin/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/systematic-proteomics-of-endogenous-human-cohesin/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Stochastic Learning for Sparse Discrete Markov Random Fields with Controlled Gradient Approximation Error</title>

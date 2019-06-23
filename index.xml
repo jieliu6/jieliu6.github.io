@@ -11,6 +11,34 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Jointly embedding multiple single-cell omics measurements</title>
+      <link>https://jieliu6.github.io/publication/jointly-embedding-multiiple-single-cell/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/jointly-embedding-multiiple-single-cell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>single-cell multi-omics integration</title>
+      <link>https://jieliu6.github.io/project/single-cell-multi-omics-integration/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/project/single-cell-multi-omics-integration/</guid>
+      <description>&lt;p&gt;Many single-cell sequencing technologies are now available, but it is still difficult to apply multiple sequencing technologies to the same single cell. In this paper, we propose an unsupervised manifold alignment algorithm, MMD-MA, for integrating multiple measurements carried out on disjoint aliquots of a given population of cells. Effectively, MMD-MA performs an in silico co-assay by embedding cells measured in different ways into a learned latent space. In the MMD-MA algorithm, single-cell data points from multiple domains are aligned by optimizing an objective function with three components: (1) a maximum mean discrepancy (MMD) term to encourage the differently measured points to have similar distributions in the latent space, (2) a distortion term to preserve the structure of the data between the input space and the latent space, and (3) a penalty term to avoid collapse to a trivial solution. Notably, MMD-MA does not require any correspondence information across data modalities, either between the cells or between the features. Furthermore, MMD-MA&amp;rsquo;s weak distributional requirements for the domains to be aligned allow the algorithm to integrate heterogeneous types of single cell measures, such as gene expression, DNA accessibility, chromatin organization, methylation, and imaging data. We demonstrate the utility of MMD-MA in simulation experiments and using a real data set involving single-cell gene expression and methylation data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Systematic proteomics of endogenous human cohesin reveals an interaction with diverse splicing factors and RNA binding proteins required for mitotic progression</title>
+      <link>https://jieliu6.github.io/publication/systematic-proteomics-of-endogenous-human-cohesin/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/systematic-proteomics-of-endogenous-human-cohesin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>scHi-C embedding</title>
       <link>https://jieliu6.github.io/project/hic-embedding/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -179,33 +207,6 @@ We applied THEMIS to three tumor biopsies from one cancer patient, thereby revea
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developing a Utility Decision Framework to Evaluate Predictive Models in Breast Cancer Risk Estimation</title>
-      <link>https://jieliu6.github.io/publication/develop-a-utility/</link>
-      <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/publication/develop-a-utility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
-      <link>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</link>
-      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developing a Clinical Utility Framework to Evaluate Prediction Models in Radiogenomics</title>
-      <link>https://jieliu6.github.io/publication/developing-a-clinical-utility/</link>
-      <pubDate>Sat, 21 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/publication/developing-a-clinical-utility/</guid>
       <description></description>
     </item>
     
