@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>p53 Integrates Temporal WDR5 Inputs during Neuroectoderm and Mesoderm Differentiation of Mouse Embryonic Stem Cells</title>
+      <link>https://jieliu6.github.io/publication/p53-integrates-temporal-wdr5-inputs/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jieliu6.github.io/publication/p53-integrates-temporal-wdr5-inputs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jointly embedding multiple single-cell omics measurements</title>
       <link>https://jieliu6.github.io/publication/jointly-embedding-multiiple-single-cell/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
@@ -198,15 +207,6 @@ We applied THEMIS to three tumor biopsies from one cancer patient, thereby revea
       <pubDate>Sat, 23 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jieliu6.github.io/publication/comparing-mammography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
-      <link>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</link>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</guid>
       <description></description>
     </item>
     
