@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Liu Lab</title>
+    <title>Categories | Liu Lab</title>
     <link>https://jieliu6.github.io/categories/</link>
-    <description>Recent content in Categories on Liu Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017-2020 Jie Liu</copyright>
-    
-	<atom:link href="https://jieliu6.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://jieliu6.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Categories</title>
+      <link>https://jieliu6.github.io/categories/</link>
+    </image>
     
   </channel>
 </rss>

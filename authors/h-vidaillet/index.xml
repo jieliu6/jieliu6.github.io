@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>H Vidaillet | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/h-vidaillet/</link>
+      <atom:link href="https://jieliu6.github.io/authors/h-vidaillet/index.xml" rel="self" type="application/rss+xml" />
+    <description>H Vidaillet</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Thu, 01 Mar 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>H Vidaillet</title>
+      <link>https://jieliu6.github.io/authors/h-vidaillet/</link>
+    </image>
+    
+    <item>
+      <title>A Collective Ranking Method for Genome-wide Association Studies</title>
+      <link>https://jieliu6.github.io/publication/a-collective-ranking-method-for/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/a-collective-ranking-method-for/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

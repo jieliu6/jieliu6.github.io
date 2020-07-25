@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P Peissig | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/p-peissig/</link>
+      <atom:link href="https://jieliu6.github.io/authors/p-peissig/index.xml" rel="self" type="application/rss+xml" />
+    <description>P Peissig</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Wed, 16 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>P Peissig</title>
+      <link>https://jieliu6.github.io/authors/p-peissig/</link>
+    </image>
+    
+    <item>
+      <title>Structure-leveraged Methods in Breast Cancer Risk Prediction</title>
+      <link>https://jieliu6.github.io/publication/structure-leverage-methods/</link>
+      <pubDate>Wed, 16 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/structure-leverage-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discriminatory power of common genetic variants in personalized breast cancer diagnosis</title>
+      <link>https://jieliu6.github.io/publication/discriminatory-power/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/discriminatory-power/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing Mammography Abnormality Features to Genetic Variants in the Prediction of Breast Cancer in Women Recommended for Breast Biopsy</title>
+      <link>https://jieliu6.github.io/publication/comparing-mammography/</link>
+      <pubDate>Sat, 23 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/comparing-mammography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing a Utility Decision Framework to Evaluate Predictive Models in Breast Cancer Risk Estimation</title>
+      <link>https://jieliu6.github.io/publication/develop-a-utility/</link>
+      <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/develop-a-utility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
+      <link>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</link>
+      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing a Clinical Utility Framework to Evaluate Prediction Models in Radiogenomics</title>
+      <link>https://jieliu6.github.io/publication/developing-a-clinical-utility/</link>
+      <pubDate>Sat, 21 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/developing-a-clinical-utility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing the Value of Mammographic Features and Genetic Variants in Breast Cancer Risk Prediction</title>
+      <link>https://jieliu6.github.io/publication/comparing-the-value-of-mammographic-feature/</link>
+      <pubDate>Fri, 14 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/comparing-the-value-of-mammographic-feature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Genetic Variants Improve Personalized Breast Cancer Diagnosis</title>
+      <link>https://jieliu6.github.io/publication/new-genetic-variants-improve/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/new-genetic-variants-improve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic Variants Improve Breast Cancer Risk Prediction on Mammograms</title>
+      <link>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphical-model Based Multiple Testing under Dependence, with Applications to Genome-wide Association Studies</title>
+      <link>https://jieliu6.github.io/publication/graphic-model-based-multiple-testing/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/graphic-model-based-multiple-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-Dimensional Structured Feature Screening Using Binary Markov Random Fields</title>
+      <link>https://jieliu6.github.io/publication/high-dimensional-structured-feature-screening/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/high-dimensional-structured-feature-screening/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

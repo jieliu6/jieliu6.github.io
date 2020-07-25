@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>O Alagoz | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/o-alagoz/</link>
+      <atom:link href="https://jieliu6.github.io/authors/o-alagoz/index.xml" rel="self" type="application/rss+xml" />
+    <description>O Alagoz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Sat, 21 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>O Alagoz</title>
+      <link>https://jieliu6.github.io/authors/o-alagoz/</link>
+    </image>
+    
+    <item>
+      <title>Developing a Clinical Utility Framework to Evaluate Prediction Models in Radiogenomics</title>
+      <link>https://jieliu6.github.io/publication/developing-a-clinical-utility/</link>
+      <pubDate>Sat, 21 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/developing-a-clinical-utility/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C Zhang | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/c-zhang/</link>
+      <atom:link href="https://jieliu6.github.io/authors/c-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>C Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Thu, 01 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>C Zhang</title>
+      <link>https://jieliu6.github.io/authors/c-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Multiple Testing under Dependence via Graphical Models</title>
+      <link>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple Testing under Dependence via Semiparametric Graphical Models</title>
+      <link>https://jieliu6.github.io/publication/multiple-testing-under-dependence-via-semiparametric-graphic-models/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/multiple-testing-under-dependence-via-semiparametric-graphic-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Heterogeneous Hidden Markov Random Fields</title>
+      <link>https://jieliu6.github.io/publication/learning-heterogeneous-hidden-markov-random-field/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/learning-heterogeneous-hidden-markov-random-field/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphical-model Based Multiple Testing under Dependence, with Applications to Genome-wide Association Studies</title>
+      <link>https://jieliu6.github.io/publication/graphic-model-based-multiple-testing/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/graphic-model-based-multiple-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-Dimensional Structured Feature Screening Using Binary Markov Random Fields</title>
+      <link>https://jieliu6.github.io/publication/high-dimensional-structured-feature-screening/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/high-dimensional-structured-feature-screening/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

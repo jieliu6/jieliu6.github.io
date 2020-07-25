@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Banerjee | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/a-banerjee/</link>
+      <atom:link href="https://jieliu6.github.io/authors/a-banerjee/index.xml" rel="self" type="application/rss+xml" />
+    <description>A Banerjee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Sat, 01 Mar 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>A Banerjee</title>
+      <link>https://jieliu6.github.io/authors/a-banerjee/</link>
+    </image>
+    
+    <item>
+      <title>Meta-prediction of Phosphorylation Sites with Weighted Voting and Restricted Grid Search Parameter Selection</title>
+      <link>https://jieliu6.github.io/publication/meta-prediction-of-phosphoylation-sites/</link>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/meta-prediction-of-phosphoylation-sites/</guid>
+      <description>&lt;p&gt;* indicates equal contribution&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

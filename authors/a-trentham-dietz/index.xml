@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Trentham-Dietz | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/a-trentham-dietz/</link>
+      <atom:link href="https://jieliu6.github.io/authors/a-trentham-dietz/index.xml" rel="self" type="application/rss+xml" />
+    <description>A Trentham-Dietz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Sat, 23 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>A Trentham-Dietz</title>
+      <link>https://jieliu6.github.io/authors/a-trentham-dietz/</link>
+    </image>
+    
+    <item>
+      <title>Comparing Mammography Abnormality Features to Genetic Variants in the Prediction of Breast Cancer in Women Recommended for Breast Biopsy</title>
+      <link>https://jieliu6.github.io/publication/comparing-mammography/</link>
+      <pubDate>Sat, 23 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/comparing-mammography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Genetic Variants Improve Personalized Breast Cancer Diagnosis</title>
+      <link>https://jieliu6.github.io/publication/new-genetic-variants-improve/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/new-genetic-variants-improve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic Variants Improve Breast Cancer Risk Prediction on Mammograms</title>
+      <link>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,61 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Liu Lab</title>
+    <title>Tags | Liu Lab</title>
     <link>https://jieliu6.github.io/tags/</link>
-    <description>Recent content in Tags on Liu Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017-2020 Jie Liu</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jieliu6.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Content tagged as &#39;Machine Learning&#39;</title>
-      <link>https://jieliu6.github.io/tags/machine-learning/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>4D Nucleome</title>
-      <link>https://jieliu6.github.io/tags/4d-nucleome/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/tags/4d-nucleome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cancer genomics</title>
-      <link>https://jieliu6.github.io/tags/cancer-genomics/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/tags/cancer-genomics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>graphic models</title>
-      <link>https://jieliu6.github.io/tags/graphic-models/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/tags/graphic-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>precision-medicine</title>
-      <link>https://jieliu6.github.io/tags/precision-medicine/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jieliu6.github.io/tags/precision-medicine/</guid>
-      <description></description>
-    </item>
+      <atom:link href="https://jieliu6.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Tags</title>
+      <link>https://jieliu6.github.io/tags/</link>
+    </image>
     
   </channel>
 </rss>

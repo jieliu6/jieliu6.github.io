@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S Hou | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/s-hou/</link>
+      <atom:link href="https://jieliu6.github.io/authors/s-hou/index.xml" rel="self" type="application/rss+xml" />
+    <description>S Hou</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>S Hou</title>
+      <link>https://jieliu6.github.io/authors/s-hou/</link>
+    </image>
+    
+    <item>
+      <title>p53 Integrates Temporal WDR5 Inputs during Neuroectoderm and Mesoderm Differentiation of Mouse Embryonic Stem Cells</title>
+      <link>https://jieliu6.github.io/publication/p53-integrates-temporal-wdr5-inputs/</link>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/p53-integrates-temporal-wdr5-inputs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

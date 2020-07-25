@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>X Chen | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/x-chen/</link>
+      <atom:link href="https://jieliu6.github.io/authors/x-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>X Chen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Mon, 17 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>X Chen</title>
+      <link>https://jieliu6.github.io/authors/x-chen/</link>
+    </image>
+    
+    <item>
+      <title>Developing a Utility Decision Framework to Evaluate Predictive Models in Breast Cancer Risk Estimation</title>
+      <link>https://jieliu6.github.io/publication/develop-a-utility/</link>
+      <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/develop-a-utility/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

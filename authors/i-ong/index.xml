@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I Ong | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/i-ong/</link>
+      <atom:link href="https://jieliu6.github.io/authors/i-ong/index.xml" rel="self" type="application/rss+xml" />
+    <description>I Ong</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Wed, 16 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>I Ong</title>
+      <link>https://jieliu6.github.io/authors/i-ong/</link>
+    </image>
+    
+    <item>
+      <title>Structure-leveraged Methods in Breast Cancer Risk Prediction</title>
+      <link>https://jieliu6.github.io/publication/structure-leverage-methods/</link>
+      <pubDate>Wed, 16 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/structure-leverage-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discriminatory power of common genetic variants in personalized breast cancer diagnosis</title>
+      <link>https://jieliu6.github.io/publication/discriminatory-power/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/discriminatory-power/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
+      <link>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</link>
+      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

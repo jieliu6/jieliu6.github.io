@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Singh | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/r-singh/</link>
+      <atom:link href="https://jieliu6.github.io/authors/r-singh/index.xml" rel="self" type="application/rss+xml" />
+    <description>R Singh</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>R Singh</title>
+      <link>https://jieliu6.github.io/authors/r-singh/</link>
+    </image>
+    
+    <item>
+      <title>Jointly embedding multiple single-cell omics measurements</title>
+      <link>https://jieliu6.github.io/publication/jointly-embedding-multiple-single-cell/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/jointly-embedding-multiple-single-cell/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

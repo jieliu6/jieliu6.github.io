@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E Burnside | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/e-burnside/</link>
+      <atom:link href="https://jieliu6.github.io/authors/e-burnside/index.xml" rel="self" type="application/rss+xml" />
+    <description>E Burnside</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Tue, 01 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>E Burnside</title>
+      <link>https://jieliu6.github.io/authors/e-burnside/</link>
+    </image>
+    
+    <item>
+      <title>Discriminatory power of common genetic variants in personalized breast cancer diagnosis</title>
+      <link>https://jieliu6.github.io/publication/discriminatory-power/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/discriminatory-power/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

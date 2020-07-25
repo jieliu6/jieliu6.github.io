@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y Huang | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/y-huang/</link>
+      <atom:link href="https://jieliu6.github.io/authors/y-huang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Y Huang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Y Huang</title>
+      <link>https://jieliu6.github.io/authors/y-huang/</link>
+    </image>
+    
+    <item>
+      <title>p53 Integrates Temporal WDR5 Inputs during Neuroectoderm and Mesoderm Differentiation of Mouse Embryonic Stem Cells</title>
+      <link>https://jieliu6.github.io/publication/p53-integrates-temporal-wdr5-inputs/</link>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/p53-integrates-temporal-wdr5-inputs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jointly embedding multiple single-cell omics measurements</title>
+      <link>https://jieliu6.github.io/publication/jointly-embedding-multiple-single-cell/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/jointly-embedding-multiple-single-cell/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>graphic models on Liu Lab</title>
+    <title>graphic models | Liu Lab</title>
     <link>https://jieliu6.github.io/tags/graphic-models/</link>
-    <description>Recent content in graphic models on Liu Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017-2020 Jie Liu</copyright>
-    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jieliu6.github.io/tags/graphic-models/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://jieliu6.github.io/tags/graphic-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>graphic models</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>graphic models</title>
+      <link>https://jieliu6.github.io/tags/graphic-models/</link>
+    </image>
     
     <item>
       <title>Comprehensive statistical inference of the clonal structure of cancer from multiple biopsies</title>
       <link>https://jieliu6.github.io/publication/themis/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/themis/</guid>
       <description></description>
     </item>

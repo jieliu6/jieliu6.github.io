@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Liu Lab</title>
+    <title>Publications | Liu Lab</title>
     <link>https://jieliu6.github.io/publication/</link>
-    <description>Recent content in Publications on Liu Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017-2020 Jie Liu</copyright>
-    <lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jieliu6.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://jieliu6.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Publications</title>
+      <link>https://jieliu6.github.io/publication/</link>
+    </image>
     
     <item>
       <title>p53 Integrates Temporal WDR5 Inputs during Neuroectoderm and Mesoderm Differentiation of Mouse Embryonic Stem Cells</title>
       <link>https://jieliu6.github.io/publication/p53-integrates-temporal-wdr5-inputs/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/p53-integrates-temporal-wdr5-inputs/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Jointly embedding multiple single-cell omics measurements</title>
       <link>https://jieliu6.github.io/publication/jointly-embedding-multiple-single-cell/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/jointly-embedding-multiple-single-cell/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>Systematic proteomics of endogenous human cohesin reveals an interaction with diverse splicing factors and RNA binding proteins required for mitotic progression</title>
       <link>https://jieliu6.github.io/publication/systematic-proteomics-of-endogenous-human-cohesin/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/systematic-proteomics-of-endogenous-human-cohesin/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>Stochastic Learning for Sparse Discrete Markov Random Fields with Controlled Gradient Approximation Error</title>
       <link>https://jieliu6.github.io/publication/stochastic-learning-for-sparse-discrete-markov-random-fields/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/stochastic-learning-for-sparse-discrete-markov-random-fields/</guid>
       <description></description>
     </item>
@@ -52,7 +48,6 @@
       <title>Unsupervised embedding of single-cell Hi-C data</title>
       <link>https://jieliu6.github.io/publication/unsupervised_embedding_hi_c/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/unsupervised_embedding_hi_c/</guid>
       <description></description>
     </item>
@@ -61,7 +56,6 @@
       <title>Comprehensive statistical inference of the clonal structure of cancer from multiple biopsies</title>
       <link>https://jieliu6.github.io/publication/themis/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/themis/</guid>
       <description></description>
     </item>
@@ -70,7 +64,6 @@
       <title>Multiple Testing under Dependence via Graphical Models</title>
       <link>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</guid>
       <description></description>
     </item>
@@ -79,7 +72,6 @@
       <title>Structure-leveraged Methods in Breast Cancer Risk Prediction</title>
       <link>https://jieliu6.github.io/publication/structure-leverage-methods/</link>
       <pubDate>Wed, 16 Mar 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/structure-leverage-methods/</guid>
       <description></description>
     </item>
@@ -88,7 +80,6 @@
       <title>Discriminatory power of common genetic variants in personalized breast cancer diagnosis</title>
       <link>https://jieliu6.github.io/publication/discriminatory-power/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/discriminatory-power/</guid>
       <description></description>
     </item>
@@ -97,7 +88,6 @@
       <title>Comparing Mammography Abnormality Features to Genetic Variants in the Prediction of Breast Cancer in Women Recommended for Breast Biopsy</title>
       <link>https://jieliu6.github.io/publication/comparing-mammography/</link>
       <pubDate>Sat, 23 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/comparing-mammography/</guid>
       <description></description>
     </item>
@@ -106,7 +96,6 @@
       <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
       <link>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</link>
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</guid>
       <description></description>
     </item>
@@ -115,7 +104,6 @@
       <title>Developing a Utility Decision Framework to Evaluate Predictive Models in Breast Cancer Risk Estimation</title>
       <link>https://jieliu6.github.io/publication/develop-a-utility/</link>
       <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/develop-a-utility/</guid>
       <description></description>
     </item>
@@ -124,7 +112,6 @@
       <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
       <link>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</link>
       <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</guid>
       <description></description>
     </item>
@@ -133,7 +120,6 @@
       <title>Developing a Clinical Utility Framework to Evaluate Prediction Models in Radiogenomics</title>
       <link>https://jieliu6.github.io/publication/developing-a-clinical-utility/</link>
       <pubDate>Sat, 21 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/developing-a-clinical-utility/</guid>
       <description></description>
     </item>
@@ -142,7 +128,6 @@
       <title>Comparing the Value of Mammographic Features and Genetic Variants in Breast Cancer Risk Prediction</title>
       <link>https://jieliu6.github.io/publication/comparing-the-value-of-mammographic-feature/</link>
       <pubDate>Fri, 14 Nov 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/comparing-the-value-of-mammographic-feature/</guid>
       <description></description>
     </item>
@@ -151,7 +136,6 @@
       <title>Multiple Testing under Dependence via Semiparametric Graphical Models</title>
       <link>https://jieliu6.github.io/publication/multiple-testing-under-dependence-via-semiparametric-graphic-models/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/multiple-testing-under-dependence-via-semiparametric-graphic-models/</guid>
       <description></description>
     </item>
@@ -160,7 +144,6 @@
       <title>Learning Heterogeneous Hidden Markov Random Fields</title>
       <link>https://jieliu6.github.io/publication/learning-heterogeneous-hidden-markov-random-field/</link>
       <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/learning-heterogeneous-hidden-markov-random-field/</guid>
       <description></description>
     </item>
@@ -169,7 +152,6 @@
       <title>New Genetic Variants Improve Personalized Breast Cancer Diagnosis</title>
       <link>https://jieliu6.github.io/publication/new-genetic-variants-improve/</link>
       <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/new-genetic-variants-improve/</guid>
       <description></description>
     </item>
@@ -178,7 +160,6 @@
       <title>Bayesian Estimation of Latently-grouped Parameters in Undirected Graphical Models</title>
       <link>https://jieliu6.github.io/publication/bayesian-estimation-of-latently-grouped/</link>
       <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/bayesian-estimation-of-latently-grouped/</guid>
       <description></description>
     </item>
@@ -187,7 +168,6 @@
       <title>Genetic Variants Improve Breast Cancer Risk Prediction on Mammograms</title>
       <link>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</link>
       <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</guid>
       <description></description>
     </item>
@@ -196,7 +176,6 @@
       <title>Predicting Breast Cancer and Prostate Cancer Susceptibility from Single Nucleotide Polymorphisms</title>
       <link>https://jieliu6.github.io/publication/predicting-breast-cancer-and-prostate-cancer/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/predicting-breast-cancer-and-prostate-cancer/</guid>
       <description></description>
     </item>
@@ -205,7 +184,6 @@
       <title>Structure Learning of Undirected Graphical Models with Contrastive Divergence</title>
       <link>https://jieliu6.github.io/publication/structure-learning-of-undirected-graphic-models/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/structure-learning-of-undirected-graphic-models/</guid>
       <description></description>
     </item>
@@ -214,7 +192,6 @@
       <title>Graphical-model Based Multiple Testing under Dependence, with Applications to Genome-wide Association Studies</title>
       <link>https://jieliu6.github.io/publication/graphic-model-based-multiple-testing/</link>
       <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/graphic-model-based-multiple-testing/</guid>
       <description></description>
     </item>
@@ -223,7 +200,6 @@
       <title>High-Dimensional Structured Feature Screening Using Binary Markov Random Fields</title>
       <link>https://jieliu6.github.io/publication/high-dimensional-structured-feature-screening/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/high-dimensional-structured-feature-screening/</guid>
       <description></description>
     </item>
@@ -232,7 +208,6 @@
       <title>A Collective Ranking Method for Genome-wide Association Studies</title>
       <link>https://jieliu6.github.io/publication/a-collective-ranking-method-for/</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/a-collective-ranking-method-for/</guid>
       <description></description>
     </item>
@@ -241,25 +216,24 @@
       <title>Cross-Sectional Stock Return Analysis Using Support Vector Regression</title>
       <link>https://jieliu6.github.io/publication/cross-sectional-stock-return/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/cross-sectional-stock-return/</guid>
-      <description>* indicates equal contribution</description>
+      <description>&lt;p&gt;* indicates equal contribution&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Meta-prediction of Phosphorylation Sites with Weighted Voting and Restricted Grid Search Parameter Selection</title>
       <link>https://jieliu6.github.io/publication/meta-prediction-of-phosphoylation-sites/</link>
       <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/meta-prediction-of-phosphoylation-sites/</guid>
-      <description>* indicates equal contribution</description>
+      <description>&lt;p&gt;* indicates equal contribution&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Meta-prediction of Protein Subcellular Localization with Reduced Voting</title>
       <link>https://jieliu6.github.io/publication/meta-prediction-of-protein-subcellular/</link>
       <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://jieliu6.github.io/publication/meta-prediction-of-protein-subcellular/</guid>
       <description></description>
     </item>

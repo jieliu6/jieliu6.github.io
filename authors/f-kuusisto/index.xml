@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F Kuusisto | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/f-kuusisto/</link>
+      <atom:link href="https://jieliu6.github.io/authors/f-kuusisto/index.xml" rel="self" type="application/rss+xml" />
+    <description>F Kuusisto</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>F Kuusisto</title>
+      <link>https://jieliu6.github.io/authors/f-kuusisto/</link>
+    </image>
+    
+    <item>
+      <title>Machine Learning for Treatment Assignment: Improving Individualized Risk Attribution</title>
+      <link>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
