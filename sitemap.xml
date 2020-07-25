@@ -180,16 +180,6 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/tags/source-themes/</loc>
-    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/tags/</loc>
-    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jieliu6.github.io/authors/v-ramani/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url>
@@ -311,6 +301,11 @@
   
   <url>
     <loc>https://jieliu6.github.io/project/single-cell-multi-omics-integration/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/tags/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
