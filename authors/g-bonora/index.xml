@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>G Bonora | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/g-bonora/</link>
+      <atom:link href="https://jieliu6.github.io/authors/g-bonora/index.xml" rel="self" type="application/rss+xml" />
+    <description>G Bonora</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>G Bonora</title>
+      <link>https://jieliu6.github.io/authors/g-bonora/</link>
+    </image>
+    
+    <item>
+      <title>Capturing cell type-specific chromatin structural patterns by applying topic modeling to single-cell Hi-C data</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

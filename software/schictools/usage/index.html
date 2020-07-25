@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jie Liu">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Usage Supported Formats
+  Pre-processed Matrices: If the data is already processed into matrices for intra-chromosomal contacts, the chromosome from the same cell must be stored in the same folder with chromosome names as file names (e.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://jieliu6.github.io/software/schictools/usage/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132341814-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-132341814-1', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu94ac7c22c13ce7720781c7218a02bb81_12377_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu94ac7c22c13ce7720781c7218a02bb81_12377_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://jieliu6.github.io/software/schictools/usage/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Liu Lab">
+  <meta property="og:url" content="https://jieliu6.github.io/software/schictools/usage/">
+  <meta property="og:title" content="Example Page 1 | Liu Lab">
+  <meta property="og:description" content="Usage Supported Formats
+  Pre-processed Matrices: If the data is already processed into matrices for intra-chromosomal contacts, the chromosome from the same cell must be stored in the same folder with chromosome names as file names (e."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-05-05T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-05-05T00:00:00&#43;01:00">
+  
+
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+
+
+
+
+
+  <title>Example Page 1 | Liu Lab</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Liu Lab</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Liu Lab</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/software/schictools/usage/">Example Topic</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/software/schictools/usage/">Tips 1-2</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Example Page 1</h1>
+
+          <div class="article-style">
+            <h3 id="usage">Usage</h3>
+<p><strong>Supported Formats</strong></p>
+<ul>
+<li>
+<p>Pre-processed Matrices:
+If the data is already processed into matrices for intra-chromosomal contacts,
+the chromosome from the same cell must be stored in the same folder with
+chromosome names as file names (e.g., scHiC/cell_1/chr1.txt).
+You only need to provide the folder name for a cell (e.g., scHiC/cell_1).</p>
+<ul>
+<li>npy: numpy.array / numpy.matrix</li>
+<li>npz: scipy.sparse.coo_matrix</li>
+<li>matrix: matrix stored as pure text</li>
+<li>matrix_txt: matrix stored as .txt file</li>
+<li>HiCRep: the format required by HiCRep package</li>
+</ul>
+</li>
+<li>
+<p>Edge List <br />
+For all formats below:<br />
+  str - strand (forward / reverse)<br />
+  chr - chromosome<br />
+  pos - position<br />
+  score - contact reads<br />
+  frag - fragments (will be ignored)<br />
+  mapq - map quality<br /></p>
+<ul>
+<li>Shortest</li>
+</ul>
+<pre><code>&lt;chr1&gt; &lt;pos1&gt; &lt;chr2&gt; &lt;pos2&gt;
+</code></pre>
+<ul>
+<li>Shortest_Score</li>
+</ul>
+<pre><code>&lt;chr1&gt; &lt;pos1&gt; &lt;chr2&gt; &lt;pos2&gt; &lt;score&gt;
+</code></pre>
+<ul>
+<li>Short</li>
+</ul>
+<pre><code>&lt;str1&gt; &lt;chr1&gt; &lt;pos1&gt; &lt;frag1&gt; &lt;str2&gt; &lt;chr2&gt; &lt;pos2&gt; &lt;frag2&gt;
+</code></pre>
+<ul>
+<li>Short_Score</li>
+</ul>
+<pre><code>&lt;str1&gt; &lt;chr1&gt; &lt;pos1&gt; &lt;frag1&gt; &lt;str2&gt; &lt;chr2&gt; &lt;pos2&gt; &lt;frag2&gt; &lt;score&gt;
+</code></pre>
+<ul>
+<li>Medium</li>
+</ul>
+<pre><code>&lt;readname&gt; &lt;str1&gt; &lt;chr1&gt; &lt;pos1&gt; &lt;frag1&gt; &lt;str2&gt; &lt;chr2&gt; &lt;pos2&gt; &lt;frag2&gt; &lt;mapq1&gt; &lt;mapq2&gt;
+</code></pre>
+<ul>
+<li>Long</li>
+</ul>
+<pre><code>&lt;str1&gt; &lt;chr1&gt; &lt;pos1&gt; &lt;frag1&gt; &lt;str2&gt; &lt;chr2&gt; &lt;pos2&gt; &lt;frag2&gt; &lt;mapq1&gt; &lt;cigar1&gt; &lt;sequence1&gt; &lt;mapq2&gt; &lt;cigar2&gt; &lt;sequence2&gt; &lt;readname1&gt; &lt;readname2&gt;
+</code></pre>
+<ul>
+<li>4DN</li>
+</ul>
+<pre><code>## pairs format v1.0
+#columns: readID chr1 position1 chr2 position2 strand1 strand2
+</code></pre>
+</li>
+<li>
+<p>.hic format: we adapted &ldquo;straw&rdquo; from JuiceTools.</p>
+</li>
+<li>
+<p>.mcool format: we adapted &ldquo;dump&rdquo; from cool.</p>
+</li>
+<li>
+<p>Other formats: simply give the indices (start from 1) in the order of<br />
+&ldquo;chromosome1 - position1 - chromosome2 - position2 - score&rdquo; or<br />
+&ldquo;chromosome1 - position1 - chromosome2 - position2&rdquo; or<br />
+&ldquo;chromosome1 - position1 - chromosome2 - position2 - mapq1 - mapq2&rdquo;.<br />
+For example, you can provide &ldquo;2356&rdquo; or [2, 3, 5, 6] if the file takes this format:</p>
+</li>
+</ul>
+<pre><code>&lt;name&gt; &lt;chromosome1&gt; &lt;position1&gt; &lt;frag1&gt; &lt;chromosome2&gt; &lt;position2&gt; &lt;frag2&gt; &lt;strand1&gt; &lt;strand2&gt;
+contact_1 chr1 3000000 1 chr1 3001000 1 + -
+</code></pre>
+<p><strong>Import Package</strong></p>
+<pre><code class="language-console">&gt;&gt;&gt;import scHiCTools
+</code></pre>
+<p><strong>Load scHiC data</strong></p>
+<p>The scHiC data is stored in a series of files, with each of the files corresponding to one cell.
+You need to specify the list of scHiC file paths.</p>
+<p>Only intra-chromosomal interactions are counted.</p>
+<pre><code class="language-console">&gt;&gt;&gt;from scHiCTools import scHiCs
+&gt;&gt;&gt;files = ['./cell_1', './cell_2', './cell_3']
+&gt;&gt;&gt;loaded_data = scHiCs(
+... files, reference_genome='mm9',
+... resolution=500000, keep_n_strata=10,
+... format='customized', adjust_resolution=True,
+... customized_format=12345, header=0, chromosomes='except Y',
+... operations=['OE_norm', 'convolution']
+... )
+</code></pre>
+<ul>
+<li>reference genome (dict or str): now supporting &lsquo;mm9&rsquo;, &lsquo;mm10&rsquo;, &lsquo;hg19&rsquo;, &lsquo;hg38&rsquo;.
+If your reference genome is not in [&lsquo;mm9&rsquo;, &lsquo;mm10&rsquo;, &lsquo;hg19&rsquo;, &lsquo;hg38&rsquo;], you need to provide the lengths of chromosomes
+you are going to use with a Python dict. e.g. {&lsquo;chr1&rsquo;: 150000000, &lsquo;chr2&rsquo;: 130000000, &lsquo;chr3&rsquo;: 200000000}</li>
+<li>resolution (int): the resolution to separate genome into bins.
+If using .hic file format, the given resolution must match with the resolutions in .hic file.</li>
+<li>keep_n_strata (None or int): only store contacts within n strata near the diagonal. Default: 10.
+If &lsquo;None&rsquo;, it will not store strata</li>
+<li>store_full_map (bool): whether store full contact maps in numpy matrices or
+scipy sparse matrices，If False, it will save memory.</li>
+<li>sparse (bool): whether to use sparse matrices</li>
+<li>format (str): file format, supported formats: &lsquo;shortest&rsquo;, &lsquo;shortest_score&rsquo;, &lsquo;short&rsquo;,
+&lsquo;short_score&rsquo; , &lsquo;medium&rsquo;, &lsquo;long&rsquo;, &lsquo;4DN&rsquo;, &lsquo;.hic&rsquo;, &lsquo;.mcool&rsquo;, &lsquo;npy&rsquo;, &lsquo;npz&rsquo;, &lsquo;matrix&rsquo;,
+&lsquo;HiCRep&rsquo;, &lsquo;matrix_txt&rsquo; and &lsquo;customized&rsquo;. Default: &lsquo;customized&rsquo;.</li>
+<li>customized_format (int or str or list): the column indices in the order of
+&ldquo;chromosome 1 - position 1 - chromosome 2 - position 2 - contact reads&rdquo; or
+&ldquo;chromosome 1 - position 1 - chromosome 2 - position 2&rdquo; or
+&ldquo;chromosome 1 - position 1 - chromosome 2 - position 2 - map quality 1 - map quality 2&rdquo;.
+e.g. if the line is &ldquo;chr1 5000000 chr2 3500000 2&rdquo;, the format should be &lsquo;12345&rsquo; or [1, 2, 3, 4, 5]; if there is no column
+indicating number of reads, you can just provide 4 numbers like &lsquo;1234&rsquo;, and contact read will be set as 1.
+Default: &lsquo;12345&rsquo;.</li>
+<li>adjust_resolution: whether to adjust resolution for the input file.
+Sometimes the input file is already in the proper resolution (e.g. position 3000000 has already been changed to 6 with 500kb resolution).
+For this situation you can set adjust_resolution=False. Default: True.</li>
+<li>map_filter (float): keep all contacts with mapq higher than this threshold. Default: 0.0</li>
+<li>header (int): how many header lines does the file have. Default: 0.</li>
+<li>chromosomes (list or str): chromosomes to use, eg. [&lsquo;chr1&rsquo;, &lsquo;chr2&rsquo;], or
+just &lsquo;except Y&rsquo;, &lsquo;except XY&rsquo;, &lsquo;all&rsquo;.
+Default: &lsquo;all&rsquo;, which means chr 1-19 + XY for mouse and chr 1-22 + XY for human.</li>
+<li>operations (list or None): the operations use for pre-processing or smoothing the maps given in a list.
+The operations will happen in the given order.
+Supported operations: &lsquo;logarithm&rsquo;, &lsquo;power&rsquo;, &lsquo;convolution&rsquo;, &lsquo;random_walk&rsquo;,
+&lsquo;network_enhancing&rsquo;, &lsquo;OE_norm&rsquo;, &lsquo;VC_norm&rsquo;, &lsquo;VC_SQRT_norm&rsquo;, &lsquo;KR_norm&rsquo;。
+Default: None.</li>
+<li>For preprocessing and smoothing operations, sometimes you need additional arguments
+(introduced in next sub-section).</li>
+</ul>
+<p>You can also skip pre-processing and smoothing in loading step (operations=None),
+and do them in next lines.</p>
+<p><strong>Plot number of contacts and select cells</strong></p>
+<p>You can plot the number of contacts of your cells.</p>
+<pre><code class="language-console">&gt;&gt;&gt;loaded_data.plot_contacts(hist=True, percent=True)
+</code></pre>
+<p>If hist is <code>True</code>, plot Histogram of the number of contacts. If percent is <code>True</code>, plot the scatter plot of cells with  of short-range contacts (&lt; 2 Mb) versus contacts at the mitotic band (2-12 Mb).</p>
+<p>You can select cells based on number of contacts:</p>
+<pre><code class="language-console">&gt;&gt;&gt;loaded_data.select_cells(min_n_contacts=10000,max_short_range_contact=0.99)
+</code></pre>
+<p>The above command select cells have number of contacts bigger than 10000 and percent of short range contacts small than .99.</p>
+<p><strong>Pre-processing and Smoothing Operations</strong>
+Stand alone pre-processing and smoothing:</p>
+<pre><code class="language-console">&gt;&gt;&gt;loaded_data.processing(['random_walk', 'network_enhancing'])
+</code></pre>
+<p>If you didn&rsquo;t store full map (i.e. store_full_map=False), processing is not
+doable in a separate step.</p>
+<ul>
+<li>
+<p>logarithm:
+new_W_ij = log_(base) (W_ij + epsilon). Additional arguments:</p>
+<ul>
+<li>log_base: default: e</li>
+<li>epsilon: default: 1</li>
+</ul>
+</li>
+<li>
+<p>power: new_W_ij = (W_ij)^pow. Additional argument:</p>
+<ul>
+<li>pow: default: 0.5 (i.e., sqrt(W_ij))</li>
+</ul>
+</li>
+<li>
+<p>VC_norm: VC normalization - each value divided by the sum of
+corresponding row then divided by the sum of corresponding column</p>
+</li>
+<li>
+<p>VC_SQRT_norm: VC_SQRT normalization - each value divided by the sqrt of the sum
+of corresponding row then divided by the sqrt of the sum of corresponding column</p>
+</li>
+<li>
+<p>KR_norm: KR normalization - iterating until the sum of each row / column is one
+Argument:</p>
+<ul>
+<li>maximum_error_rate (float): iteration ends when max error is smaller
+than (maximum_error_rate). Default: 1e-4</li>
+</ul>
+</li>
+<li>
+<p>OE_norm: OE normalization -  each value divided by the average of its
+corresponding strata (diagonal line)</p>
+</li>
+<li>
+<p>convolution: smoothing with a N by N convolution kernel, with each value equal to 1/N^2.
+Argument:</p>
+<ul>
+<li>kernel_shape: an integer. e.g. kernel_shape=3 means a 3*3 matrix with each value = 1/9. Default: 3.</li>
+</ul>
+</li>
+<li>
+<p>Random walk: multiply by a transition matrix (also calculated from contact map itself).
+Argument:</p>
+<ul>
+<li>random_walk_ratio: a value between 0 and 1, e.g. if ratio=0.9, the result will be
+0.9 * matrix_after_random_walk + 0.1 * original_matrix. Default: 1.0.</li>
+</ul>
+</li>
+<li>
+<p>Network enhancing: transition matrix only comes from k-nearest neighbors of each line.
+Arguments:</p>
+<ul>
+<li>kNN: value &lsquo;k&rsquo; in kNN. Default: 20.</li>
+<li>iterations: number of iterations for network enhancing. Default: 1</li>
+<li>alpha: similar with random_walk_ratio. Default: 0.9</li>
+</ul>
+</li>
+</ul>
+<p><strong>Learn Embeddings</strong></p>
+<pre><code class="language-console">&gt;&gt;&gt;embs = loaded_data.learn_embedding(
+... dim=2, similarity_method='inner_product', embedding_method='MDS',
+... n_strata=None, aggregation='median', return_distance=False
+... )
+</code></pre>
+<p>This function will return the embeddings in the format of a numpy array with shape ( # of cells, # of dimensions).</p>
+<ul>
+<li>dim (int): the dimension for the embedding</li>
+<li>similarity_method (str): reproducibility measure, &lsquo;InnerProduct&rsquo;, &lsquo;HiCRep&rsquo; or
+&lsquo;Selfish&rsquo;. Default: &lsquo;InnerProduct&rsquo;</li>
+<li>embedding_method (str): &lsquo;MDS&rsquo;, &lsquo;tSNE&rsquo; or &lsquo;UMAP&rsquo;</li>
+<li>n_strata (int): only consider contacts within this genomic distance. Default: None.
+If it is None, it will use the all strata kept (the argument keep_n_strata from
+previous loading process). Thus n_strata and keep_n_strata (loading step) cannot be
+None at the same time.</li>
+<li>aggregation (str): method to aggregate different chromosomes,
+&lsquo;mean&rsquo; or &lsquo;median&rsquo;. Default: &lsquo;median&rsquo;.</li>
+<li>return_distance (bool): if True, return (embeddings, distance_matrix); if False, only return embeddings. Default: False.</li>
+<li>Some additional argument for Selfish:
+<ul>
+<li>n_windows (int): split contact map into n windows, default: 10</li>
+<li>sigma (float): sigma in the Gaussian-like kernel: default: 1.6</li>
+</ul>
+</li>
+</ul>
+<p><strong>Clustering</strong></p>
+<p>There are two functions to cluster cells.</p>
+<pre><code class="language-console">&gt;&gt;&gt;label=loaded_data.clustering(
+... n_clusters=4, clustering_method='kmeans', similarity_method='innerproduct',
+... aggregation='median', n_strata=None
+... )
+</code></pre>
+<p><code>clustering</code> function returns a numpy array of cell labels clustered.</p>
+<ul>
+<li>
+<p>n_clusters (int): Number of clusters.</p>
+</li>
+<li>
+<p>clustering_method (str):
+Clustering method in &lsquo;kmeans&rsquo;, &lsquo;spectral_clustering&rsquo; or &lsquo;HAC&rsquo;(hierarchical agglomerative clustering).</p>
+</li>
+<li>
+<p>similarity_method (str):
+Reproducibility measure.
+Value in ‘InnerProduct’, ‘HiCRep’ or ‘Selfish’.</p>
+</li>
+<li>
+<p>aggregation (str):
+Method to aggregate different chromosomes.
+Value is either &lsquo;mean&rsquo; or &lsquo;median&rsquo;.
+Default: &lsquo;median&rsquo;.</p>
+</li>
+<li>
+<p>n_strata (int or None):
+Only consider contacts within this genomic distance.
+If it is None, it will use the all strata kept (the argument keep_n_strata) from previous loading process. Default: None.</p>
+</li>
+<li>
+<p>print_time (bool):
+Whether to print the processing time. Default: False.</p>
+</li>
+</ul>
+<pre><code class="language-console">&gt;&gt;&gt;hicluster=loaded_data.scHiCluster(dim=2,cutoff=0.8,n_PCs=10,k=4)
+</code></pre>
+<p><code>scHiCluster</code> function returns two componments.
+First componment is a numpy array of embedding of cells using HiCluster.
+Second componment is a numpy of cell labels clustered by HiCluster.</p>
+<ul>
+<li>
+<p>dim (int): Number of dimension of embedding. Default: 2.</p>
+</li>
+<li>
+<p>cutoff (float): The cutoff proportion to convert the real contact matrix into binary matrix. Default: 0.8.</p>
+</li>
+<li>
+<p>n_PCs (int): Number of principal components. Default: 10.</p>
+</li>
+<li>
+<p>k (int): Number of clusters. Default: 4.</p>
+</li>
+</ul>
+<p><strong>Visualization</strong></p>
+<pre><code class="language-console">&gt;&gt;&gt;scatter(data, dimension=&quot;2D&quot;, point_size=3, sty='default',
+... label=None, title=None, alpha=None, aes_label=None
+... )
+&gt;&gt;&gt;plt.show()
+</code></pre>
+<p>This function is to plot scatter plot of embedding points of single cell data.
+Scatter plot of either two-dimensions or three-dimensions will be generated.</p>
+<ul>
+<li>
+<p>data (numpy.array): A numpy array which has 2 or 3 columns, every row represent a point.</p>
+</li>
+<li>
+<p>dimension (str): Specifiy the dimension of the plot, either &ldquo;2D&rdquo; or &ldquo;3D&rdquo;. Default: &ldquo;2D&rdquo;.</p>
+</li>
+<li>
+<p>point_size (float): Set the size of the points in scatter plot. Default: 3.</p>
+</li>
+<li>
+<p>sty (str): Styles of Matplotlib. Default: &lsquo;default&rsquo;.</p>
+</li>
+<li>
+<p>label (list or None): specifiy the label of each point. Default: None.</p>
+</li>
+<li>
+<p>title (str): Title of the plot. Default: None.</p>
+</li>
+<li>
+<p>alpha (float): The alpha blending value. Default: None.</p>
+</li>
+<li>
+<p>aes_label (list): Set the label of every axis. Default: None.</p>
+</li>
+</ul>
+<p>&ldquo;scHiCTools&rdquo; also support interactive scatter plot which require the module &lsquo;plotly&rsquo;</p>
+<pre><code class="language-console">&gt;&gt;&gt;interactive_scatter(loaded_data, data, out_file, dimension='2D', point_size=3,
+... label=None, title=None, alpha=1, aes_label=None)
+</code></pre>
+<p>This function is to generate an interactive scatter plot of embedded single cell data.
+The plot will be stored in a file.</p>
+<ul>
+<li>schic (scHiCs): A <code>scHiCs</code> object.</li>
+<li>data (numpy.array): A numpy array which has 2 or 3 columns, every row represent a point.</li>
+<li>out_file (str): Output file path.</li>
+<li>dimension (str): Specifiy the dimension of the plot, either &ldquo;2D&rdquo; or &ldquo;3D&rdquo;. The default is &ldquo;2D&rdquo;.</li>
+<li>point_size (float): Set the size of the points in scatter plot. The default is 3.</li>
+<li>label (list or None): Specifiy the label of each point. The default is None.</li>
+<li>title (str): Title of the plot. The default is None.</li>
+<li>alpha (float): The alpha blending value. The default is 1.</li>
+<li>aes_label (list): Set the label of every axis. The default is None.</li>
+</ul>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/software/schictools/installation1/" rel="prev">Installation</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on May 5, 2019</p>
+
+          
+
+
+
+
+
+  
+  
+
+<p class="edit-page">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/software%5cschictools%5cusage.md">
+    <i class="fas fa-pen pr-2"></i>Edit this page
+  </a>
+</p>
+
+
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2017-2020 Jie Liu &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.c816d323c3a55093dae0829b44ea1ca8.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

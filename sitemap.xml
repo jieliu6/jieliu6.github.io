@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jieliu6.github.io/software/schictools/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/software/schictools/usage/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jieliu6.github.io/authors/feng/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/software/schictools/installation1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -11,19 +26,31 @@
   </url>
   
   <url>
+    <loc>https://jieliu6.github.io/software/schictools/installation2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jieliu6.github.io/authors/huang/</loc>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/authors/du/</loc>
-  </url>
-  
-  <url>
     <loc>https://jieliu6.github.io/authors/x-li/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/authors/y-qin/</loc>
+    <loc>https://jieliu6.github.io/software/schictools/usage1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/software/schictools/usage2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/zh-h-zhang/</loc>
   </url>
   
   <url>
@@ -31,7 +58,38 @@
   </url>
   
   <url>
+    <loc>https://jieliu6.github.io/software/schictools/usage3/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/du/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/p-zhao/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/software/schictools/usage4/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/software/schictools/usage5/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/y-qin/</loc>
+  </url>
+  
+  <url>
     <loc>https://jieliu6.github.io/authors/fu/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/z-ma/</loc>
   </url>
   
   <url>
@@ -39,22 +97,135 @@
   </url>
   
   <url>
+    <loc>https://jieliu6.github.io/authors/y-yao/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/wurman/</loc>
+  </url>
+  
+  <url>
     <loc>https://jieliu6.github.io/publication_types/2/</loc>
-    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jieliu6.github.io/authors/__j-liu__/</loc>
-    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/authors/a-dendekker/</loc>
-    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jieliu6.github.io/authors/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/c-lee/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/c-ware/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/g-bonora/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/g-yard%C4%B1mc%C4%B1/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/h-kim/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/j-hesson/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/j-shendure/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication_types/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/r-qiu/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/tags/source-themes/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/tags/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/v-ramani/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/w-noble/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/z-duan/</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication_types/3/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/f-feng/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication/preprint/schictools/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/w-leung/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/a-dendekker/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -74,22 +245,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/</loc>
-    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/publication/p53-integrates-temporal-wdr5-inputs/</loc>
-    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/publication_types/</loc>
-    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/publication/</loc>
+    <loc>https://jieliu6.github.io/publication/journal-paper/p53-integrates-temporal-wdr5-inputs/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -124,6 +280,11 @@
   </url>
   
   <url>
+    <loc>https://jieliu6.github.io/software/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jieliu6.github.io/publication_types/1/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
@@ -134,7 +295,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/jointly-embedding-multiple-single-cell/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/jointly-embedding-multiple-single-cell/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -150,16 +311,6 @@
   
   <url>
     <loc>https://jieliu6.github.io/project/single-cell-multi-omics-integration/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/tags/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/authors/w-noble/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -189,7 +340,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/systematic-proteomics-of-endogenous-human-cohesin/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/systematic-proteomics-of-endogenous-human-cohesin/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -210,11 +361,6 @@
   
   <url>
     <loc>https://jieliu6.github.io/authors/x-he/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/authors/z-duan/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -244,7 +390,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/stochastic-learning-for-sparse-discrete-markov-random-fields/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/stochastic-learning-for-sparse-discrete-markov-random-fields/</loc>
     <lastmod>2018-08-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -264,7 +410,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/unsupervised_embedding_hi_c/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/unsupervised_embedding_hi_c/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -294,11 +440,6 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/authors/c-lee/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jieliu6.github.io/authors/c-song/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
@@ -309,7 +450,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/themis/</loc>
+    <loc>https://jieliu6.github.io/publication/journal-paper/themis/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -335,11 +476,6 @@
   
   <url>
     <loc>https://jieliu6.github.io/authors/j-halloran/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/authors/j-shendure/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -379,7 +515,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/multiple-testing-under-dependence/</loc>
+    <loc>https://jieliu6.github.io/publication/journal-paper/multiple-testing-under-dependence/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -409,7 +545,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/structure-leverage-methods/</loc>
+    <loc>https://jieliu6.github.io/publication/journal-paper/structure-leverage-methods/</loc>
     <lastmod>2016-03-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -429,7 +565,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/discriminatory-power/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/discriminatory-power/</loc>
     <lastmod>2016-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -449,7 +585,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/comparing-mammography/</loc>
+    <loc>https://jieliu6.github.io/publication/journal-paper/comparing-mammography/</loc>
     <lastmod>2016-01-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -474,12 +610,12 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/machine-learning-for-treatment-assignment/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/machine-learning-for-treatment-assignment/</loc>
     <lastmod>2015-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/develop-a-utility/</loc>
+    <loc>https://jieliu6.github.io/publication/journal-paper/develop-a-utility/</loc>
     <lastmod>2015-08-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -494,7 +630,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/leverage-interaction-between-genetic-variants/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/leverage-interaction-between-genetic-variants/</loc>
     <lastmod>2015-03-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -504,7 +640,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/developing-a-clinical-utility/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/developing-a-clinical-utility/</loc>
     <lastmod>2015-02-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -514,32 +650,32 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/comparing-the-value-of-mammographic-feature/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/comparing-the-value-of-mammographic-feature/</loc>
     <lastmod>2014-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/multiple-testing-under-dependence-via-semiparametric-graphic-models/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/multiple-testing-under-dependence-via-semiparametric-graphic-models/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/learning-heterogeneous-hidden-markov-random-field/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/learning-heterogeneous-hidden-markov-random-field/</loc>
     <lastmod>2014-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/new-genetic-variants-improve/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/new-genetic-variants-improve/</loc>
     <lastmod>2014-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/bayesian-estimation-of-latently-grouped/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/bayesian-estimation-of-latently-grouped/</loc>
     <lastmod>2013-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/genetic-variants-improve-breast-cancer/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/genetic-variants-improve-breast-cancer/</loc>
     <lastmod>2013-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -549,27 +685,27 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/predicting-breast-cancer-and-prostate-cancer/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/predicting-breast-cancer-and-prostate-cancer/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/structure-learning-of-undirected-graphic-models/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/structure-learning-of-undirected-graphic-models/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/graphic-model-based-multiple-testing/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/graphic-model-based-multiple-testing/</loc>
     <lastmod>2012-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/high-dimensional-structured-feature-screening/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/high-dimensional-structured-feature-screening/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/a-collective-ranking-method-for/</loc>
+    <loc>https://jieliu6.github.io/publication/conference-paper/a-collective-ranking-method-for/</loc>
     <lastmod>2012-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -579,7 +715,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/cross-sectional-stock-return/</loc>
+    <loc>https://jieliu6.github.io/publication/journal-paper/cross-sectional-stock-return/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -614,7 +750,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/meta-prediction-of-phosphoylation-sites/</loc>
+    <loc>https://jieliu6.github.io/publication/journal-paper/meta-prediction-of-phosphoylation-sites/</loc>
     <lastmod>2008-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -644,7 +780,7 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/publication/meta-prediction-of-protein-subcellular/</loc>
+    <loc>https://jieliu6.github.io/publication/journal-paper/meta-prediction-of-protein-subcellular/</loc>
     <lastmod>2007-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -654,10 +790,6 @@
   
   <url>
     <loc>https://jieliu6.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/software/</loc>
   </url>
   
 </urlset>

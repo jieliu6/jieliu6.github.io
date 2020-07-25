@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview | Liu Lab</title>
+    <link>https://jieliu6.github.io/software/schictools/</link>
+      <atom:link href="https://jieliu6.github.io/software/schictools/index.xml" rel="self" type="application/rss+xml" />
+    <description>Overview</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Overview</title>
+      <link>https://jieliu6.github.io/software/schictools/</link>
+    </image>
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>https://jieliu6.github.io/software/schictools/usage/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://jieliu6.github.io/software/schictools/usage/</guid>
+      <description>&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Supported Formats&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pre-processed Matrices:
+If the data is already processed into matrices for intra-chromosomal contacts,
+the chromosome from the same cell must be stored in the same folder with
+chromosome names as file names (e.g., scHiC/cell_1/chr1.txt).
+You only need to provide the folder name for a cell (e.g., scHiC/cell_1).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;npy: numpy.array / numpy.matrix&lt;/li&gt;
+&lt;li&gt;npz: scipy.sparse.coo_matrix&lt;/li&gt;
+&lt;li&gt;matrix: matrix stored as pure text&lt;/li&gt;
+&lt;li&gt;matrix_txt: matrix stored as .txt file&lt;/li&gt;
+&lt;li&gt;HiCRep: the format required by HiCRep package&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edge List &lt;br /&gt;
+For all formats below:&lt;br /&gt;
+  str - strand (forward / reverse)&lt;br /&gt;
+  chr - chromosome&lt;br /&gt;
+  pos - position&lt;br /&gt;
+  score - contact reads&lt;br /&gt;
+  frag - fragments (will be ignored)&lt;br /&gt;
+  mapq - map quality&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shortest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Shortest_Score&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt; &amp;lt;score&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Short&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;str1&amp;gt; &amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;frag1&amp;gt; &amp;lt;str2&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt; &amp;lt;frag2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Short_Score&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;str1&amp;gt; &amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;frag1&amp;gt; &amp;lt;str2&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt; &amp;lt;frag2&amp;gt; &amp;lt;score&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Medium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;readname&amp;gt; &amp;lt;str1&amp;gt; &amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;frag1&amp;gt; &amp;lt;str2&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt; &amp;lt;frag2&amp;gt; &amp;lt;mapq1&amp;gt; &amp;lt;mapq2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Long&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;str1&amp;gt; &amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;frag1&amp;gt; &amp;lt;str2&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt; &amp;lt;frag2&amp;gt; &amp;lt;mapq1&amp;gt; &amp;lt;cigar1&amp;gt; &amp;lt;sequence1&amp;gt; &amp;lt;mapq2&amp;gt; &amp;lt;cigar2&amp;gt; &amp;lt;sequence2&amp;gt; &amp;lt;readname1&amp;gt; &amp;lt;readname2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;4DN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;## pairs format v1.0
+#columns: readID chr1 position1 chr2 position2 strand1 strand2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;.hic format: we adapted &amp;ldquo;straw&amp;rdquo; from JuiceTools.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;.mcool format: we adapted &amp;ldquo;dump&amp;rdquo; from cool.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Other formats: simply give the indices (start from 1) in the order of&lt;br /&gt;
+&amp;ldquo;chromosome1 - position1 - chromosome2 - position2 - score&amp;rdquo; or&lt;br /&gt;
+&amp;ldquo;chromosome1 - position1 - chromosome2 - position2&amp;rdquo; or&lt;br /&gt;
+&amp;ldquo;chromosome1 - position1 - chromosome2 - position2 - mapq1 - mapq2&amp;rdquo;.&lt;br /&gt;
+For example, you can provide &amp;ldquo;2356&amp;rdquo; or [2, 3, 5, 6] if the file takes this format:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;name&amp;gt; &amp;lt;chromosome1&amp;gt; &amp;lt;position1&amp;gt; &amp;lt;frag1&amp;gt; &amp;lt;chromosome2&amp;gt; &amp;lt;position2&amp;gt; &amp;lt;frag2&amp;gt; &amp;lt;strand1&amp;gt; &amp;lt;strand2&amp;gt;
+contact_1 chr1 3000000 1 chr1 3001000 1 + -
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Import Package&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;import scHiCTools
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Load scHiC data&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The scHiC data is stored in a series of files, with each of the files corresponding to one cell.
+You need to specify the list of scHiC file paths.&lt;/p&gt;
+&lt;p&gt;Only intra-chromosomal interactions are counted.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;from scHiCTools import scHiCs
+&amp;gt;&amp;gt;&amp;gt;files = [&#39;./cell_1&#39;, &#39;./cell_2&#39;, &#39;./cell_3&#39;]
+&amp;gt;&amp;gt;&amp;gt;loaded_data = scHiCs(
+... files, reference_genome=&#39;mm9&#39;,
+... resolution=500000, keep_n_strata=10,
+... format=&#39;customized&#39;, adjust_resolution=True,
+... customized_format=12345, header=0, chromosomes=&#39;except Y&#39;,
+... operations=[&#39;OE_norm&#39;, &#39;convolution&#39;]
+... )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;reference genome (dict or str): now supporting &amp;lsquo;mm9&amp;rsquo;, &amp;lsquo;mm10&amp;rsquo;, &amp;lsquo;hg19&amp;rsquo;, &amp;lsquo;hg38&amp;rsquo;.
+If your reference genome is not in [&amp;lsquo;mm9&amp;rsquo;, &amp;lsquo;mm10&amp;rsquo;, &amp;lsquo;hg19&amp;rsquo;, &amp;lsquo;hg38&amp;rsquo;], you need to provide the lengths of chromosomes
+you are going to use with a Python dict. e.g. {&amp;lsquo;chr1&amp;rsquo;: 150000000, &amp;lsquo;chr2&amp;rsquo;: 130000000, &amp;lsquo;chr3&amp;rsquo;: 200000000}&lt;/li&gt;
+&lt;li&gt;resolution (int): the resolution to separate genome into bins.
+If using .hic file format, the given resolution must match with the resolutions in .hic file.&lt;/li&gt;
+&lt;li&gt;keep_n_strata (None or int): only store contacts within n strata near the diagonal. Default: 10.
+If &amp;lsquo;None&amp;rsquo;, it will not store strata&lt;/li&gt;
+&lt;li&gt;store_full_map (bool): whether store full contact maps in numpy matrices or
+scipy sparse matrices，If False, it will save memory.&lt;/li&gt;
+&lt;li&gt;sparse (bool): whether to use sparse matrices&lt;/li&gt;
+&lt;li&gt;format (str): file format, supported formats: &amp;lsquo;shortest&amp;rsquo;, &amp;lsquo;shortest_score&amp;rsquo;, &amp;lsquo;short&amp;rsquo;,
+&amp;lsquo;short_score&amp;rsquo; , &amp;lsquo;medium&amp;rsquo;, &amp;lsquo;long&amp;rsquo;, &amp;lsquo;4DN&amp;rsquo;, &amp;lsquo;.hic&amp;rsquo;, &amp;lsquo;.mcool&amp;rsquo;, &amp;lsquo;npy&amp;rsquo;, &amp;lsquo;npz&amp;rsquo;, &amp;lsquo;matrix&amp;rsquo;,
+&amp;lsquo;HiCRep&amp;rsquo;, &amp;lsquo;matrix_txt&amp;rsquo; and &amp;lsquo;customized&amp;rsquo;. Default: &amp;lsquo;customized&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;customized_format (int or str or list): the column indices in the order of
+&amp;ldquo;chromosome 1 - position 1 - chromosome 2 - position 2 - contact reads&amp;rdquo; or
+&amp;ldquo;chromosome 1 - position 1 - chromosome 2 - position 2&amp;rdquo; or
+&amp;ldquo;chromosome 1 - position 1 - chromosome 2 - position 2 - map quality 1 - map quality 2&amp;rdquo;.
+e.g. if the line is &amp;ldquo;chr1 5000000 chr2 3500000 2&amp;rdquo;, the format should be &amp;lsquo;12345&amp;rsquo; or [1, 2, 3, 4, 5]; if there is no column
+indicating number of reads, you can just provide 4 numbers like &amp;lsquo;1234&amp;rsquo;, and contact read will be set as 1.
+Default: &amp;lsquo;12345&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;adjust_resolution: whether to adjust resolution for the input file.
+Sometimes the input file is already in the proper resolution (e.g. position 3000000 has already been changed to 6 with 500kb resolution).
+For this situation you can set adjust_resolution=False. Default: True.&lt;/li&gt;
+&lt;li&gt;map_filter (float): keep all contacts with mapq higher than this threshold. Default: 0.0&lt;/li&gt;
+&lt;li&gt;header (int): how many header lines does the file have. Default: 0.&lt;/li&gt;
+&lt;li&gt;chromosomes (list or str): chromosomes to use, eg. [&amp;lsquo;chr1&amp;rsquo;, &amp;lsquo;chr2&amp;rsquo;], or
+just &amp;lsquo;except Y&amp;rsquo;, &amp;lsquo;except XY&amp;rsquo;, &amp;lsquo;all&amp;rsquo;.
+Default: &amp;lsquo;all&amp;rsquo;, which means chr 1-19 + XY for mouse and chr 1-22 + XY for human.&lt;/li&gt;
+&lt;li&gt;operations (list or None): the operations use for pre-processing or smoothing the maps given in a list.
+The operations will happen in the given order.
+Supported operations: &amp;lsquo;logarithm&amp;rsquo;, &amp;lsquo;power&amp;rsquo;, &amp;lsquo;convolution&amp;rsquo;, &amp;lsquo;random_walk&amp;rsquo;,
+&amp;lsquo;network_enhancing&amp;rsquo;, &amp;lsquo;OE_norm&amp;rsquo;, &amp;lsquo;VC_norm&amp;rsquo;, &amp;lsquo;VC_SQRT_norm&amp;rsquo;, &amp;lsquo;KR_norm&amp;rsquo;。
+Default: None.&lt;/li&gt;
+&lt;li&gt;For preprocessing and smoothing operations, sometimes you need additional arguments
+(introduced in next sub-section).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also skip pre-processing and smoothing in loading step (operations=None),
+and do them in next lines.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Plot number of contacts and select cells&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can plot the number of contacts of your cells.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;loaded_data.plot_contacts(hist=True, percent=True)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If hist is &lt;code&gt;True&lt;/code&gt;, plot Histogram of the number of contacts. If percent is &lt;code&gt;True&lt;/code&gt;, plot the scatter plot of cells with  of short-range contacts (&amp;lt; 2 Mb) versus contacts at the mitotic band (2-12 Mb).&lt;/p&gt;
+&lt;p&gt;You can select cells based on number of contacts:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;loaded_data.select_cells(min_n_contacts=10000,max_short_range_contact=0.99)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The above command select cells have number of contacts bigger than 10000 and percent of short range contacts small than .99.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pre-processing and Smoothing Operations&lt;/strong&gt;
+Stand alone pre-processing and smoothing:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;loaded_data.processing([&#39;random_walk&#39;, &#39;network_enhancing&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you didn&amp;rsquo;t store full map (i.e. store_full_map=False), processing is not
+doable in a separate step.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;logarithm:
+new_W_ij = log_(base) (W_ij + epsilon). Additional arguments:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;log_base: default: e&lt;/li&gt;
+&lt;li&gt;epsilon: default: 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;power: new_W_ij = (W_ij)^pow. Additional argument:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pow: default: 0.5 (i.e., sqrt(W_ij))&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VC_norm: VC normalization - each value divided by the sum of
+corresponding row then divided by the sum of corresponding column&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VC_SQRT_norm: VC_SQRT normalization - each value divided by the sqrt of the sum
+of corresponding row then divided by the sqrt of the sum of corresponding column&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;KR_norm: KR normalization - iterating until the sum of each row / column is one
+Argument:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;maximum_error_rate (float): iteration ends when max error is smaller
+than (maximum_error_rate). Default: 1e-4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OE_norm: OE normalization -  each value divided by the average of its
+corresponding strata (diagonal line)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;convolution: smoothing with a N by N convolution kernel, with each value equal to 1/N^2.
+Argument:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;kernel_shape: an integer. e.g. kernel_shape=3 means a 3*3 matrix with each value = 1/9. Default: 3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Random walk: multiply by a transition matrix (also calculated from contact map itself).
+Argument:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;random_walk_ratio: a value between 0 and 1, e.g. if ratio=0.9, the result will be
+0.9 * matrix_after_random_walk + 0.1 * original_matrix. Default: 1.0.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Network enhancing: transition matrix only comes from k-nearest neighbors of each line.
+Arguments:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;kNN: value &amp;lsquo;k&amp;rsquo; in kNN. Default: 20.&lt;/li&gt;
+&lt;li&gt;iterations: number of iterations for network enhancing. Default: 1&lt;/li&gt;
+&lt;li&gt;alpha: similar with random_walk_ratio. Default: 0.9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Learn Embeddings&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;embs = loaded_data.learn_embedding(
+... dim=2, similarity_method=&#39;inner_product&#39;, embedding_method=&#39;MDS&#39;,
+... n_strata=None, aggregation=&#39;median&#39;, return_distance=False
+... )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function will return the embeddings in the format of a numpy array with shape ( # of cells, # of dimensions).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dim (int): the dimension for the embedding&lt;/li&gt;
+&lt;li&gt;similarity_method (str): reproducibility measure, &amp;lsquo;InnerProduct&amp;rsquo;, &amp;lsquo;HiCRep&amp;rsquo; or
+&amp;lsquo;Selfish&amp;rsquo;. Default: &amp;lsquo;InnerProduct&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;embedding_method (str): &amp;lsquo;MDS&amp;rsquo;, &amp;lsquo;tSNE&amp;rsquo; or &amp;lsquo;UMAP&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;n_strata (int): only consider contacts within this genomic distance. Default: None.
+If it is None, it will use the all strata kept (the argument keep_n_strata from
+previous loading process). Thus n_strata and keep_n_strata (loading step) cannot be
+None at the same time.&lt;/li&gt;
+&lt;li&gt;aggregation (str): method to aggregate different chromosomes,
+&amp;lsquo;mean&amp;rsquo; or &amp;lsquo;median&amp;rsquo;. Default: &amp;lsquo;median&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;return_distance (bool): if True, return (embeddings, distance_matrix); if False, only return embeddings. Default: False.&lt;/li&gt;
+&lt;li&gt;Some additional argument for Selfish:
+&lt;ul&gt;
+&lt;li&gt;n_windows (int): split contact map into n windows, default: 10&lt;/li&gt;
+&lt;li&gt;sigma (float): sigma in the Gaussian-like kernel: default: 1.6&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Clustering&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There are two functions to cluster cells.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;label=loaded_data.clustering(
+... n_clusters=4, clustering_method=&#39;kmeans&#39;, similarity_method=&#39;innerproduct&#39;,
+... aggregation=&#39;median&#39;, n_strata=None
+... )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;clustering&lt;/code&gt; function returns a numpy array of cell labels clustered.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;n_clusters (int): Number of clusters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;clustering_method (str):
+Clustering method in &amp;lsquo;kmeans&amp;rsquo;, &amp;lsquo;spectral_clustering&amp;rsquo; or &amp;lsquo;HAC&amp;rsquo;(hierarchical agglomerative clustering).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;similarity_method (str):
+Reproducibility measure.
+Value in ‘InnerProduct’, ‘HiCRep’ or ‘Selfish’.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;aggregation (str):
+Method to aggregate different chromosomes.
+Value is either &amp;lsquo;mean&amp;rsquo; or &amp;lsquo;median&amp;rsquo;.
+Default: &amp;lsquo;median&amp;rsquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;n_strata (int or None):
+Only consider contacts within this genomic distance.
+If it is None, it will use the all strata kept (the argument keep_n_strata) from previous loading process. Default: None.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;print_time (bool):
+Whether to print the processing time. Default: False.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;hicluster=loaded_data.scHiCluster(dim=2,cutoff=0.8,n_PCs=10,k=4)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;scHiCluster&lt;/code&gt; function returns two componments.
+First componment is a numpy array of embedding of cells using HiCluster.
+Second componment is a numpy of cell labels clustered by HiCluster.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;dim (int): Number of dimension of embedding. Default: 2.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;cutoff (float): The cutoff proportion to convert the real contact matrix into binary matrix. Default: 0.8.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;n_PCs (int): Number of principal components. Default: 10.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;k (int): Number of clusters. Default: 4.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Visualization&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;scatter(data, dimension=&amp;quot;2D&amp;quot;, point_size=3, sty=&#39;default&#39;,
+... label=None, title=None, alpha=None, aes_label=None
+... )
+&amp;gt;&amp;gt;&amp;gt;plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function is to plot scatter plot of embedding points of single cell data.
+Scatter plot of either two-dimensions or three-dimensions will be generated.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;data (numpy.array): A numpy array which has 2 or 3 columns, every row represent a point.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;dimension (str): Specifiy the dimension of the plot, either &amp;ldquo;2D&amp;rdquo; or &amp;ldquo;3D&amp;rdquo;. Default: &amp;ldquo;2D&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;point_size (float): Set the size of the points in scatter plot. Default: 3.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;sty (str): Styles of Matplotlib. Default: &amp;lsquo;default&amp;rsquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;label (list or None): specifiy the label of each point. Default: None.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;title (str): Title of the plot. Default: None.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;alpha (float): The alpha blending value. Default: None.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;aes_label (list): Set the label of every axis. Default: None.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;ldquo;scHiCTools&amp;rdquo; also support interactive scatter plot which require the module &amp;lsquo;plotly&amp;rsquo;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;interactive_scatter(loaded_data, data, out_file, dimension=&#39;2D&#39;, point_size=3,
+... label=None, title=None, alpha=1, aes_label=None)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function is to generate an interactive scatter plot of embedded single cell data.
+The plot will be stored in a file.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;schic (scHiCs): A &lt;code&gt;scHiCs&lt;/code&gt; object.&lt;/li&gt;
+&lt;li&gt;data (numpy.array): A numpy array which has 2 or 3 columns, every row represent a point.&lt;/li&gt;
+&lt;li&gt;out_file (str): Output file path.&lt;/li&gt;
+&lt;li&gt;dimension (str): Specifiy the dimension of the plot, either &amp;ldquo;2D&amp;rdquo; or &amp;ldquo;3D&amp;rdquo;. The default is &amp;ldquo;2D&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;point_size (float): Set the size of the points in scatter plot. The default is 3.&lt;/li&gt;
+&lt;li&gt;label (list or None): Specifiy the label of each point. The default is None.&lt;/li&gt;
+&lt;li&gt;title (str): Title of the plot. The default is None.&lt;/li&gt;
+&lt;li&gt;alpha (float): The alpha blending value. The default is 1.&lt;/li&gt;
+&lt;li&gt;aes_label (list): Set the label of every axis. The default is None.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>https://jieliu6.github.io/software/schictools/installation1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://jieliu6.github.io/software/schictools/installation1/</guid>
+      <description>&lt;h2 id=&#34;required-python-packages&#34;&gt;Required Python Packages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python (version &amp;gt;= 3.6)&lt;/li&gt;
+&lt;li&gt;numpy (version &amp;gt;= 1.15.4)&lt;/li&gt;
+&lt;li&gt;scipy (version &amp;gt;= 1.0)&lt;/li&gt;
+&lt;li&gt;matplotlib (version &amp;gt;=3.1.1)&lt;/li&gt;
+&lt;li&gt;pandas (version &amp;gt;=0.19)&lt;/li&gt;
+&lt;li&gt;simplejson&lt;/li&gt;
+&lt;li&gt;six&lt;/li&gt;
+&lt;li&gt;h5py&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;interactive_scatter&lt;/code&gt; feature requirement&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;plotly (version &amp;gt;= &amp;gt;=4.8.0)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>https://jieliu6.github.io/software/schictools/installation2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://jieliu6.github.io/software/schictools/installation2/</guid>
+      <description>&lt;h2 id=&#34;install-from-github&#34;&gt;Install from GitHub&lt;/h2&gt;
+&lt;p&gt;You can install the package with following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;  $ git clone https://github.com/liu-bioinfo-lab/scHiCTools.git
+  $ cd scHiCTools
+  $ python setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;install-from-pypi&#34;&gt;Install from PyPI&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;  $ pip install scHiCTools
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;install-optional-interactive-dependencie&#34;&gt;Install optional interactive dependencie&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;  $ pip install scHiCTools[interactive_scatter]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;  $ pip install -e .[interactive_scatter]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Supported Format</title>
+      <link>https://jieliu6.github.io/software/schictools/usage1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://jieliu6.github.io/software/schictools/usage1/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pre-processed Matrices:
+If the data is already processed into matrices for intra-chromosomal contacts,
+the chromosome from the same cell must be stored in the same folder with
+chromosome names as file names (e.g., scHiC/cell_1/chr1.txt).
+You only need to provide the folder name for a cell (e.g., scHiC/cell_1).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;npy: numpy.array / numpy.matrix&lt;/li&gt;
+&lt;li&gt;npz: scipy.sparse.coo_matrix&lt;/li&gt;
+&lt;li&gt;matrix: matrix stored as pure text&lt;/li&gt;
+&lt;li&gt;matrix_txt: matrix stored as .txt file&lt;/li&gt;
+&lt;li&gt;HiCRep: the format required by HiCRep package&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edge List &lt;br /&gt;
+For all formats below:&lt;br /&gt;
+  str - strand (forward / reverse)&lt;br /&gt;
+  chr - chromosome&lt;br /&gt;
+  pos - position&lt;br /&gt;
+  score - contact reads&lt;br /&gt;
+  frag - fragments (will be ignored)&lt;br /&gt;
+  mapq - map quality&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shortest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Shortest_Score&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt; &amp;lt;score&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Short&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;str1&amp;gt; &amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;frag1&amp;gt; &amp;lt;str2&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt; &amp;lt;frag2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Short_Score&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;str1&amp;gt; &amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;frag1&amp;gt; &amp;lt;str2&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt; &amp;lt;frag2&amp;gt; &amp;lt;score&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Medium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;readname&amp;gt; &amp;lt;str1&amp;gt; &amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;frag1&amp;gt; &amp;lt;str2&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt; &amp;lt;frag2&amp;gt; &amp;lt;mapq1&amp;gt; &amp;lt;mapq2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Long&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;str1&amp;gt; &amp;lt;chr1&amp;gt; &amp;lt;pos1&amp;gt; &amp;lt;frag1&amp;gt; &amp;lt;str2&amp;gt; &amp;lt;chr2&amp;gt; &amp;lt;pos2&amp;gt; &amp;lt;frag2&amp;gt; &amp;lt;mapq1&amp;gt; &amp;lt;cigar1&amp;gt; &amp;lt;sequence1&amp;gt; &amp;lt;mapq2&amp;gt; &amp;lt;cigar2&amp;gt; &amp;lt;sequence2&amp;gt; &amp;lt;readname1&amp;gt; &amp;lt;readname2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;4DN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;## pairs format v1.0
+#columns: readID chr1 position1 chr2 position2 strand1 strand2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;.hic format: we adapted &amp;ldquo;straw&amp;rdquo; from JuiceTools.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;.mcool format: we adapted &amp;ldquo;dump&amp;rdquo; from cool.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Other formats: simply give the indices (start from 1) in the order of&lt;br /&gt;
+&amp;ldquo;chromosome1 - position1 - chromosome2 - position2 - score&amp;rdquo; or&lt;br /&gt;
+&amp;ldquo;chromosome1 - position1 - chromosome2 - position2&amp;rdquo; or&lt;br /&gt;
+&amp;ldquo;chromosome1 - position1 - chromosome2 - position2 - mapq1 - mapq2&amp;rdquo;.&lt;br /&gt;
+For example, you can provide &amp;ldquo;2356&amp;rdquo; or [2, 3, 5, 6] if the file takes this format:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;name&amp;gt; &amp;lt;chromosome1&amp;gt; &amp;lt;position1&amp;gt; &amp;lt;frag1&amp;gt; &amp;lt;chromosome2&amp;gt; &amp;lt;position2&amp;gt; &amp;lt;frag2&amp;gt; &amp;lt;strand1&amp;gt; &amp;lt;strand2&amp;gt;
+contact_1 chr1 3000000 1 chr1 3001000 1 + -
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Load Data</title>
+      <link>https://jieliu6.github.io/software/schictools/usage2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://jieliu6.github.io/software/schictools/usage2/</guid>
+      <description>&lt;h2 id=&#34;import-package&#34;&gt;Import Package&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;import scHiCTools
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;load-schic-data&#34;&gt;Load scHiC data&lt;/h2&gt;
+&lt;p&gt;The scHiC data is stored in a series of files, with each of the files corresponding to one cell.
+You need to specify the list of scHiC file paths.&lt;/p&gt;
+&lt;p&gt;Only intra-chromosomal interactions are counted.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;from scHiCTools import scHiCs
+&amp;gt;&amp;gt;&amp;gt;files = [&#39;./cell_1&#39;, &#39;./cell_2&#39;, &#39;./cell_3&#39;]
+&amp;gt;&amp;gt;&amp;gt;loaded_data = scHiCs(
+... files, reference_genome=&#39;mm9&#39;,
+... resolution=500000, keep_n_strata=10,
+... format=&#39;customized&#39;, adjust_resolution=True,
+... customized_format=12345, header=0, chromosomes=&#39;except Y&#39;,
+... operations=[&#39;OE_norm&#39;, &#39;convolution&#39;]
+... )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;reference genome (dict or str): now supporting &amp;lsquo;mm9&amp;rsquo;, &amp;lsquo;mm10&amp;rsquo;, &amp;lsquo;hg19&amp;rsquo;, &amp;lsquo;hg38&amp;rsquo;.
+If your reference genome is not in [&amp;lsquo;mm9&amp;rsquo;, &amp;lsquo;mm10&amp;rsquo;, &amp;lsquo;hg19&amp;rsquo;, &amp;lsquo;hg38&amp;rsquo;], you need to provide the lengths of chromosomes
+you are going to use with a Python dict. e.g. {&amp;lsquo;chr1&amp;rsquo;: 150000000, &amp;lsquo;chr2&amp;rsquo;: 130000000, &amp;lsquo;chr3&amp;rsquo;: 200000000}&lt;/li&gt;
+&lt;li&gt;resolution (int): the resolution to separate genome into bins.
+If using .hic file format, the given resolution must match with the resolutions in .hic file.&lt;/li&gt;
+&lt;li&gt;keep_n_strata (None or int): only store contacts within n strata near the diagonal. Default: 10.
+If &amp;lsquo;None&amp;rsquo;, it will not store strata&lt;/li&gt;
+&lt;li&gt;store_full_map (bool): whether store full contact maps in numpy matrices or
+scipy sparse matrices，If False, it will save memory.&lt;/li&gt;
+&lt;li&gt;sparse (bool): whether to use sparse matrices&lt;/li&gt;
+&lt;li&gt;format (str): file format, supported formats: &amp;lsquo;shortest&amp;rsquo;, &amp;lsquo;shortest_score&amp;rsquo;, &amp;lsquo;short&amp;rsquo;,
+&amp;lsquo;short_score&amp;rsquo; , &amp;lsquo;medium&amp;rsquo;, &amp;lsquo;long&amp;rsquo;, &amp;lsquo;4DN&amp;rsquo;, &amp;lsquo;.hic&amp;rsquo;, &amp;lsquo;.mcool&amp;rsquo;, &amp;lsquo;npy&amp;rsquo;, &amp;lsquo;npz&amp;rsquo;, &amp;lsquo;matrix&amp;rsquo;,
+&amp;lsquo;HiCRep&amp;rsquo;, &amp;lsquo;matrix_txt&amp;rsquo; and &amp;lsquo;customized&amp;rsquo;. Default: &amp;lsquo;customized&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;customized_format (int or str or list): the column indices in the order of
+&amp;ldquo;chromosome 1 - position 1 - chromosome 2 - position 2 - contact reads&amp;rdquo; or
+&amp;ldquo;chromosome 1 - position 1 - chromosome 2 - position 2&amp;rdquo; or
+&amp;ldquo;chromosome 1 - position 1 - chromosome 2 - position 2 - map quality 1 - map quality 2&amp;rdquo;.
+e.g. if the line is &amp;ldquo;chr1 5000000 chr2 3500000 2&amp;rdquo;, the format should be &amp;lsquo;12345&amp;rsquo; or [1, 2, 3, 4, 5]; if there is no column
+indicating number of reads, you can just provide 4 numbers like &amp;lsquo;1234&amp;rsquo;, and contact read will be set as 1.
+Default: &amp;lsquo;12345&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;adjust_resolution: whether to adjust resolution for the input file.
+Sometimes the input file is already in the proper resolution (e.g. position 3000000 has already been changed to 6 with 500kb resolution).
+For this situation you can set adjust_resolution=False. Default: True.&lt;/li&gt;
+&lt;li&gt;map_filter (float): keep all contacts with mapq higher than this threshold. Default: 0.0&lt;/li&gt;
+&lt;li&gt;header (int): how many header lines does the file have. Default: 0.&lt;/li&gt;
+&lt;li&gt;chromosomes (list or str): chromosomes to use, eg. [&amp;lsquo;chr1&amp;rsquo;, &amp;lsquo;chr2&amp;rsquo;], or
+just &amp;lsquo;except Y&amp;rsquo;, &amp;lsquo;except XY&amp;rsquo;, &amp;lsquo;all&amp;rsquo;.
+Default: &amp;lsquo;all&amp;rsquo;, which means chr 1-19 + XY for mouse and chr 1-22 + XY for human.&lt;/li&gt;
+&lt;li&gt;operations (list or None): the operations use for pre-processing or smoothing the maps given in a list.
+The operations will happen in the given order.
+Supported operations: &amp;lsquo;logarithm&amp;rsquo;, &amp;lsquo;power&amp;rsquo;, &amp;lsquo;convolution&amp;rsquo;, &amp;lsquo;random_walk&amp;rsquo;,
+&amp;lsquo;network_enhancing&amp;rsquo;, &amp;lsquo;OE_norm&amp;rsquo;, &amp;lsquo;VC_norm&amp;rsquo;, &amp;lsquo;VC_SQRT_norm&amp;rsquo;, &amp;lsquo;KR_norm&amp;rsquo;。
+Default: None.&lt;/li&gt;
+&lt;li&gt;For preprocessing and smoothing operations, sometimes you need additional arguments
+(introduced in next sub-section).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also skip pre-processing and smoothing in loading step (operations=None),
+and do them in next lines.&lt;/p&gt;
+&lt;h2 id=&#34;plot-number-of-contacts-and-select-cells&#34;&gt;Plot number of contacts and select cells&lt;/h2&gt;
+&lt;p&gt;You can plot the number of contacts of your cells.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;loaded_data.plot_contacts(hist=True, percent=True)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If hist is &lt;code&gt;True&lt;/code&gt;, plot Histogram of the number of contacts. If percent is &lt;code&gt;True&lt;/code&gt;, plot the scatter plot of cells with  of short-range contacts (&amp;lt; 2 Mb) versus contacts at the mitotic band (2-12 Mb).&lt;/p&gt;
+&lt;p&gt;You can select cells based on number of contacts:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;loaded_data.select_cells(min_n_contacts=10000,max_short_range_contact=0.99)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The above command select cells have number of contacts bigger than 10000 and percent of short range contacts small than .99.&lt;/p&gt;
+&lt;h2 id=&#34;pre-processing-and-smoothing-operations&#34;&gt;Pre-processing and Smoothing Operations&lt;/h2&gt;
+&lt;p&gt;Stand alone pre-processing and smoothing:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;loaded_data.processing([&#39;random_walk&#39;, &#39;network_enhancing&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you didn&amp;rsquo;t store full map (i.e. store_full_map=False), processing is not
+doable in a separate step.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;logarithm:
+new_W_ij = log_(base) (W_ij + epsilon). Additional arguments:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;log_base: default: e&lt;/li&gt;
+&lt;li&gt;epsilon: default: 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;power: new_W_ij = (W_ij)^pow. Additional argument:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pow: default: 0.5 (i.e., sqrt(W_ij))&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VC_norm: VC normalization - each value divided by the sum of
+corresponding row then divided by the sum of corresponding column&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VC_SQRT_norm: VC_SQRT normalization - each value divided by the sqrt of the sum
+of corresponding row then divided by the sqrt of the sum of corresponding column&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;KR_norm: KR normalization - iterating until the sum of each row / column is one
+Argument:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;maximum_error_rate (float): iteration ends when max error is smaller
+than (maximum_error_rate). Default: 1e-4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OE_norm: OE normalization -  each value divided by the average of its
+corresponding strata (diagonal line)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;convolution: smoothing with a N by N convolution kernel, with each value equal to 1/N^2.
+Argument:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;kernel_shape: an integer. e.g. kernel_shape=3 means a 3*3 matrix with each value = 1/9. Default: 3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Random walk: multiply by a transition matrix (also calculated from contact map itself).
+Argument:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;random_walk_ratio: a value between 0 and 1, e.g. if ratio=0.9, the result will be
+0.9 * matrix_after_random_walk + 0.1 * original_matrix. Default: 1.0.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Network enhancing: transition matrix only comes from k-nearest neighbors of each line.
+Arguments:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;kNN: value &amp;lsquo;k&amp;rsquo; in kNN. Default: 20.&lt;/li&gt;
+&lt;li&gt;iterations: number of iterations for network enhancing. Default: 1&lt;/li&gt;
+&lt;li&gt;alpha: similar with random_walk_ratio. Default: 0.9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn Embedding</title>
+      <link>https://jieliu6.github.io/software/schictools/usage3/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://jieliu6.github.io/software/schictools/usage3/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;  &amp;gt;&amp;gt;&amp;gt;embs = loaded_data.learn_embedding(
+  ... dim=2, similarity_method=&#39;inner_product&#39;, embedding_method=&#39;MDS&#39;,
+  ... n_strata=None, aggregation=&#39;median&#39;, return_distance=False
+  ... )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function will return the embeddings in the format of a numpy array with shape ( # of cells, # of dimensions).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dim (int): the dimension for the embedding&lt;/li&gt;
+&lt;li&gt;similarity_method (str): reproducibility measure, &amp;lsquo;InnerProduct&amp;rsquo;, &amp;lsquo;HiCRep&amp;rsquo; or
+&amp;lsquo;Selfish&amp;rsquo;. Default: &amp;lsquo;InnerProduct&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;embedding_method (str): &amp;lsquo;MDS&amp;rsquo;, &amp;lsquo;tSNE&amp;rsquo; or &amp;lsquo;UMAP&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;n_strata (int): only consider contacts within this genomic distance. Default: None.
+If it is None, it will use the all strata kept (the argument keep_n_strata from
+previous loading process). Thus n_strata and keep_n_strata (loading step) cannot be
+None at the same time.&lt;/li&gt;
+&lt;li&gt;aggregation (str): method to aggregate different chromosomes,
+&amp;lsquo;mean&amp;rsquo; or &amp;lsquo;median&amp;rsquo;. Default: &amp;lsquo;median&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;return_distance (bool): if True, return (embeddings, distance_matrix); if False, only return embeddings. Default: False.&lt;/li&gt;
+&lt;li&gt;Some additional argument for Selfish:
+&lt;ul&gt;
+&lt;li&gt;n_windows (int): split contact map into n windows, default: 10&lt;/li&gt;
+&lt;li&gt;sigma (float): sigma in the Gaussian-like kernel: default: 1.6&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clustering</title>
+      <link>https://jieliu6.github.io/software/schictools/usage4/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://jieliu6.github.io/software/schictools/usage4/</guid>
+      <description>&lt;p&gt;There are two functions to cluster cells.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;label=loaded_data.clustering(
+... n_clusters=4, clustering_method=&#39;kmeans&#39;, similarity_method=&#39;innerproduct&#39;,
+... aggregation=&#39;median&#39;, n_strata=None
+... )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;clustering&lt;/code&gt; function returns a numpy array of cell labels clustered.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;n_clusters (int): Number of clusters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;clustering_method (str):
+Clustering method in &amp;lsquo;kmeans&amp;rsquo;, &amp;lsquo;spectral_clustering&amp;rsquo; or &amp;lsquo;HAC&amp;rsquo;(hierarchical agglomerative clustering).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;similarity_method (str):
+Reproducibility measure.
+Value in ‘InnerProduct’, ‘HiCRep’ or ‘Selfish’.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;aggregation (str):
+Method to aggregate different chromosomes.
+Value is either &amp;lsquo;mean&amp;rsquo; or &amp;lsquo;median&amp;rsquo;.
+Default: &amp;lsquo;median&amp;rsquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;n_strata (int or None):
+Only consider contacts within this genomic distance.
+If it is None, it will use the all strata kept (the argument keep_n_strata) from previous loading process. Default: None.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;print_time (bool):
+Whether to print the processing time. Default: False.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;hicluster=loaded_data.scHiCluster(dim=2,cutoff=0.8,n_PCs=10,k=4)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;scHiCluster&lt;/code&gt; function returns two componments.
+First componment is a numpy array of embedding of cells using HiCluster.
+Second componment is a numpy of cell labels clustered by HiCluster.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;dim (int): Number of dimension of embedding. Default: 2.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;cutoff (float): The cutoff proportion to convert the real contact matrix into binary matrix. Default: 0.8.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;n_PCs (int): Number of principal components. Default: 10.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;k (int): Number of clusters. Default: 4.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
+      <link>https://jieliu6.github.io/software/schictools/usage5/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://jieliu6.github.io/software/schictools/usage5/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;scatter(data, dimension=&amp;quot;2D&amp;quot;, point_size=3, sty=&#39;default&#39;,
+... label=None, title=None, alpha=None, aes_label=None
+... )
+&amp;gt;&amp;gt;&amp;gt;plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function is to plot scatter plot of embedding points of single cell data.
+Scatter plot of either two-dimensions or three-dimensions will be generated.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;data (numpy.array): A numpy array which has 2 or 3 columns, every row represent a point.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;dimension (str): Specifiy the dimension of the plot, either &amp;ldquo;2D&amp;rdquo; or &amp;ldquo;3D&amp;rdquo;. Default: &amp;ldquo;2D&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;point_size (float): Set the size of the points in scatter plot. Default: 3.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;sty (str): Styles of Matplotlib. Default: &amp;lsquo;default&amp;rsquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;label (list or None): specifiy the label of each point. Default: None.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;title (str): Title of the plot. Default: None.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;alpha (float): The alpha blending value. Default: None.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;aes_label (list): Set the label of every axis. Default: None.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;ldquo;scHiCTools&amp;rdquo; also support interactive scatter plot which require the module &amp;lsquo;plotly&amp;rsquo;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;&amp;gt;&amp;gt;&amp;gt;interactive_scatter(loaded_data, data, out_file, dimension=&#39;2D&#39;, point_size=3,
+... label=None, title=None, alpha=1, aes_label=None)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function is to generate an interactive scatter plot of embedded single cell data.
+The plot will be stored in a file.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;schic (scHiCs): A &lt;code&gt;scHiCs&lt;/code&gt; object.&lt;/li&gt;
+&lt;li&gt;data (numpy.array): A numpy array which has 2 or 3 columns, every row represent a point.&lt;/li&gt;
+&lt;li&gt;out_file (str): Output file path.&lt;/li&gt;
+&lt;li&gt;dimension (str): Specifiy the dimension of the plot, either &amp;ldquo;2D&amp;rdquo; or &amp;ldquo;3D&amp;rdquo;. The default is &amp;ldquo;2D&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;point_size (float): Set the size of the points in scatter plot. The default is 3.&lt;/li&gt;
+&lt;li&gt;label (list or None): Specifiy the label of each point. The default is None.&lt;/li&gt;
+&lt;li&gt;title (str): Title of the plot. The default is None.&lt;/li&gt;
+&lt;li&gt;alpha (float): The alpha blending value. The default is 1.&lt;/li&gt;
+&lt;li&gt;aes_label (list): Set the label of every axis. The default is None.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
