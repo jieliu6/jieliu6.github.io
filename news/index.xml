@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News | Liu Lab</title>
+    <link>https://jieliu6.github.io/news/</link>
+      <atom:link href="https://jieliu6.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Fri, 01 Dec 2017 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>News</title>
+      <link>https://jieliu6.github.io/news/</link>
+    </image>
+    
+    <item>
+      <title>News</title>
+      <link>https://jieliu6.github.io/news/news/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 -0500</pubDate>
+      <guid>https://jieliu6.github.io/news/news/</guid>
+      <description>
+
+
+
+
+
+
+
+
+&lt;p&gt;&lt;strong&gt;09/2020&lt;/strong&gt;  Liu Lab received the NHGRI Innovator Award to develop deep learning approaches to understand the relationship between chromatin state features and chromatin organization, and one NIH R03 award to build a database for high-resolution chromatin contact maps and humangenetic variants.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;08/2020&lt;/strong&gt;  Congratulations to Yuanhao who passed his prelim exam.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;04/2020&lt;/strong&gt;  Congratulations to past trainees, Yufeng Zhang, Mingyu Du, Yujuan Fu, Zheyu Zhang and Yijiao Qin, who were admitted to competitive graduate programs in U-M, UC-Irvine, UW, Georgia Tech, CMU.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;12/2019&lt;/strong&gt;  Congratulations to Fan and Shuze who passed their prelim exams.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;11/2019&lt;/strong&gt;  Jie formally joined 4DN Consortium as an associate member.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;09/2019&lt;/strong&gt;  Master student, Yuanhao Huang, joined the lab and transferred to DCMB PhD program.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;05/2019&lt;/strong&gt;  Two DCMB PhD students, Fan Feng and Shuze Wang, joined the lab.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;01/2019&lt;/strong&gt;  Liu Lab officially started in the Department of Computational Medicine and Bioinformatics at the University of Michigan.&lt;/p&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
