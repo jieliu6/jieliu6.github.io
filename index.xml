@@ -5,7 +5,7 @@
     <link>https://jieliu6.github.io/</link>
       <atom:link href="https://jieliu6.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Liu Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2021 Jie Liu</copyright><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Liu Lab</title>
@@ -790,18 +790,26 @@ The plot will be stored in a file.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Capturing cell type-specific chromatin structural patterns by applying topic modeling to single-cell Hi-C data</title>
-      <link>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</link>
-      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</guid>
+      <title>scHiCTools: a computational toolbox for analyzing single-cell Hi-C data</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/schictools/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/schictools/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>scHiCTools: a computational toolbox for analyzing single-cell Hi-C data</title>
-      <link>https://jieliu6.github.io/publication/preprint/schictools/</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://jieliu6.github.io/publication/preprint/schictools/</guid>
+      <title>Mapping the regulatory landscape of auditory hair cells from single-cell multi-omics data</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/mapping-regulatory-landscape-auditory-hair-cells/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/mapping-regulatory-landscape-auditory-hair-cells/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capturing cell type-specific chromatin structural patterns by applying topic modeling to single-cell Hi-C data</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</guid>
       <description></description>
     </item>
     
@@ -877,6 +885,10 @@ The plot will be stored in a file.&lt;/p&gt;
 
 
 
+&lt;p&gt;&lt;strong&gt;04/2021&lt;/strong&gt; scHiCTools paper was accepted for publication in PLOS Computational Biology. Congratulations to Xinjun, Fan, Hongxi and Wai Yan.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;04/2021&lt;/strong&gt; Shuze Wang&amp;rsquo;s work was published on Genome Research &lt;a href=&#34;https://genome.cshlp.org/content/early/2021/04/09/gr.271080.120.abstract&#34;&gt;https://genome.cshlp.org/content/early/2021/04/09/gr.271080.120.abstract&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;03/2021&lt;/strong&gt; Sean Moran decided to join the lab after his rotation. Welcome, Sean!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;10/2020&lt;/strong&gt; Zhenhao Zhang joined the lab and entered BIOINFO PhD program after finishing his master of IOE. Welcome, Zhenhao!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;09/2020&lt;/strong&gt;  Liu Lab received the NHGRI Innovator Award (R35) to develop deep learning approaches to understand the relationship between chromatin state features and chromatin organization.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;09/2020&lt;/strong&gt;  Liu Lab received NIH Pilot Projects Enhancing Utility and Usage of Common Fund Data Sets Award (R03) to build a database for high-resolution chromatin contact maps and human genetic variants.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;08/2020&lt;/strong&gt;  Congratulations to Yuanhao who passed his prelim exam.&lt;/p&gt;

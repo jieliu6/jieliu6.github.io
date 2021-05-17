@@ -5,7 +5,7 @@
     <link>https://jieliu6.github.io/publication/</link>
       <atom:link href="https://jieliu6.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Jie Liu</copyright><lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2021 Jie Liu</copyright><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Publications</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>Capturing cell type-specific chromatin structural patterns by applying topic modeling to single-cell Hi-C data</title>
-      <link>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</link>
-      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</guid>
+      <title>scHiCTools: a computational toolbox for analyzing single-cell Hi-C data</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/schictools/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/schictools/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>scHiCTools: a computational toolbox for analyzing single-cell Hi-C data</title>
-      <link>https://jieliu6.github.io/publication/preprint/schictools/</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://jieliu6.github.io/publication/preprint/schictools/</guid>
+      <title>Mapping the regulatory landscape of auditory hair cells from single-cell multi-omics data</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/mapping-regulatory-landscape-auditory-hair-cells/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/mapping-regulatory-landscape-auditory-hair-cells/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capturing cell type-specific chromatin structural patterns by applying topic modeling to single-cell Hi-C data</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/capture-cell-type-specific-chromatin/</guid>
       <description></description>
     </item>
     

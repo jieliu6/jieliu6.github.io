@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M P. Lee | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/m-p.-lee/</link>
+      <atom:link href="https://jieliu6.github.io/authors/m-p.-lee/index.xml" rel="self" type="application/rss+xml" />
+    <description>M P. Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2021 Jie Liu</copyright><lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>M P. Lee</title>
+      <link>https://jieliu6.github.io/authors/m-p.-lee/</link>
+    </image>
+    
+    <item>
+      <title>Mapping the regulatory landscape of auditory hair cells from single-cell multi-omics data</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/mapping-regulatory-landscape-auditory-hair-cells/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/mapping-regulatory-landscape-auditory-hair-cells/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
