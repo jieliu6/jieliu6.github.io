@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L Sun | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/l-sun/</link>
+      <atom:link href="https://jieliu6.github.io/authors/l-sun/index.xml" rel="self" type="application/rss+xml" />
+    <description>L Sun</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2021 Jie Liu</copyright><lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>L Sun</title>
+      <link>https://jieliu6.github.io/authors/l-sun/</link>
+    </image>
+    
+    <item>
+      <title>p53 inactivation unmasks histone methylation-independent and cytoplasmic-dependent WDR5 functions that drive self-renewal and differentiation of pluripotent stem cells</title>
+      <link>https://jieliu6.github.io/www.sciencedirect.com/science/article/pii/s2213671121005154</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/www.sciencedirect.com/science/article/pii/s2213671121005154</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

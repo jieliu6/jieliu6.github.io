@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>X Zhang | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/x-zhang/</link>
+      <atom:link href="https://jieliu6.github.io/authors/x-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>X Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2021 Jie Liu</copyright><lastBuildDate>Wed, 29 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>X Zhang</title>
+      <link>https://jieliu6.github.io/authors/x-zhang/</link>
+    </image>
+    
+    <item>
+      <title>3′HS1 CTCF binding site in human β-globin locus regulates fetal hemoglobin expression</title>
+      <link>https://jieliu6.github.io/elifesciences.org/articles/70557</link>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/elifesciences.org/articles/70557</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
