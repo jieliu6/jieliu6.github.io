@@ -5,7 +5,7 @@
     <link>https://jieliu6.github.io/authors/__f-feng__/</link>
       <atom:link href="https://jieliu6.github.io/authors/__f-feng__/index.xml" rel="self" type="application/rss+xml" />
     <description>__F Feng__</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2021 Jie Liu</copyright><lastBuildDate>Wed, 29 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>__F Feng__</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Connecting high-resolution 3D chromatin organization with epigenomics</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/connecting-high-resolution-3d-chromatin-organiazation-with-chromatin/</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/connecting-high-resolution-3d-chromatin-organiazation-with-chromatin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>3′HS1 CTCF binding site in human β-globin locus regulates fetal hemoglobin expression</title>
       <link>https://jieliu6.github.io/elifesciences.org/articles/70557</link>
       <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://jieliu6.github.io/elifesciences.org/articles/70557</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scHiCTools: a computational toolbox for analyzing single-cell Hi-C data</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/schictools/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/schictools/</guid>
       <description></description>
     </item>
     

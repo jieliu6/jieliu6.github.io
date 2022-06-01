@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>__H Pu__ | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/__h-pu__/</link>
+      <atom:link href="https://jieliu6.github.io/authors/__h-pu__/index.xml" rel="self" type="application/rss+xml" />
+    <description>__H Pu__</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>__H Pu__</title>
+      <link>https://jieliu6.github.io/authors/__h-pu__/</link>
+    </image>
+    
+    <item>
+      <title>scHiCTools: a computational toolbox for analyzing single-cell Hi-C data</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/schictools/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/schictools/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

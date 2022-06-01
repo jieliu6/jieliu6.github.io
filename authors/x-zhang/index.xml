@@ -5,12 +5,20 @@
     <link>https://jieliu6.github.io/authors/x-zhang/</link>
       <atom:link href="https://jieliu6.github.io/authors/x-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>X Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2021 Jie Liu</copyright><lastBuildDate>Wed, 29 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>X Zhang</title>
       <link>https://jieliu6.github.io/authors/x-zhang/</link>
     </image>
+    
+    <item>
+      <title>Connecting high-resolution 3D chromatin organization with epigenomics</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/connecting-high-resolution-3d-chromatin-organiazation-with-chromatin/</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/connecting-high-resolution-3d-chromatin-organiazation-with-chromatin/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>3′HS1 CTCF binding site in human β-globin locus regulates fetal hemoglobin expression</title>

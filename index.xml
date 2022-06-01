@@ -5,7 +5,7 @@
     <link>https://jieliu6.github.io/</link>
       <atom:link href="https://jieliu6.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Liu Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2021 Jie Liu</copyright><lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Liu Lab</title>
@@ -790,6 +790,14 @@ The plot will be stored in a file.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Connecting high-resolution 3D chromatin organization with epigenomics</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/connecting-high-resolution-3d-chromatin-organiazation-with-chromatin/</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/connecting-high-resolution-3d-chromatin-organiazation-with-chromatin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>p53 inactivation unmasks histone methylation-independent and cytoplasmic-dependent WDR5 functions that drive self-renewal and differentiation of pluripotent stem cells</title>
       <link>https://jieliu6.github.io/www.sciencedirect.com/science/article/pii/s2213671121005154</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
@@ -835,6 +843,9 @@ The plot will be stored in a file.&lt;/p&gt;
 
 
 
+&lt;p&gt;&lt;strong&gt;06/2022&lt;/strong&gt; Our paper titled &amp;ldquo;NucleoMap: a computational tool for identifying nucleosomes in ultra-high resolution contact maps&amp;rdquo; was accepted for publication on PLOS Computational Biology. Congratulations to Yuanhao and Bingjiang!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;05/2022&lt;/strong&gt; Our paper titled &amp;ldquo;Characterizing collaborative transcription regulation with a graph-based deep learning approach&amp;rdquo; was accepted for publication on PLOS Computational Biology. Congratulations to Zhenhao and Fan!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;04/2022&lt;/strong&gt; Our paper titled &amp;ldquo;Connecting high-resolution 3D chromatin organization with epigenomics&amp;rdquo; is published on Nature Communications. Congratulations to Fan, Yuan, David and Xiaotian!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;10/2021&lt;/strong&gt; Our collaborative work with Dr. Xiaotian Zhang &amp;ldquo;3&amp;rsquo;HS1 CTCF binding site in human β-globin locus regulates fetal hemoglobin expression&amp;rdquo; is published on eLife.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;09/2021&lt;/strong&gt; Together with Dr. Welch, I will teach a new course BIOINF593/EECS598-011 Machine Learning in Computational Biology.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;08/2021&lt;/strong&gt;  Together with Lana, Josh and Smita, we organized a workshop on machine-learning methods for single-cell analysis (&lt;a href=&#34;https://sites.google.com/view/new-trends-in-single-cell-geno/home&#34;&gt;https://sites.google.com/view/new-trends-in-single-cell-geno/home&lt;/a&gt;)&lt;/p&gt;
@@ -894,6 +905,14 @@ The plot will be stored in a file.&lt;/p&gt;
       <link>https://jieliu6.github.io/publication/conference-paper/systematic-proteomics-of-endogenous-human-cohesin/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://jieliu6.github.io/publication/conference-paper/systematic-proteomics-of-endogenous-human-cohesin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systematic proteomics of endogenous human cohesin reveals an interaction with diverse splicing factors and RNA binding proteins required for mitotic progression</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/systematic-proteomics-of-endogenous-human-cohesin/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/systematic-proteomics-of-endogenous-human-cohesin/</guid>
       <description></description>
     </item>
     

@@ -5,7 +5,7 @@
     <link>https://jieliu6.github.io/authors/b-budnik/</link>
       <atom:link href="https://jieliu6.github.io/authors/b-budnik/index.xml" rel="self" type="application/rss+xml" />
     <description>B Budnik</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2021 Jie Liu</copyright><lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>B Budnik</title>
@@ -17,6 +17,14 @@
       <link>https://jieliu6.github.io/publication/conference-paper/systematic-proteomics-of-endogenous-human-cohesin/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://jieliu6.github.io/publication/conference-paper/systematic-proteomics-of-endogenous-human-cohesin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systematic proteomics of endogenous human cohesin reveals an interaction with diverse splicing factors and RNA binding proteins required for mitotic progression</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/systematic-proteomics-of-endogenous-human-cohesin/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/systematic-proteomics-of-endogenous-human-cohesin/</guid>
       <description></description>
     </item>
     

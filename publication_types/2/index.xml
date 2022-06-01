@@ -5,12 +5,20 @@
     <link>https://jieliu6.github.io/publication_types/2/</link>
       <atom:link href="https://jieliu6.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2021 Jie Liu</copyright><lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>2</title>
       <link>https://jieliu6.github.io/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Connecting high-resolution 3D chromatin organization with epigenomics</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/connecting-high-resolution-3d-chromatin-organiazation-with-chromatin/</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/connecting-high-resolution-3d-chromatin-organiazation-with-chromatin/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>p53 inactivation unmasks histone methylation-independent and cytoplasmic-dependent WDR5 functions that drive self-renewal and differentiation of pluripotent stem cells</title>
@@ -65,6 +73,14 @@
       <link>https://jieliu6.github.io/publication/conference-paper/systematic-proteomics-of-endogenous-human-cohesin/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://jieliu6.github.io/publication/conference-paper/systematic-proteomics-of-endogenous-human-cohesin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systematic proteomics of endogenous human cohesin reveals an interaction with diverse splicing factors and RNA binding proteins required for mitotic progression</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/systematic-proteomics-of-endogenous-human-cohesin/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/systematic-proteomics-of-endogenous-human-cohesin/</guid>
       <description></description>
     </item>
     
@@ -139,6 +155,23 @@
       <guid>https://jieliu6.github.io/publication/journal-paper/cross-sectional-stock-return/</guid>
       <description>&lt;p&gt;* indicates equal contribution&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Meta-prediction of Phosphorylation Sites with Weighted Voting and Restricted Grid Search Parameter Selection</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/meta-prediction-of-phosphoylation-sites/</link>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/meta-prediction-of-phosphoylation-sites/</guid>
+      <description>&lt;p&gt;* indicates equal contribution&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meta-prediction of Protein Subcellular Localization with Reduced Voting</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/meta-prediction-of-protein-subcellular/</link>
+      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/meta-prediction-of-protein-subcellular/</guid>
+      <description></description>
     </item>
     
   </channel>
