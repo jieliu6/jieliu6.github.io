@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>__B Wang__ | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/__b-wang__/</link>
+      <atom:link href="https://jieliu6.github.io/authors/__b-wang__/index.xml" rel="self" type="application/rss+xml" />
+    <description>__B Wang__</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>__B Wang__</title>
+      <link>https://jieliu6.github.io/authors/__b-wang__/</link>
+    </image>
+    
+    <item>
+      <title>NucleoMap: a computational tool for identifying nucleosomes in ultra-high resolution contact maps</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/nucleomap/</link>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/nucleomap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterizing collaborative transcription regulation with a graph-based deep learning approach</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/echo/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/echo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

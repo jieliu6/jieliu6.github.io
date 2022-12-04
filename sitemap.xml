@@ -96,6 +96,10 @@
   </url>
   
   <url>
+    <loc>https://jieliu6.github.io/authors/dy-zhu/</loc>
+  </url>
+  
+  <url>
     <loc>https://jieliu6.github.io/authors/x-li/</loc>
   </url>
   
@@ -132,11 +136,23 @@
   </url>
   
   <url>
+    <loc>https://jieliu6.github.io/authors/fei-tang/</loc>
+  </url>
+  
+  <url>
     <loc>https://jieliu6.github.io/authors/jh-qiu/</loc>
   </url>
   
   <url>
     <loc>https://jieliu6.github.io/authors/xin-lu/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/yq-wang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/lx-guan/</loc>
   </url>
   
   <url>
@@ -152,10 +168,6 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/authors/fei-tang/</loc>
-  </url>
-  
-  <url>
     <loc>https://jieliu6.github.io/authors/hao-pan/</loc>
   </url>
   
@@ -164,28 +176,158 @@
   </url>
   
   <url>
+    <loc>https://jieliu6.github.io/project/genomic-knowledge-graph/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/tags/knowledge-graphs/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/project/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/tags/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jieliu6.github.io/publication_types/2/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/__d-zhu__/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jieliu6.github.io/authors/__f-feng__/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/__f-tang__/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jieliu6.github.io/authors/__j-liu__/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/__s-yang__/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/__t-li__/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/__y-gao__/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/__y-huang__/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jieliu6.github.io/authors/__y-yao__/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jieliu6.github.io/authors/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication/journal-paper/gkb/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication_types/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication_types/3/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/__f-fang__/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/__y-qiu__/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/__z-zhang__/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication/journal-paper/epcot/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/tags/4d-nucleome/</loc>
+    <lastmod>2022-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/authors/__b-wang__/</loc>
+    <lastmod>2022-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/project/nucleo-map/</loc>
+    <lastmod>2022-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication/journal-paper/nucleomap/</loc>
+    <lastmod>2022-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/publication/journal-paper/echo/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/project/echo/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/tags/predictive-models/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -199,28 +341,8 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/publication_types/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/publication/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jieliu6.github.io/authors/x-zhang/</loc>
     <lastmod>2022-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/authors/__y-huang__/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -319,6 +441,11 @@
   </url>
   
   <url>
+    <loc>https://jieliu6.github.io/project/epcot/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jieliu6.github.io/authors/__h-pu__/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url>
@@ -336,6 +463,11 @@
   <url>
     <loc>https://jieliu6.github.io/publication/journal-paper/schictools/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jieliu6.github.io/project/caesar/</loc>
+    <lastmod>2021-04-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -469,22 +601,12 @@
   </url>
   
   <url>
-    <loc>https://jieliu6.github.io/project/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jieliu6.github.io/authors/r-singh/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jieliu6.github.io/project/single-cell-multi-omics-integration/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/tags/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -536,11 +658,6 @@
   <url>
     <loc>https://jieliu6.github.io/authors/x-he/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jieliu6.github.io/tags/4d-nucleome/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -5,12 +5,20 @@
     <link>https://jieliu6.github.io/authors/__y-yao__/</link>
       <atom:link href="https://jieliu6.github.io/authors/__y-yao__/index.xml" rel="self" type="application/rss+xml" />
     <description>__Y Yao__</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>__Y Yao__</title>
       <link>https://jieliu6.github.io/authors/__y-yao__/</link>
     </image>
+    
+    <item>
+      <title>GenomicKB: a knowledge graph for the human genome</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/gkb/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/gkb/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Connecting high-resolution 3D chromatin organization with epigenomics</title>

@@ -5,12 +5,48 @@
     <link>https://jieliu6.github.io/tags/4d-nucleome/</link>
       <atom:link href="https://jieliu6.github.io/tags/4d-nucleome/index.xml" rel="self" type="application/rss+xml" />
     <description>4d-nucleome</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2022 Jie Liu</copyright><lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>4d-nucleome</title>
       <link>https://jieliu6.github.io/tags/4d-nucleome/</link>
     </image>
+    
+    <item>
+      <title>NucleoMap</title>
+      <link>https://jieliu6.github.io/project/nucleo-map/</link>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/project/nucleo-map/</guid>
+      <description>&lt;p&gt;Although poorly positioned nucleosomes are ubiquitous in the eukaryotic genome, they are difficult to identify with existing nucleosome identification methods. Recently available enhanced high-throughput chromatin conformation capture techniques such as Micro-C, DNase Hi-C, and Hi-CO characterize nucleosome-level chromatin proximity, probing the positions of mono-nucleosomes and the spacing between nucleosome pairs at the same time, enabling nucleosome profiling in poorly positioned regions. Here we develop a novel computational approach, NucleoMap, to identify nucleosome positioning from ultra-high resolution chromatin contact maps. By integrating nucleosome read density, contact distances, and binding preferences, NucleoMap precisely locates nucleosomes in both prokaryotic and eukaryotic genomes and outperforms existing nucleosome identification methods in both precision and recall. We rigorously characterize genome-wide association in eukaryotes between the spatial organization of mono-nucleosomes and their corresponding histone modifications, protein binding activities, and higher-order chromatin functions. We also find evidence of two tetra-nucleosome folding structures in human embryonic stem cells and analyze their association with multiple structural and functional regions. Based on the identified nucleosomes, nucleosome contact maps are constructed, reflecting the inter-nucleosome distances and preserving the contact distance profiles in original contact maps.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ECHO</title>
+      <link>https://jieliu6.github.io/project/echo/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/project/echo/</guid>
+      <description>&lt;p&gt;Human epigenome and transcription activities have been characterized by a number of sequence-based deep learning approaches which only utilize the DNA sequences. However, transcription factors interact with each other, and their collaborative regulatory activities go beyond the linear DNA sequence. Therefore leveraging the informative 3D chromatin organization to investigate the collaborations among transcription factors is critical. We developed ECHO, a graph-based neural network, to predict chromatin features and characterize the collaboration among them by incorporating 3D chromatin organization from 200-bp high-resolution Micro-C contact maps. ECHO predicted 2,583 chromatin features with significantly higher average AUROC and AUPR than the best sequence-based model. We observed that chromatin contacts of different distances affected different types of chromatin features&amp;rsquo; prediction in diverse ways, suggesting complex and divergent collaborative regulatory mechanisms. Moreover, ECHO was interpretable via gradient-based attribution methods. The attributions on chromatin contacts identify important contacts relevant to chromatin features. The attributions on DNA sequences identify TF binding motifs and TF collaborative binding. Furthermore, combining the attributions on contacts and sequences reveals important sequence patterns in the neighborhood which are relevant to a target sequence&amp;rsquo;s chromatin feature prediction.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EPCOT</title>
+      <link>https://jieliu6.github.io/project/epcot/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/project/epcot/</guid>
+      <description>&lt;p&gt;Many deep learning approaches have been proposed to predict epigenetic profiles, chromatin organization, and transcription activity. While these approaches achieve satisfactory performance in predicting one modality from another, the learned representations are not generalizable across predictive tasks or across cell types. In this paper, we propose a deep learning approach named EPCOT which employs a pre-training and fine-tuning framework, and comprehensively predicts epigenome, chromatin organization, transcriptome, and enhancer activity in one framework. EPCOT is the first framework proposed to predict all of these genomic modalities and performs well in individual modality prediction, which is also generalizable to new cell and tissue types. EPCOT also maps from DNA sequence and chromatin accessibility profiles to generic representations which are generalizable across different modalities. Interpreting EPCOT model also provides biological insights including mapping between different genomic modalities, identifying TF sequence binding patterns, and analyzing cell-type specific TF impacts on enhancer activity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CAESAR</title>
+      <link>https://jieliu6.github.io/project/caesar/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/project/caesar/</guid>
+      <description>&lt;p&gt;The resolution of chromatin conformation capture technologies keeps increasing, and the recent nucleosome resolution chromatin contact maps allow us to explore how fine-scale 3D chromatin organization is related to epigenomic states in human cells. Using publicly available Micro-C datasets, we develop a deep learning model, CAESAR, to learn a mapping function from epigenomic features to 3D chromatin organization. The model accurately predicts fine-scale structures, such as short-range chromatin loops and stripes, that Hi-C fails to detect. With existing epigenomic datasets from ENCODE and Roadmap Epigenomics Project, we successfully impute high-resolution 3D chromatin contact maps for 91 human tissues and cell lines. In the imputed high-resolution contact maps, we identify the spatial interactions between genes and their experimentally validated regulatory elements, demonstrating CAESAR’s potential in coupling transcriptional regulation with 3D chromatin organization at high resolution.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>scHi-C embedding</title>
