@@ -843,6 +843,7 @@ The plot will be stored in a file.&lt;/p&gt;
 
 
 
+&lt;p&gt;&lt;strong&gt;11/2022&lt;/strong&gt; Our paper titled &amp;ldquo;GenomicKB: a knowledge graph for the human genome&amp;rdquo; was accepted for publication on Nucleic Acids Research. Congratulations to Fan and the rest of the team!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;06/2022&lt;/strong&gt; Our paper titled &amp;ldquo;NucleoMap: a computational tool for identifying nucleosomes in ultra-high resolution contact maps&amp;rdquo; was accepted for publication on PLOS Computational Biology. Congratulations to Yuanhao and Bingjiang!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;05/2022&lt;/strong&gt; Our paper titled &amp;ldquo;Characterizing collaborative transcription regulation with a graph-based deep learning approach&amp;rdquo; was accepted for publication on PLOS Computational Biology. Congratulations to Zhenhao and Fan!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;04/2022&lt;/strong&gt; Our paper titled &amp;ldquo;Connecting high-resolution 3D chromatin organization with epigenomics&amp;rdquo; is published on Nature Communications. Congratulations to Fan, Yuan, David and Xiaotian!&lt;/p&gt;
@@ -898,14 +899,6 @@ The plot will be stored in a file.&lt;/p&gt;
       <guid>https://jieliu6.github.io/project/single-cell-multi-omics-integration/</guid>
       <description>&lt;p&gt;Many single-cell sequencing technologies are now available, but it is still difficult to apply multiple sequencing technologies to the same single cell. In this paper, we propose an unsupervised manifold alignment algorithm, MMD-MA, for integrating multiple measurements carried out on disjoint aliquots of a given population of cells. Effectively, MMD-MA performs an in silico co-assay by embedding cells measured in different ways into a learned latent space. In the MMD-MA algorithm, single-cell data points from multiple domains are aligned by optimizing an objective function with three components: (1) a maximum mean discrepancy (MMD) term to encourage the differently measured points to have similar distributions in the latent space, (2) a distortion term to preserve the structure of the data between the input space and the latent space, and (3) a penalty term to avoid collapse to a trivial solution. Notably, MMD-MA does not require any correspondence information across data modalities, either between the cells or between the features. Furthermore, MMD-MA&amp;rsquo;s weak distributional requirements for the domains to be aligned allow the algorithm to integrate heterogeneous types of single cell measures, such as gene expression, DNA accessibility, chromatin organization, methylation, and imaging data. We demonstrate the utility of MMD-MA in simulation experiments and using a real data set involving single-cell gene expression and methylation data.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Systematic proteomics of endogenous human cohesin reveals an interaction with diverse splicing factors and RNA binding proteins required for mitotic progression</title>
-      <link>https://jieliu6.github.io/publication/conference-paper/systematic-proteomics-of-endogenous-human-cohesin/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://jieliu6.github.io/publication/conference-paper/systematic-proteomics-of-endogenous-human-cohesin/</guid>
-      <description></description>
     </item>
     
     <item>
