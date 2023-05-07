@@ -878,6 +878,7 @@ The plot will be stored in a file.&lt;/p&gt;
       <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://jieliu6.github.io/project/epcot/</guid>
       <description>&lt;p&gt;Many deep learning approaches have been proposed to predict epigenetic profiles, chromatin organization, and transcription activity. While these approaches achieve satisfactory performance in predicting one modality from another, the learned representations are not generalizable across predictive tasks or across cell types. In this paper, we propose a deep learning approach named EPCOT which employs a pre-training and fine-tuning framework, and comprehensively predicts epigenome, chromatin organization, transcriptome, and enhancer activity in one framework. EPCOT is the first framework proposed to predict all of these genomic modalities and performs well in individual modality prediction, which is also generalizable to new cell and tissue types. EPCOT also maps from DNA sequence and chromatin accessibility profiles to generic representations which are generalizable across different modalities. Interpreting EPCOT model also provides biological insights including mapping between different genomic modalities, identifying TF sequence binding patterns, and analyzing cell-type specific TF impacts on enhancer activity.&lt;/p&gt;
+&lt;p&gt;Web portal: &lt;a href=&#34;https://liu-bioinfo-lab.github.io/EPCOT_APP.github.io/&#34;&gt;https://liu-bioinfo-lab.github.io/EPCOT_APP.github.io/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -895,6 +896,8 @@ The plot will be stored in a file.&lt;/p&gt;
       <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://jieliu6.github.io/project/caesar/</guid>
       <description>&lt;p&gt;The resolution of chromatin conformation capture technologies keeps increasing, and the recent nucleosome resolution chromatin contact maps allow us to explore how fine-scale 3D chromatin organization is related to epigenomic states in human cells. Using publicly available Micro-C datasets, we develop a deep learning model, CAESAR, to learn a mapping function from epigenomic features to 3D chromatin organization. The model accurately predicts fine-scale structures, such as short-range chromatin loops and stripes, that Hi-C fails to detect. With existing epigenomic datasets from ENCODE and Roadmap Epigenomics Project, we successfully impute high-resolution 3D chromatin contact maps for 91 human tissues and cell lines. In the imputed high-resolution contact maps, we identify the spatial interactions between genes and their experimentally validated regulatory elements, demonstrating CAESAR’s potential in coupling transcriptional regulation with 3D chromatin organization at high resolution.&lt;/p&gt;
+&lt;p&gt;Web Portal: &lt;a href=&#34;https://nucleome.dcmb.med.umich.edu/caesar/&#34;&gt;https://nucleome.dcmb.med.umich.edu/caesar/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Source Code: &lt;a href=&#34;https://github.com/liu-bioinfo-lab/caesar&#34;&gt;https://github.com/liu-bioinfo-lab/caesar&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
