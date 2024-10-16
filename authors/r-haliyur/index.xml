@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Haliyur | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/r-haliyur/</link>
+      <atom:link href="https://jieliu6.github.io/authors/r-haliyur/index.xml" rel="self" type="application/rss+xml" />
+    <description>R Haliyur</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>R Haliyur</title>
+      <link>https://jieliu6.github.io/authors/r-haliyur/</link>
+    </image>
+    
+    <item>
+      <title>Liquid biopsy for proliferative diabetic retinopathy: single-cell transcriptomics of human vitreous reveals inflammatory T cell signature</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/liquid-biopsy-proliferative-diabetic-retinopathy/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/liquid-biopsy-proliferative-diabetic-retinopathy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

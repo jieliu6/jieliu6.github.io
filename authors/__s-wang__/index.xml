@@ -5,12 +5,20 @@
     <link>https://jieliu6.github.io/authors/__s-wang__/</link>
       <atom:link href="https://jieliu6.github.io/authors/__s-wang__/index.xml" rel="self" type="application/rss+xml" />
     <description>__S Wang__</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>__S Wang__</title>
       <link>https://jieliu6.github.io/authors/__s-wang__/</link>
     </image>
+    
+    <item>
+      <title>3D reconstruction of the mouse cochlea from scRNA-seq data suggests morphogen-based principles in apex-to-base specification</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/3d-reconstruction-mouse-cochlea-scrna-seq/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/3d-reconstruction-mouse-cochlea-scrna-seq/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mapping the regulatory landscape of auditory hair cells from single-cell multi-omics data</title>

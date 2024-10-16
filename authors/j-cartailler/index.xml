@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J Cartailler | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/j-cartailler/</link>
+      <atom:link href="https://jieliu6.github.io/authors/j-cartailler/index.xml" rel="self" type="application/rss+xml" />
+    <description>J Cartailler</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>J Cartailler</title>
+      <link>https://jieliu6.github.io/authors/j-cartailler/</link>
+    </image>
+    
+    <item>
+      <title>CNTools: A computational toolbox for cellular neighborhood analysis from multiplexed images</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/cn-tools/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/cn-tools/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,52 @@
     <link>https://jieliu6.github.io/authors/__j-liu__/</link>
       <atom:link href="https://jieliu6.github.io/authors/__j-liu__/index.xml" rel="self" type="application/rss+xml" />
     <description>__J Liu__</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Wed, 31 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>__J Liu__</title>
       <link>https://jieliu6.github.io/authors/__j-liu__/</link>
     </image>
+    
+    <item>
+      <title>Liquid biopsy for proliferative diabetic retinopathy: single-cell transcriptomics of human vitreous reveals inflammatory T cell signature</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/liquid-biopsy-proliferative-diabetic-retinopathy/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/liquid-biopsy-proliferative-diabetic-retinopathy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CNTools: A computational toolbox for cellular neighborhood analysis from multiplexed images</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/cn-tools/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/cn-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D reconstruction of the mouse cochlea from scRNA-seq data suggests morphogen-based principles in apex-to-base specification</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/3d-reconstruction-mouse-cochlea-scrna-seq/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/3d-reconstruction-mouse-cochlea-scrna-seq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mapping the developmental potential of mouse inner ear organoids at single-cell resolution</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/mapping-developmental-potential-mouse-inner-ear-organoids-single-cell-resolution/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/mapping-developmental-potential-mouse-inner-ear-organoids-single-cell-resolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic risk converges on regulatory networks mediating early type 2 diabetes</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/genetic-risk-type-2-diabetes/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/genetic-risk-type-2-diabetes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A generalizable framework to comprehensively predict epigenome, chromatin organization, and transcriptome</title>

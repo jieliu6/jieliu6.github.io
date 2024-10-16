@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S Chakraborty | Liu Lab</title>
+    <link>https://jieliu6.github.io/authors/s-chakraborty/</link>
+      <atom:link href="https://jieliu6.github.io/authors/s-chakraborty/index.xml" rel="self" type="application/rss+xml" />
+    <description>S Chakraborty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>S Chakraborty</title>
+      <link>https://jieliu6.github.io/authors/s-chakraborty/</link>
+    </image>
+    
+    <item>
+      <title>3D reconstruction of the mouse cochlea from scRNA-seq data suggests morphogen-based principles in apex-to-base specification</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/3d-reconstruction-mouse-cochlea-scrna-seq/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/3d-reconstruction-mouse-cochlea-scrna-seq/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

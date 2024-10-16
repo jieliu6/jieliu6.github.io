@@ -5,12 +5,20 @@
     <link>https://jieliu6.github.io/authors/__f-feng__/</link>
       <atom:link href="https://jieliu6.github.io/authors/__f-feng__/index.xml" rel="self" type="application/rss+xml" />
     <description>__F Feng__</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>__F Feng__</title>
       <link>https://jieliu6.github.io/authors/__f-feng__/</link>
     </image>
+    
+    <item>
+      <title>CNTools: A computational toolbox for cellular neighborhood analysis from multiplexed images</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/cn-tools/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/cn-tools/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GenomicKB: a knowledge graph for the human genome</title>

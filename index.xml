@@ -5,7 +5,7 @@
     <link>https://jieliu6.github.io/</link>
       <atom:link href="https://jieliu6.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Liu Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Wed, 31 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2023 Jie Liu</copyright><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Liu Lab</title>
@@ -790,6 +790,46 @@ The plot will be stored in a file.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Liquid biopsy for proliferative diabetic retinopathy: single-cell transcriptomics of human vitreous reveals inflammatory T cell signature</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/liquid-biopsy-proliferative-diabetic-retinopathy/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/liquid-biopsy-proliferative-diabetic-retinopathy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CNTools: A computational toolbox for cellular neighborhood analysis from multiplexed images</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/cn-tools/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/cn-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D reconstruction of the mouse cochlea from scRNA-seq data suggests morphogen-based principles in apex-to-base specification</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/3d-reconstruction-mouse-cochlea-scrna-seq/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/3d-reconstruction-mouse-cochlea-scrna-seq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mapping the developmental potential of mouse inner ear organoids at single-cell resolution</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/mapping-developmental-potential-mouse-inner-ear-organoids-single-cell-resolution/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/mapping-developmental-potential-mouse-inner-ear-organoids-single-cell-resolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic risk converges on regulatory networks mediating early type 2 diabetes</title>
+      <link>https://jieliu6.github.io/publication/journal-paper/genetic-risk-type-2-diabetes/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://jieliu6.github.io/publication/journal-paper/genetic-risk-type-2-diabetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A generalizable framework to comprehensively predict epigenome, chromatin organization, and transcriptome</title>
       <link>https://jieliu6.github.io/publication/journal-paper/epcot/</link>
       <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
@@ -923,6 +963,12 @@ The plot will be stored in a file.&lt;/p&gt;
 
 
 
+&lt;p&gt;&lt;strong&gt;08/2024&lt;/strong&gt; Dr. Liu received Endowment for the Basic Sciences Teaching Award 2024. &lt;a href=https://medschool.umich.edu/department-news/jie-liu-phd-and-weichen-arthur-zhou-phd-were-recognized-university-michigan-endowment-basic-sciences&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;08/2024&lt;/strong&gt; Yicheng Tao&amp;rsquo;s CNTools work was published on &lt;a href=&#39;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012344&#39;&gt;PLoS CB&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;04/2024&lt;/strong&gt; Shuze&amp;rsquo;s work was published on Developmental Cell. &lt;a href=https://medschool.umich.edu/department-news/former-dcmb-phd-student-dr-shuze-wang-published-developmental-cell&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;03/2024&lt;/strong&gt; The Liu Lab is a part of the new NIDDK project PanKbase. &lt;a href=https://www.michiganmedicine.org/research-news/teams-create-one-stop-resource-human-pancreatic-data-foster-diabetes-research&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;12/2023&lt;/strong&gt; Our collaborative work got published on Nature. &lt;a href=https://www.michiganmedicine.org/health-lab/study-links-gene-network-and-pancreatic-beta-cell-defects-type-2-diabetes&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;12/2023&lt;/strong&gt; Congratulations to Fan who successfully defended his PhD thesis and will join Vanderbilt University Medical Center as a research fellow! &lt;a href=https://medicine.vumc.org/department-directory/Fan-Feng&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;05/2023&lt;/strong&gt; Our paper titled &amp;ldquo;A generalizable framework to comprehensively predict epigenome, chromatin organization, and transcriptome&amp;rdquo; was accepted for publication on Nucleic Acids Research. Congratulations to Zhenhao and the rest of the team!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;04/2023&lt;/strong&gt; Congratulations to Shuze who successfully defended her PhD thesis and will join Massachusetts General Hospital as a staff scientist!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;11/2022&lt;/strong&gt; Our paper titled &amp;ldquo;GenomicKB: a knowledge graph for the human genome&amp;rdquo; was accepted for publication on Nucleic Acids Research. Congratulations to Fan and the rest of the team!&lt;/p&gt;
@@ -934,7 +980,7 @@ The plot will be stored in a file.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;08/2021&lt;/strong&gt;  Together with Lana, Josh and Smita, we organized a workshop on machine-learning methods for single-cell analysis (&lt;a href=&#34;https://sites.google.com/view/new-trends-in-single-cell-geno/home&#34;&gt;https://sites.google.com/view/new-trends-in-single-cell-geno/home&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;07/2021&lt;/strong&gt; Three graduate students Linghua Jiang, Zheyu Zhang, and Yicheng Tao joined the lab.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;04/2021&lt;/strong&gt; scHiCTools paper was accepted for publication in PLOS Computational Biology. Congratulations to Xinjun, Fan, Hongxi and Wai Yan.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;04/2021&lt;/strong&gt; Shuze Wang&amp;rsquo;s work was published on Genome Research &lt;a href=&#34;https://genome.cshlp.org/content/early/2021/04/09/gr.271080.120.abstract&#34;&gt;https://genome.cshlp.org/content/early/2021/04/09/gr.271080.120.abstract&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;04/2021&lt;/strong&gt; Shuze Wang&amp;rsquo;s work was published on &lt;a href=https://genome.cshlp.org/content/early/2021/04/09/gr.271080.120.abstract&gt;Genome Research&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;03/2021&lt;/strong&gt; Sean Moran decided to join the lab after his rotation. Welcome, Sean!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;10/2020&lt;/strong&gt; Zhenhao Zhang joined the lab and entered BIOINFO PhD program after finishing his master of IOE. Welcome, Zhenhao!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;09/2020&lt;/strong&gt;  Liu Lab received the NHGRI Innovator Award (R35) to develop deep learning approaches to understand the relationship between chromatin state features and chromatin organization.&lt;/p&gt;
