@@ -1,0 +1,40 @@
+{
+  "address": "NCRC Bldg 520, Room 3212, 1600 Huron Parkway, Ann Arbor, MI 48109",
+  "copyright_text": "Copyright © 2026 - 2030 Liu Lab. All rights reserved.",
+  "supported_by_title": "Supported by",
+  "contact_title": "Contact",
+  "logos": [
+    {
+      "alt": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "src": "/images/footer/footer1.svg"
+    },
+    {
+      "alt": "National Human Genome Research Institute",
+      "src": "/images/footer/footer2.svg"
+    },
+    {
+      "alt": "The Common Fund",
+      "src": "/images/footer/footer3.svg"
+    },
+    {
+      "alt": "NIH Office of Data Science Strategy",
+      "src": "/images/footer/footer4.svg"
+    },
+    {
+      "alt": "MIDAS - Michigan Institute for Data Science",
+      "src": "/images/footer/logo_midas.png"
+    },
+    {
+      "alt": "M-cubed",
+      "src": "/images/footer/logo_mcubed.png"
+    },
+    {
+      "alt": "The Leona M. and Harry B. Helmsley Charitable Trust",
+      "src": "/images/footer/logo_helmsley.png"
+    },
+    {
+      "alt": "U.S. Department of Energy",
+      "src": "/images/footer/logo_doe.png"
+    }
+  ]
+}

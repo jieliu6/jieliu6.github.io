@@ -1,0 +1,135 @@
+[
+  {
+    "id": 2,
+    "title": "PanKgraph",
+    "description": "A centralized open-access resource for human pancreas and diabetes research",
+    "image_url": "/images/projects/pankgraph.svg",
+    "slug": "pankgraph",
+    "tags": [
+      "Highlight",
+      "Biomedical Applications"
+    ],
+    "header_description": "A Centralized Open-Access Resource for Human Pancreas and Diabetes Research",
+    "header_tag": "Web Portal",
+    "header_tag_url": "https://pankgraph.org/",
+    "content": "**PanKgraph** is a question-oriented data portal for type 1 diabetes (T1D) research that organizes curated biological knowledge into a graph-based framework for efficient search, exploration, and interpretation. Built around FAIR principles, it emphasizes findability, accessibility, interoperability, and reusability of integrated data. PanKgraph connects structured provenance, literature evidence, and T1D-focused domain knowledge to support transparent, traceable, and biologically grounded inquiry. It is designed to help researchers move from research questions to interpretable knowledge with clear source attribution and contextual support."
+  },
+  {
+    "id": 4,
+    "title": "EPCOT",
+    "description": "A generalizable genomic foundation model for comprehensive multi-modal prediction",
+    "image_url": "/images/projects/epcot.png",
+    "slug": "epcot",
+    "tags": [
+      "Computational Genomics",
+      "Machine Learning"
+    ],
+    "header_description": "A Generalizable Genomic Foundation Model for Comprehensive Multi-modal Prediction",
+    "header_tags": [
+      { "tag": "Github", "url": "https://github.com/liu-bioinfo-lab/general_AI_model" },
+      { "tag": "Model Checkpoints", "url": "https://huggingface.co/spaces/drjieliu/EPCOTv2-app/tree/main/models" },
+      { "tag": "Tutorial", "url": "https://colab.research.google.com/github/liu-bioinfo-lab/general_AI_model/blob/main/epcotv2_basic_tutorial.ipynb" },
+      { "tag": "Web Portal", "url": "https://huggingface.co/spaces/drjieliu/EPCOTv2-app" }
+    ],
+    "content": "**EPCOT** (Epigenome, Chromatin Organization, and Transcription) is a unified **deep learning** framework that integrates **DNA sequence** and **chromatin accessibility** data to jointly predict epigenomic features, gene expression, chromatin organization, and enhancer activity within a single architecture. Built on a **pre-training and fine-tuning** paradigm, EPCOT generalizes across diverse and unseen cell types, enabling **in silico** prediction of experimentally intensive assays, including **ChIP-seq**, **Hi-C**, and **CAGE-seq**, substantially reducing experimental cost and technical barriers. Interpretable outputs further reveal **transcription factor** binding patterns and **enhancer–gene** regulatory relationships, supporting broad applications in disease biology and **precision medicine**."
+  },
+  {
+    "id": 5,
+    "title": "Genomic Literature Knowledge Base",
+    "description": "AI-powered literature mining for actionable genomic knowledge",
+    "image_url": "/images/projects/glkb.png",
+    "slug": "genomic-literature-knowledge-base",
+    "tags": [
+      "Highlight",
+      "Knowledge Graphs"
+    ],
+    "header_description": "AI-Powered Literature Mining for Actionable Genomic Knowledge",
+    "header_tag": "Web Portal",
+    "header_tag_url": "https://glkb.org/",
+    "content": "Large language models (LLMs) are increasingly deployed as agentic systems in genomics, but their effectiveness depends on grounding reasoning in structured, verifiable resources. **Knowledge graphs (KGs)** provide such an environment, offering rigorously defined schemas that integrate heterogeneous biomedical evidence. To unlock the literature’s potential for **agentic reasoning**, we developed LiteralGraph, a scalable framework that extracts biomedical entities and relationships from **PubMed** and aligns them with controlled vocabularies and the BioCypher schema. The resulting Genomic Literature Knowledge Base (GLKB) consolidates over **14 million** relationships among **3.3 million** terms from **38 million** PubMed abstracts and curated repositories. GLKB is accessible via APIs and a web interface, enabling broad use in genomics and biomedical AI. We demonstrate its utility in three applications: (i) improving biomedical question answering through agentic retrieval-augmented generation, (ii) supporting hypothesis generation from experimental data, and (iii) providing semantic embeddings that enhance downstream machine learning tasks."
+  },
+  {
+    "id": 6,
+    "title": "GenomicKB",
+    "description": "A graph database for human genome, epigenome, transcriptome, and 4D nucleome",
+    "image_url": "/images/projects/genomic-knowledge-graph.png",
+    "slug": "genomic-knowledge-graph",
+    "tags": [
+      "Highlight",
+      "Knowledge Graphs"
+    ],
+    "header_description": "A Graph Database for Human Genome, Epigenome, Transcriptome, and 4D Nucleome",
+    "header_tag": "Web Portal",
+    "header_tag_url": "https://gkb.dcmb.med.umich.edu/",
+    "content": "Genomic Knowledgebase (GenomicKB) is a database that uses a knowledge graph to consolidate genomic datasets and annotations. GenomicKB integrates data from more than 30 consortia, in which the genomic entities and relationships are represented as diverse nodes and edges with properties."
+  },
+  {
+    "id": 1,
+    "title": "Multimodal AI in T1D (MAI-T1D)",
+    "description": "Multimodal AI for comprehensive mapping and precision prevention of Type 1 Diabetes",
+    "image_url": "/images/projects/mai-t1d.jpg",
+    "slug": "mai-t1d",
+    "tags": [
+      "Multimodal AI",
+      "Web Portal"
+    ],
+    "header_description": "Multimodal AI for Comprehensive Mapping and Precision Prevention of Type 1 Diabetes",
+    "header_tag": "Press Release",
+    "header_tag_url": "https://medschool.umich.edu/department-news/new-collaborative-better-predict-prevent-and-treat-type-1-diabetes",
+    "content": "**MAI-T1D** is an NIH-funded collaborative initiative that integrates advanced **AI** with **multi-modal biomedical** data, including **genomics**, **proteomics**, and **single-cell** and **spatial multi-omics**, to map **Type 1 Diabetes (T1D)** progression from early immune dysregulation to clinical onset. By developing next-generation **foundation models** capable of capturing complex biological interactions, the project enables systematic identification of disease biomarkers, therapeutic targets, and at-risk individuals. Leveraging large-scale datasets from HPAP ,TEDDY, ImmPort/ITN and TrialNet, MAI-T1D supports cross-scale analysis spanning molecular to clinical levels, with key capabilities including genotype-to-phenotype mapping, disease signature identification, and real-time risk prediction, ultimately advancing precision prevention strategies for T1D."
+  },
+  {
+    "id": 3,
+    "title": "CelLink",
+    "description": "Integrating single-cell multi-omics data with weak feature linkage and imbalanced cell populations",
+    "image_url": "/images/projects/cellink.svg",
+    "slug": "cellink",
+    "tags": [
+      "Highlight",
+      "Computational Genomics"
+    ],
+    "header_description": "Integrating single-cell multi-omics data with weak feature linkage and imbalanced cell populations",
+    "header_tag": "Publication",
+    "header_tag_url": "https://doi.org/10.1093/nar/gkaf1270",
+    "content": "**CelLink** addresses key challenges in **single-cell multi-omics integration**, including weak **feature linkage** across modalities and **imbalanced cell populations**. Variability between data types—such as transcriptomics, proteomics, and epigenomics—often leads to unreliable **cell alignment**, particularly in complex systems like pancreatic tissues.\n\nThe method employs a multi-phase **optimal transport** framework to iteratively refine cell correspondences. It combines normalization, balanced and unbalanced transport, and iterative filtering to identify confidently matched cells while excluding unreliable alignments. This enables robust integration across modalities such as **scRNA-seq** and **spatial proteomics**.\n\nValidated across multiple benchmark datasets, CellLink demonstrates strong performance in both balanced and imbalanced settings. It supports scalable analysis and downstream tasks including **spatial mapping**, cell subtype annotation, and **multi-modal representation learning**."
+  },
+  {
+    "id": 7,
+    "title": "ECHO",
+    "description": "Predicting chromatin features from 3D chromatin organization",
+    "image_url": "/images/projects/echo.png",
+    "slug": "echo",
+    "tags": ["Machine Learning", "Computational Genomics"],
+    "header_description": "Predicting Chromatin Features from 3D Chromatin Organization",
+    "header_tags": [
+      { "tag": "Github", "url": "https://github.com/liu-bioinfo-lab/echo" }
+    ],
+    "content": "Existing **sequence-based deep learning** models characterize the epigenome using DNA sequences alone, overlooking **transcription factor (TF)** interactions that extend beyond linear sequence context. To address this, we developed **ECHO**, a **graph-based neural network** that integrates **3D chromatin organization** from **200-bp high-resolution Micro-C** contact maps to predict chromatin features and model **TF collaboration**. ECHO successfully predicted **2,583 chromatin features**, achieving superior **AUROC** and **AUPR** compared to leading sequence-based models. **Gradient-based attribution** analysis revealed that chromatin contacts of varying distances differentially influence feature prediction, while attributions on DNA sequences identified TF binding motifs, cooperative binding patterns, and neighborhood sequence contexts relevant to chromatin feature prediction."
+  },
+  {
+    "id": 8,
+    "title": "CAESAR",
+    "description": "Learning the mapping from epigenomic features to 3D chromatin organization at nucleosome resolution",
+    "image_url": "/images/projects/caesar.png",
+    "slug": "caesar",
+    "tags": ["Machine Learning", "Computational Genomics"],
+    "header_description": "Learning the mapping from epigenomic features to 3D chromatin organization at nucleosome resolution",
+    "header_tags": [
+      { "tag": "Web Portal", "url": "https://nucleome.dcmb.med.umich.edu/caesar/" },
+      { "tag": "Github", "url": "https://github.com/liu-bioinfo-lab/caesar" }
+    ],
+    "content": "Advances in **chromatin conformation capture** technologies now enable exploration of fine-scale **3D chromatin organization** at **nucleosome resolution**. We developed **CAESAR**, a **deep learning** model trained on public **Micro-C** datasets, to learn the mapping from epigenomic features to 3D chromatin organization. CAESAR accurately predicts fine-scale structures, including short-range **chromatin loops** and **stripes**, undetectable by conventional **Hi-C**. Leveraging epigenomic data from **ENCODE** and the **Roadmap Epigenomics Project**, we imputed high-resolution chromatin contact maps across **91 human tissues and cell lines**, enabling systematic identification of spatial **gene–regulatory element** interactions and demonstrating CAESAR's potential to link **transcriptional regulation** with high-resolution **3D chromatin architecture**."
+  },
+  {
+    "id": 9,
+    "title": "Single-Cell Multi-Omics Integration",
+    "description": "Unsupervised manifold alignment (MMD-MA) for integrating single-cell data across modalities",
+    "image_url": "/images/projects/mmd-ma.png",
+    "slug": "single-cell-multi-omics-integration",
+    "tags": ["Machine Learning"],
+    "header_description": "Unsupervised manifold alignment for in silico co-assay of single-cell data across modalities",
+    "header_tag": null,
+    "header_tag_url": null,
+    "content": "Simultaneously profiling multiple modalities in the same single cell remains technically challenging. We propose **MMD-MA**, an unsupervised **manifold alignment** algorithm that enables **in silico co-assay** by embedding cells from disjoint aliquots into a **shared latent space**. The algorithm optimizes a three-component objective: a **maximum mean discrepancy (MMD)** term to align cross-modal distributions, a **distortion** term to preserve local data structure, and a **penalty** term to prevent trivial solutions. Requiring no cross-modal correspondence, MMD-MA accommodates heterogeneous data types—including gene expression, DNA accessibility, chromatin organization, methylation, and imaging—as demonstrated through simulation experiments and real single-cell gene expression and methylation datasets."
+  }
+]

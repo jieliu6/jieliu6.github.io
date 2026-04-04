@@ -1,0 +1,43 @@
+{
+  "title": "Join Us",
+  "intro": "We are always looking for highly motivated and talented individuals to join the Liu Lab. Our research sits at the intersection of machine learning, computational biology, and biomedical informatics. If you are passionate about making an impact in healthcare through data-driven science, we'd love to hear from you.",
+  "positionsTitle": "Open Positions",
+  "applyEmail": "kailiua@umich.edu",
+  "positions": [
+    {
+      "title": "Postdoctoral Researcher – AI for Biomedical Data Science",
+      "dept": "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics (DCMB) & Medical School, University of Michigan",
+      "location": "Ann Arbor, MI",
+      "positionType": "Postdoctoral Researcher (Full-time)",
+      "status": "Open",
+      "contact": "kailiua@umich.edu | Subject line: \"Postdoctoral Researcher Application – AI for Biomedical Data\"",
+      "desc": "We are seeking a highly motivated Postdoctoral Researcher to work at the intersection of AI and biomedicine. The position is jointly funded by the Medical School and Dr. Jie Liu's research (DCMB), with access to large-scale multimodal datasets and close collaboration with clinicians and biomedical researchers.",
+      "applySubject": "Postdoctoral Researcher Application – AI for Biomedical Data",
+      "fullDescription": "POSITION OVERVIEW\nWe are seeking a highly motivated Postdoctoral Researcher to join our interdisciplinary lab in the Medical School at the University of Michigan, working at the intersection of AI and biomedicine.\n\nRESEARCH FOCUS\n• AI / machine learning for biomedical data\n• Foundation models for multi-omics and clinical data\n• Multimodal data integration (genomics, imaging, clinical)\n• Data-driven disease research (e.g., Type 1 Diabetes)\n\nRESPONSIBILITIES\n• Develop advanced AI models (deep learning, foundation models)\n• Analyze large-scale biomedical datasets\n• Collaborate with interdisciplinary teams\n• Contribute to publications and mentoring\n\nQUALIFICATIONS\nRequired:\n• PhD in CS, Data Science, Bioinformatics, or related field\n• Strong AI/ML background and Python skills\n• Experience with PyTorch or TensorFlow\n\nPreferred:\n• Experience with foundation models or large-scale data\n• Familiarity with biomedical data\n\nWHY JOIN US\n• Work on cutting-edge AI with real-world biomedical impact\n• Access to rich multimodal datasets\n• Collaborative, interdisciplinary environment\n\nAPPLICATION\nPlease send CV, research statement, and publications (if available).\n\nInterested candidates may consider postdoctoral fellowship through MIDAS: https://midas.umich.edu/training/postdoctoral-programs/"
+    },
+    {
+      "title": "Student Research Assistant – Multimodal AI Systems for Type 1 Diabetes",
+      "dept": "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics (DCMB), University of Michigan Medical School",
+      "location": "NCRC Building 520, Ann Arbor, MI",
+      "positionType": "Student Research Assistant — Hourly Paid or Academic Credit",
+      "hours": "10–20 hours per week (Flexible)",
+      "duration": "Summer 2025, with possibility of extension",
+      "contact": "kailiua@umich.edu | Subject line: \"RA Application\"",
+      "applySubject": "RA Application",
+      "status": "Open",
+      "desc": "We are seeking motivated students with a strong background in Computer Science, Artificial Intelligence, Data Science, or related fields to join our research team. This project focuses on developing multimodal AI systems for Type 1 Diabetes (T1D) by integrating large-scale biomedical datasets, including genomics, single-cell omics, spatial biology, and clinical data. Part of an NIH R01-funded project.",
+      "fullDescription": "POSITION DESCRIPTION\nWe are seeking motivated students with a strong background in Computer Science, Artificial Intelligence, Data Science, or related fields to join our research team at the University of Michigan Medical School. This project focuses on developing multimodal AI systems for Type 1 Diabetes (T1D) by integrating large-scale biomedical datasets, including genomics, single-cell omics, spatial biology, and clinical data. Students will work in an interdisciplinary environment alongside computational scientists, clinicians, and AI researchers.\nThis work is part of an ongoing NIH R01-funded project focused on applying AI approaches to understand and predict the progression of Type 1 Diabetes using multimodal biological data.\n\nRESPONSIBILITIES\n– Assist with the development and training of single-cell foundation models (scFM)\n– Support the implementation of multimodal AI model pipelines\n– Contribute to AI agent systems for biomedical data analysis\n– Perform data preprocessing, model evaluation, and result visualization\n– Collaborate with the research team on large-scale biomedical AI projects\n\nPREFERRED QUALIFICATIONS\n– Background in Computer Science, AI/ML, Bioinformatics, or Data Science\n– Experience with Python and deep learning frameworks (e.g., PyTorch)\n– Familiarity with machine learning, foundation models, or multimodal AI\n– Experience with single-cell or genomic data analysis is a plus\n– Strong problem-solving skills and ability to work in a collaborative research environment\n\nHOW TO APPLY\nPlease email kailiua@umich.edu with the subject line \"RA Application\" and include a short personal introduction describing your background and research interests, along with your current CV or resume."
+    },
+    {
+      "title": "Full-time Research Assistant – Multimodal AI Systems for Type 1 Diabetes",
+      "dept": "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics (DCMB), University of Michigan Medical School",
+      "location": "NCRC Building 520, Ann Arbor, MI",
+      "positionType": "Full-time Research Assistant",
+      "contact": "kailiua@umich.edu | Subject line: \"Full-time RA Application\"",
+      "applySubject": "Full-time RA Application",
+      "status": "Open",
+      "desc": "We are seeking a motivated full-time Research Assistant with a strong background in Computer Science, Artificial Intelligence, Data Science, or related fields to join our research team. This project focuses on developing multimodal AI systems for Type 1 Diabetes (T1D) by integrating large-scale biomedical datasets, including genomics, single-cell omics, spatial biology, and clinical data. Part of an NIH R01-funded project.",
+      "fullDescription": "POSITION DESCRIPTION\nWe are seeking a motivated full-time Research Assistant with a strong background in Computer Science, Artificial Intelligence, Data Science, or related fields to join our research team at the University of Michigan Medical School. This project focuses on developing multimodal AI systems for Type 1 Diabetes (T1D) by integrating large-scale biomedical datasets, including genomics, single-cell omics, spatial biology, and clinical data. The successful candidate will work in an interdisciplinary environment alongside computational scientists, clinicians, and AI researchers.\nThis work is part of an ongoing NIH R01-funded project focused on applying AI approaches to understand and predict the progression of Type 1 Diabetes using multimodal biological data.\n\nRESPONSIBILITIES\n– Assist with the development and training of single-cell foundation models (scFM)\n– Support the implementation of multimodal AI model pipelines\n– Contribute to AI agent systems for biomedical data analysis\n– Perform data preprocessing, model evaluation, and result visualization\n– Collaborate with the research team on large-scale biomedical AI projects\n\nPREFERRED QUALIFICATIONS\n– Background in Computer Science, AI/ML, Bioinformatics, or Data Science\n– Experience with Python and deep learning frameworks (e.g., PyTorch)\n– Familiarity with machine learning, foundation models, or multimodal AI\n– Experience with single-cell or genomic data analysis is a plus\n– Strong problem-solving skills and ability to work in a collaborative research environment\n\nHOW TO APPLY\nPlease email kailiua@umich.edu with the subject line \"Full-time RA Application\" and include a short personal introduction describing your background and research interests, along with your current CV or resume."
+    }
+  ]
+}

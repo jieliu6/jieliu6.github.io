@@ -1,0 +1,264 @@
+[
+  {
+    "id": 1,
+    "date": "2025-10-16",
+    "title": "A New Collaborative to Better Predict, Prevent, and Treat Type 1 Diabetes (T1D)",
+    "category": "Lab Milestones",
+    "image_url": "/images/news/t1d-collaborative.svg",
+    "featured": 1,
+    "link_url": "https://medschool.umich.edu/department-news/new-collaborative-better-predict-prevent-and-treat-type-1-diabetes"
+  },
+  {
+    "id": 2,
+    "date": "2025-01-16",
+    "title": "Yiqun Wang, PhD student: Giving back to the biomedical field through research",
+    "category": "Lab Milestones",
+    "image_url": "/images/news/yiqun-wang-research.svg",
+    "featured": 1,
+    "link_url": "https://medschool.umich.edu/points-blue/yiqun-wang-phd-candidate-giving-back-biomedical-field-through-research"
+  },
+  {
+    "id": 10,
+    "date": "2026-01-15",
+    "title": "Our Quagga paper was published on Genome Research. Congratulations to Fan, Sean and the rest of the team!",
+    "category": "Publications",
+    "image_url": "https://genome.cshlp.org/local/img/journal_logo_standalone.gif",
+    "featured": 1,
+    "link_url": "https://doi.org/10.1101/gr.280132.124"
+  },
+  {
+    "id": 8,
+    "date": "2024-10-30",
+    "title": "Dr. Liu presented \"Building knowledge graphs towards transparent biomedical AI\" at NIH/NIDDK AI in Precision Medicine Workshop",
+    "category": "Talks & Events",
+    "image_url": "/images/news/niddk-ai-workshop.svg",
+    "featured": 0,
+    "link_url": "https://www.niddk.nih.gov/news/meetings-workshops/2024/artificial-intelligence-in-precision-medicine-of-diabetes-2024?agenda"
+  },
+  {
+    "id": 4,
+    "date": "2024-08-28",
+    "title": "Yicheng Tao's CNTools work was published on PLoS CB",
+    "category": "Lab Milestones",
+    "image_url": "/images/news/cntools-publication.svg",
+    "featured": 1,
+    "link_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012344"
+  },
+  {
+    "id": 5,
+    "date": "2024-07-26",
+    "title": "Dr. Liu received Endowment for the Basic Sciences Teaching Award 2024",
+    "category": "Awards & Honors",
+    "image_url": "/images/news/teaching-award-2024.svg",
+    "featured": 1,
+    "link_url": "https://medschool.umich.edu/department-news/jie-liu-phd-and-weichen-arthur-zhou-phd-were-recognized-university-michigan-endowment-basic-sciences"
+  },
+  {
+    "id": 6,
+    "date": "2024-05-17",
+    "title": "Five DCMB faculty are promoted, congratulations!",
+    "category": "Lab Milestones",
+    "image_url": "/images/news/dcmb-faculty-promoted.svg",
+    "featured": 1,
+    "link_url": "https://medschool.umich.edu/department-news/five-dcmb-faculty-are-promoted-congratulations"
+  },
+  {
+    "id": 7,
+    "date": "2024-04-09",
+    "title": "Former DCMB PhD student Dr. Shuze Wang published in \"Developmental Cell\"",
+    "liu_lab_publication": false,
+    "category": "Lab Milestones",
+    "image_url": "/images/news/shuze-wang-publication.svg",
+    "featured": 1,
+    "link_url": "https://medschool.umich.edu/department-news/dcmb-trainees-2024-highlights"
+  },
+  {
+    "id": 9,
+    "date": "2024-03-25",
+    "title": "The Liu Lab is a part of the new NIDDK project PanKbase.",
+    "category": "Lab Milestones",
+    "image_url": "/images/news/pankbase-project.svg",
+    "featured": 0,
+    "link_url": "https://www.michiganmedicine.org/research-news/teams-create-one-stop-resource-human-pancreatic-data-foster-diabetes-research"
+  },
+    {
+    "id": 11,
+    "date": "2023-12-01",
+    "title": "Congratulations to Fan who successfully defended his PhD thesis and will join Vanderbilt University Medical Center as a research fellow!",
+    "category": "Lab Milestones",
+    "image_url": "/images/news/fan-feng-defense.svg",
+    "featured": 0,
+    "link_url": "https://medicine.vumc.org/department-directory/Fan-Feng"
+  },
+  {
+    "id": 12,
+    "date": "2023-05-01",
+    "title": "Our paper \"A generalizable framework to comprehensively predict epigenome, chromatin organization, and transcriptome\" was accepted for publication on Nucleic Acids Research. Congratulations to Zhenhao and the rest of the team!",
+    "category": "Publications",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 13,
+    "date": "2023-04-01",
+    "title": "Congratulations to Shuze who successfully defended her PhD thesis and will join Massachusetts General Hospital as a staff scientist!",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 14,
+    "date": "2022-11-01",
+    "title": "Our paper \"GenomicKB: a knowledge graph for the human genome\" was accepted for publication on Nucleic Acids Research. Congratulations to Fan and the rest of the team!",
+    "category": "Publications",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 15,
+    "date": "2022-06-01",
+    "title": "Our paper \"NucleoMap: a computational tool for identifying nucleosomes in ultra-high resolution contact maps\" was accepted for publication on PLOS Computational Biology. Congratulations to Yuanhao and Bingjiang!",
+    "category": "Publications",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 17,
+    "date": "2022-04-01",
+    "title": "Our paper \"Connecting high-resolution 3D chromatin organization with epigenomics\" was published on Nature Communications. Congratulations to Fan, Yuan, David and Xiaotian!",
+    "category": "Publications",
+    "image_url": null,
+    "featured": 1,
+    "link_url": null
+  },
+  {
+    "id": 19,
+    "date": "2021-09-01",
+    "title": "Together with Dr. Welch, Dr. Liu taught a new course BIOINF593/EECS598-011: Machine Learning in Computational Biology.",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 20,
+    "date": "2021-08-01",
+    "title": "We organized a workshop on machine-learning methods for single-cell analysis.",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 21,
+    "date": "2021-07-01",
+    "title": "Three graduate students Linghua Jiang, Zheyu Zhang, and Yicheng Tao joined the lab.",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 22,
+    "date": "2021-04-01",
+    "title": "scHiCTools paper was accepted for publication in PLOS Computational Biology. Congratulations to Xinjun, Fan, Hongxi and Wai Yan.",
+    "category": "Publications",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 24,
+    "date": "2021-03-01",
+    "title": "Sean Moran joined the lab after his rotation. Welcome, Sean!",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 25,
+    "date": "2020-10-01",
+    "title": "Zhenhao Zhang joined the lab and entered the BIOINFO PhD program. Welcome, Zhenhao!",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 26,
+    "date": "2020-09-01",
+    "title": "Liu Lab received the NHGRI Innovator Award (R35).",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 27,
+    "date": "2020-08-01",
+    "title": "Congratulations to Yuanhao for passing his prelim exam.",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 28,
+    "date": "2020-04-01",
+    "title": "Congratulations to our past trainees who were admitted to top graduate programs.",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 29,
+    "date": "2019-12-01",
+    "title": "Congratulations to Fan and Shuze for passing their prelim exams.",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 30,
+    "date": "2019-11-01",
+    "title": "Dr. Liu formally joined the 4DN Consortium as an associate member.",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 31,
+    "date": "2019-09-01",
+    "title": "Yuanhao Huang joined the lab and transferred to the DCMB PhD program.",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 32,
+    "date": "2019-05-01",
+    "title": "Fan Feng and Shuze Wang joined the lab as DCMB PhD students.",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  },
+  {
+    "id": 33,
+    "date": "2019-01-01",
+    "title": "Liu Lab officially started in the Department of Computational Medicine and Bioinformatics at the University of Michigan.",
+    "category": "People & Career",
+    "image_url": null,
+    "featured": 0,
+    "link_url": null
+  }
+]

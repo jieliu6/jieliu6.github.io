@@ -1,0 +1,40 @@
+{
+  "content": "Dr. Liu's research lab develops computational methods, tools, and resources for understanding the human genome and diseases such as diabetes. Recently, the methodology focuses are knowledge graphs and foundation models. We have developed a knowledge graph [GenomicKB](/projects/genomic-knowledge-graph) to accumulate human-readable knowledge about the human genome. We have extracted genomic knowledge from PubMed and developed another knowledge graph [GLKB](/projects/genomic-literature-knowledge-base). We have also developed a genomic foundation model [EPCOT](/projects/epcot) which comprehensively predicts multiple genomic modalities.\n\nThe lab currently participates in several NIH consortia, including 4DN, IGVF, HIRN, CFDE, and the recent PanKbase program. In particular, Dr. Liu co-leads the Machine Learning Focus Group at IGVF, co-leads the Data/Metadata Working Group at PanKbase, and leads the development of [PanKgraph](https://pankgraph.org/), the knowledge graph within the PanKbase system.",
+  "researchAreas": {
+    "title": "Research Areas",
+    "items": [
+      { "area": "Knowledge Graphs", "slug": "genomic-literature-knowledge-base" },
+      { "area": "Multimodal AI", "slug": "mai-t1d" },
+      { "area": "Computational Genomics", "slug": "cellink" },
+      { "area": "Machine Learning", "slug": "epcot" },
+      { "area": "Biomedical Applications", "slug": "pankgraph" }
+    ]
+  },
+  "labHighlights": {
+    "title": "Lab Highlights",
+    "defaultSlug": "genomic-literature-knowledge-base"
+  },
+ "researchAreaImageOverrides": {
+  "genomic-literature-knowledge-base": "/images/projects/glkb.png",
+  "mai-t1d": "/images/projects/mait1d.svg",
+  "epcot": "/images/projects/epcot.svg",
+  "cellink": "/images/projects/cellink.svg",
+  "pankgraph": "/images/projects/pankgraph.svg"
+  },
+  "profile": {
+    "name": "Jie Liu",
+    "title": "Associate Professor",
+    "university": "University of Michigan, Ann Arbor",
+    "affiliations": [
+      "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, Medical School",
+      "Electrical Engineering and Computer Science, College of Engineering"
+    ],
+    "image": "/images/people/avatar_jie_liu.svg",
+    "contacts": [
+      { "type": "scholar", "url": "https://medschool.umich.edu/profile/5544/jie-liu", "ariaLabel": "Google Scholar", "icon": "/images/icons/homeVector.svg" },
+      { "type": "github", "url": "#", "ariaLabel": "GitHub", "icon": "/images/icons/homeVector(1).svg" },
+      { "type": "email", "url": "#", "ariaLabel": "Email", "icon": "/images/icons/homeVector (2).svg" },
+      { "type": "cv", "url": "/CV_liu.docx.pdf", "ariaLabel": "CV", "icon": "/images/icons/Vector.png" }
+    ]
+  }
+}
