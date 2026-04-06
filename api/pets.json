@@ -1,0 +1,8 @@
+{
+  "pets": [
+    { "name": "BoBo", "image": "/images/pets/bobo.png" },
+    { "name": "Boba", "image": "/images/pets/boba.png" },
+    { "name": "NuoNuo", "image": "/images/pets/nuonuo.png" },
+    { "name": "Offer", "image": "/images/pets/offer.png" }
+  ]
+}

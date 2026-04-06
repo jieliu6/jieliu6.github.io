@@ -20,6 +20,26 @@
     "liu_lab_primary": false
   },
   {
+    "id": 59,
+    "title": "RFX6 expression is central to the development and function of the neuroendocrine compartments of the pancreas and intestine and strongly affects diabetes risk",
+    "authors": "T S R Bate, Y Huang, X Luo, D C Saunders, J T Walker, V Rai, S C J Parker, J Liu, M Brissova",
+    "journal": "Diabetology International, 02/2026",
+    "image_url": "/images/publications/59.png",
+    "slug": "rfx6-neuroendocrine-diabetes-review",
+    "type": "Review Article",
+    "year": 2026,
+    "badges": "DOI,PMID",
+    "doi_url": "https://doi.org/10.1007/s13340-025-00867-1",
+    "pmid_url": "https://pubmed.ncbi.nlm.nih.gov/41716817/",
+    "project_url": null,
+    "dataset_url": null,
+    "web_portal_url": null,
+    "abstract": "Transcription factors are central to the developmental and functional regulation of cells through co-ordination of gene expression via interaction with the genome. RFX6 is a winged-helix transcription factor whose expression is highly specific to the pancreas and gastrointestinal tract. Recent developments have highlighted an association between RFX6 and Type 2 Diabetes (T2D), which affects over 500 million people throughout the world. RFX6 controls development in both the pancreas and the gastrointestinal tract, where it is required for the differentiation of islet endocrine and enteroendocrine cells. Coding and non-coding RFX6 variants have been associated with syndromic neonatal diabetes (Mitchell-Riley Syndrome), Maturity Onset Diabetes of the Young (MODY), and T2D. Given the central position of RFX6 in pancreatic development and diabetes, understanding in more detail the regulatory role of RFX6 in different cell types and at different stages of development may open avenues towards patient-specific diabetes treatment and prevention. In this article, we review the literature surrounding RFX6 with respect to its role in development and diabetes pathogenesis.",
+    "month": 2,
+    "contact_url": null,
+    "liu_lab_primary": false
+  },
+  {
     "id": 18,
     "title": "Statistically rigorous and computationally efficient chromatin stripe detection with Quagga",
     "authors": "F Feng, S Moran, A S Hansen, X Zhang, J Liu",
