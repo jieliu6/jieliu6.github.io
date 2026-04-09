@@ -6,19 +6,23 @@
   "logos": [
     {
       "alt": "National Institute of Diabetes and Digestive and Kidney Diseases",
-      "src": "/images/footer/footer1.svg"
+      "src": "/images/footer/footer1.png",
+      "srcSvg": "/images/footer/footer1.svg"
     },
     {
       "alt": "National Human Genome Research Institute",
-      "src": "/images/footer/footer2.svg"
+      "src": "/images/footer/footer2.png",
+      "srcSvg": "/images/footer/footer2.svg"
     },
     {
       "alt": "The Common Fund",
-      "src": "/images/footer/footer3.svg"
+      "src": "/images/footer/footer3.png",
+      "srcSvg": "/images/footer/footer3.svg"
     },
     {
       "alt": "NIH Office of Data Science Strategy",
-      "src": "/images/footer/footer4.svg"
+      "src": "/images/footer/footer4.png",
+      "srcSvg": "/images/footer/footer4.svg"
     },
     {
       "alt": "MIDAS - Michigan Institute for Data Science",
