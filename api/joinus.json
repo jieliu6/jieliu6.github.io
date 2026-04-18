@@ -33,7 +33,7 @@
       "dept": "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics (DCMB), University of Michigan Medical School",
       "location": "NCRC Building 520, Ann Arbor, MI",
       "positionType": "Student Research Assistant — Hourly Paid or Academic Credit",
-      "hours": "10–20 hours per week (Flexible)",
+      "hours": "10–20 hours/week (Flexible)",
       "duration": "Summer 2025, with possibility of extension",
       "status": "Open",
       "contact": "lzy@umich.edu and cc kailiua@umich.edu | Subject line: \"RA Application – GLKB Backend\"",
@@ -48,7 +48,7 @@
       "dept": "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics (DCMB), University of Michigan Medical School",
       "location": "NCRC Building 520, Ann Arbor, MI",
       "positionType": "Student Research Assistant — Hourly Paid or Academic Credit",
-      "hours": "10–20 hours per week (Flexible)",
+      "hours": "10–20 hours/week (Flexible)",
       "duration": "Summer 2025, with possibility of extension",
       "status": "Open",
       "contact": "kailiua@umich.edu | Subject line: \"RA Application – Testing & Monitoring\"",
@@ -57,23 +57,11 @@
       "fullDescription": "POSITION DESCRIPTION\nWe are seeking students with a strong background in Computer Science or Software Engineering to join the Genomic Literature Knowledge Base (GLKB) project.\n\nGLKB is an AI-powered platform that integrates large-scale biomedical literature and knowledge graphs to support question answering and scientific discovery. As the system prepares for broader use, we need to ensure it can handle real user traffic and remain stable under load.\n\nIn this role, you will focus on load testing and monitoring, helping us evaluate system limits, detect issues, and improve overall system stability.\n\nRESPONSIBILITIES\n– Conduct load testing to evaluate system capacity (e.g., concurrent users, AI chat usage, API requests)\n– Use tools such as k6 to simulate real user traffic and measure system performance\n– Monitor system metrics (e.g., response time, failure rate, throughput)\n– Analyze results to identify bottlenecks and failure points\n– Improve and extend the existing monitoring and alerting system\n– Help define testing scenarios and performance benchmarks\n\nPREFERRED QUALIFICATIONS\n– Comfortable with version control tools such as Github.\n– Background in Computer Science, Software Engineering, or related fields\n– Experience with load testing tools (e.g., k6) or similar frameworks\n– Familiarity with web systems\n– Basic understanding of performance metrics (latency, throughput, concurrency)\n– Experience with monitoring tools is a plus\n– Strong problem-solving skills and attention to detail\n\nHOW TO APPLY\nPlease email kailiua@umich.edu with the subject line \"RA Application – Testing & Monitoring\" and include a short personal introduction describing your background and interests, along with your current CV or resume."
     },
     {
-      "title": "Research Assistant – Split Learning and Genomic Foundation Models",
-      "dept": "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics (DCMB), University of Michigan Medical School",
-      "location": "NCRC Building 520, University of Michigan",
-      "positionType": "Part-time Research Assistant",
-      "duration": "Minimum 6 months",
-      "status": "Open",
-      "contact": "kailiua@umich.edu | Subject line: \"RA Application\"",
-      "applySubject": "RA Application",
-      "desc": "Support communication-efficient split learning for foundation models (vision-language and genomic), privacy-preserving distributed training, and multi-institutional collaboration without sharing raw data. Hourly pay or academic credit.",
-      "fullDescription": "POSITION OVERVIEW\nWe are seeking a highly motivated Research Assistant to support research on communication-efficient split learning for foundation models, with applications in both:\n\n• Vision-language models\n• Genomic foundation models\n\nThis project focuses on developing privacy-preserving distributed training methods that enable multi-institutional collaboration without sharing raw data, while minimizing communication overhead.\n\nA major component of this work involves designing a split learning framework for multimodal foundation models, where intermediate feature representations are compressed and quantized before transmission between client and server partitions.\n\nIn addition, the position will extend split learning techniques to genomic foundation models trained in distributed settings, where sensitive biological and clinical data are partitioned across institutions.\n\nThe overarching goal is to develop practical, scalable, and theoretically grounded methods for training large models under privacy and system constraints, while maintaining model utility and robustness.\n\nRESEARCH RESPONSIBILITIES\nThe Research Assistant will contribute to:\n\n• Implementing and improving split learning pipelines for vision-language and genomic foundation models\n• Developing communication-efficient methods for:\n    – Feature compression\n    – Quantization of intermediate representations\n• Investigating trade-offs among:\n    – Communication cost\n    – Model accuracy\n    – Privacy protection\n• Extending split learning frameworks to genomic domains, including:\n    – Genome sequences\n    – Regulatory genomics\n    – Transcriptomics\n    – Multimodal biological data\n• Running experiments in distributed training settings (client-server or multi-partition systems)\n• Benchmarking model performance across datasets and system configurations\n• Evaluating privacy risks, including:\n    – Feature inversion attacks\n    – Representation leakage\n• Supporting data preprocessing, experiment tracking, visualization, and result analysis\n\nAPPLICATION\nPlease send your CV to kailiua@umich.edu\n\nSubject line: RA Application\n\nCompensation: Hourly pay or academic credit (depending on eligibility)"
-    },
-    {
       "title": "Student Research Assistant – Multimodal AI Systems for Type 1 Diabetes",
       "dept": "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics (DCMB), University of Michigan Medical School",
       "location": "NCRC Building 520, Ann Arbor, MI",
       "positionType": "Student Research Assistant — Hourly Paid or Academic Credit",
-      "hours": "10–20 hours per week (Flexible)",
+      "hours": "10–20 hours/week (Flexible)",
       "duration": "Summer 2025, with possibility of extension",
       "contact": "kailiua@umich.edu | Subject line: \"RA Application\"",
       "applySubject": "RA Application",
@@ -91,6 +79,33 @@
       "status": "Open",
       "desc": "We are seeking a motivated full-time Research Assistant with a strong background in Computer Science, Artificial Intelligence, Data Science, or related fields to join our research team. This project focuses on developing multimodal AI systems for Type 1 Diabetes (T1D) by integrating large-scale biomedical datasets, including genomics, single-cell omics, spatial biology, and clinical data. Part of an NIH R01-funded project.",
       "fullDescription": "POSITION DESCRIPTION\nWe are seeking a motivated full-time Research Assistant with a strong background in Computer Science, Artificial Intelligence, Data Science, or related fields to join our research team at the University of Michigan Medical School. This project focuses on developing multimodal AI systems for Type 1 Diabetes (T1D) by integrating large-scale biomedical datasets, including genomics, single-cell omics, spatial biology, and clinical data. The successful candidate will work in an interdisciplinary environment alongside computational scientists, clinicians, and AI researchers.\nThis work is part of an ongoing NIH R01-funded project focused on applying AI approaches to understand and predict the progression of Type 1 Diabetes using multimodal biological data.\n\nRESPONSIBILITIES\n– Assist with the development and training of single-cell foundation models (scFM)\n– Support the implementation of multimodal AI model pipelines\n– Contribute to AI agent systems for biomedical data analysis\n– Perform data preprocessing, model evaluation, and result visualization\n– Collaborate with the research team on large-scale biomedical AI projects\n\nPREFERRED QUALIFICATIONS\n– Background in Computer Science, AI/ML, Bioinformatics, or Data Science\n– Experience with Python and deep learning frameworks (e.g., PyTorch)\n– Familiarity with machine learning, foundation models, or multimodal AI\n– Experience with single-cell or genomic data analysis is a plus\n– Strong problem-solving skills and ability to work in a collaborative research environment\n\nHOW TO APPLY\nPlease email kailiua@umich.edu with the subject line \"Full-time RA Application\" and include a short personal introduction describing your background and research interests, along with your current CV or resume."
+    },
+    {
+      "title": "Research Assistant – Split Learning and Genomic Foundation Models",
+      "dept": "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics (DCMB), University of Michigan Medical School",
+      "location": "NCRC Building 520, University of Michigan",
+      "positionType": "Part-time Research Assistant",
+      "duration": "Minimum 6 months",
+      "status": "Open",
+      "contact": "kailiua@umich.edu | Subject line: \"RA Application\"",
+      "applySubject": "RA Application",
+      "desc": "Support communication-efficient split learning for foundation models (vision-language and genomic), privacy-preserving distributed training, and multi-institutional collaboration without sharing raw data. Hourly pay or academic credit.",
+      "fullDescription": "POSITION OVERVIEW\nWe are seeking a highly motivated Research Assistant to support research on communication-efficient split learning for foundation models, with applications in both:\n\n• Vision-language models\n• Genomic foundation models\n\nThis project focuses on developing privacy-preserving distributed training methods that enable multi-institutional collaboration without sharing raw data, while minimizing communication overhead.\n\nA major component of this work involves designing a split learning framework for multimodal foundation models, where intermediate feature representations are compressed and quantized before transmission between client and server partitions.\n\nIn addition, the position will extend split learning techniques to genomic foundation models trained in distributed settings, where sensitive biological and clinical data are partitioned across institutions.\n\nThe overarching goal is to develop practical, scalable, and theoretically grounded methods for training large models under privacy and system constraints, while maintaining model utility and robustness.\n\nRESEARCH RESPONSIBILITIES\nThe Research Assistant will contribute to:\n\n• Implementing and improving split learning pipelines for vision-language and genomic foundation models\n• Developing communication-efficient methods for:\n    – Feature compression\n    – Quantization of intermediate representations\n• Investigating trade-offs among:\n    – Communication cost\n    – Model accuracy\n    – Privacy protection\n• Extending split learning frameworks to genomic domains, including:\n    – Genome sequences\n    – Regulatory genomics\n    – Transcriptomics\n    – Multimodal biological data\n• Running experiments in distributed training settings (client-server or multi-partition systems)\n• Benchmarking model performance across datasets and system configurations\n• Evaluating privacy risks, including:\n    – Feature inversion attacks\n    – Representation leakage\n• Supporting data preprocessing, experiment tracking, visualization, and result analysis\n\nAPPLICATION\nPlease send your CV to kailiua@umich.edu\n\nSubject line: RA Application\n\nCompensation: Hourly pay or academic credit (depending on eligibility)"
+    },
+    {
+      "title": "Outreach & Growth Coordinator",
+      "dept": "Gilbert S. Omenn Department of DCMB & Medical School",
+      "location": "University of Michigan Medical School (Ann Arbor; hybrid/in-person preferred)",
+      "positionType": "Volunteer (with potential transition to paid position)",
+      "hours": "10–20 hours/week (Flexible)",
+      "duration": "Summer (with potential extension)",
+      "status": "Open",
+      "contact": "kailiua@umich.edu cc lzy@umich.edu | Subject line: \"Application – Outreach & Growth Coordinator\"",
+      "applySubject": "Application – Outreach & Growth Coordinator",
+      "applyEmail": "kailiua@umich.edu",
+      "applyCc": "lzy@umich.edu",
+      "desc": "Support outreach, user engagement, and growth initiatives for our AI-powered biomedical research platforms. Help expand our user base through strategic outreach, content creation, and community engagement.",
+      "fullDescription": "ABOUT THE ROLE\nWe are looking for an enthusiastic Outreach & Growth Coordinator to support outreach, user engagement, and growth initiatives for our AI-powered biomedical research platforms. This role is ideal for someone passionate about science communication, community building, and strategic growth.\n\nYou will work closely with researchers, developers, and designers to help expand our user base, increase platform visibility, and support user onboarding and engagement.\n\nRESPONSIBILITIES\n• Develop and execute outreach strategies to grow platform user base\n• Create engaging content (social media posts, newsletters, blog articles) to promote research projects\n• Support user onboarding and engagement initiatives\n• Build and maintain relationships with potential users and collaborators\n• Track and analyze outreach metrics to optimize strategies\n• Assist with organizing events, webinars, or workshops\n• Collaborate with the team to align outreach with research goals\n\nQUALIFICATIONS\n• Strong written and verbal communication skills\n• Experience with social media management and content creation\n• Interest in AI, healthcare, or biomedical research\n• Self-motivated with ability to work independently\n• Organized with attention to detail\n\nPREFERRED QUALIFICATIONS\n• Experience in science communication or public outreach\n• Familiarity with analytics tools (Google Analytics, social media insights)\n• Background in marketing, communications, or related field\n• Experience with email marketing platforms\n• Understanding of academic or research environments\n\nWHAT YOU'LL GAIN\n• Hands-on experience in science communication and growth strategy\n• Opportunity to contribute to cutting-edge AI + healthcare research visibility\n• Potential transition to a paid position based on performance\n• Collaboration with an interdisciplinary team (AI, medicine, and data science)\n\nHOW TO APPLY\nPlease email kailiua@umich.edu (cc lzy@umich.edu) with the subject line \"Application – Outreach & Growth Coordinator\" and include:\n\n• Brief introduction describing your background and interest in the role\n• Resume or CV\n• Any relevant portfolio or examples of previous outreach/content work (optional but encouraged)"
     }
   ]
 }
