@@ -193,8 +193,8 @@
     "title": null,
     "department": "Department of Biostatistics, School of Public Health",
     "image_url": "/images/people/avatar_alena_zheng.jpg",
-    "category": "researchAssistant",
-    "type": "Current",
+    "category": "alumni_researchAssistant",
+    "type": "Alumni",
     "pankgraph_title": null
   },
   {
@@ -203,8 +203,8 @@
     "title": "",
     "department": "Department of Electrical Engineering and Computer Science",
     "image_url": "/images/people/avatar_zhichen_yang.jpg",
-    "category": "researchAssistant",
-    "type": "Current",
+    "category": "alumni_researchAssistant",
+    "type": "Alumni",
     "pankgraph_title": null
   },
   {
@@ -213,8 +213,8 @@
     "title": null,
     "department": "School of Information",
     "image_url": "/images/people/avatar_luya_zhang.png",
-    "category": "researchAssistant",
-    "type": "Current",
+    "category": "alumni_researchAssistant",
+    "type": "Alumni",
     "pankgraph_title": null
   },
   {
@@ -244,8 +244,8 @@
     "title": "",
     "department": "School of Information",
     "image_url": "/images/people/avatar_jing_yin.jpg",
-    "category": "researchAssistant,pankgraphTeam",
-    "type": "Current",
+    "category": "alumni_researchAssistant,pankgraphTeam",
+    "type": "Alumni",
     "pankgraph_title": "Software Engineer, Liu Lab",
     "pankgraph_sort_order": 11
   },
@@ -255,8 +255,8 @@
     "title": "",
     "department": "Department of Statistics",
     "image_url": "/images/people/avatar_jun_li.jpg",
-    "category": "researchAssistant,pankgraphTeam",
-    "type": "Current",
+    "category": "alumni_researchAssistant,pankgraphTeam",
+    "type": "Alumni",
     "pankgraph_title": "Software Engineer, Liu Lab",
     "pankgraph_sort_order": 12
   },
@@ -297,8 +297,8 @@
     "title": "",
     "department": "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics",
     "image_url": "/images/people/avatar_yuqian_xu.png",
-    "category": "researchAssistant",
-    "type": "Current",
+    "category": "alumni_researchAssistant",
+    "type": "Alumni",
     "pankgraph_title": null
   },
   {
@@ -317,8 +317,8 @@
     "title": null,
     "department": "Department of Statistics",
     "image_url": "/images/people/avatar_matthew_wong.jpg",
-    "category": "researchAssistant",
-    "type": "Current",
+    "category": "alumni_researchAssistant",
+    "type": "Alumni",
     "pankgraph_title": null
   },
   {
@@ -460,8 +460,8 @@
     "title": "",
     "department": "Department of mathematics and department of statistics",
     "image_url": "/images/people/avatar_johnny_in.jpg",
-    "category": "researchAssistant",
-    "type": "Current",
+    "category": "alumni_researchAssistant",
+    "type": "Alumni",
     "pankgraph_title": null
   },
   {
@@ -474,5 +474,15 @@
     "type": "Current",
     "pankgraph_title": "Staff Scientist, Parker Lab",
     "pankgraph_sort_order": 16
+  },
+  {
+    "id": 56,
+    "name": "Donglin Liu",
+    "title": null,
+    "department": "Department of Biostatistics,\nSchool of Public Health",
+    "image_url": "/images/people/avatar_donglin_liu.jpg",
+    "category": "researchAssistant",
+    "type": "Current",
+    "pankgraph_title": null
   }
 ]
