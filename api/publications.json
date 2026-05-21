@@ -40,6 +40,26 @@
     "liu_lab_primary": true
   },
   {
+    "id": 62,
+    "title": "Enhancing Biomedical AI Foundations: Genomic Literature Knowledge Base Boosts LLMs' Mastery of Biomedical Literature",
+    "authors": "Y Huang, Z Han, K Chang, T Jiao, J Liu",
+    "journal": "ACM KDD 2026",
+    "image_url": "/images/publications/KDD26-logov3-pad-scaled.jpg",
+    "slug": "glkb-boosts-llm-biomedical-literature",
+    "type": "Conference",
+    "year": 2026,
+    "doi_url": null,
+    "badges": "Project",
+    "pmid_url": null,
+    "project_url": "https://glkb.org",
+    "dataset_url": null,
+    "web_portal_url": null,
+    "abstract": "Peer-reviewed literature provides reliable biomedical knowledge, which is essential for large language models (LLMs) in solving complex biomedical problems. However, how literature is retrieved and presented to LLMs can significantly influence their performance on domain-specific tasks. We present the Genomic Literature Knowledge Base (GLKB) and GLKB Agent to address these challenges. GLKB is a large-scale knowledge graph containing 14.6 million relationships among 3.2 million entities from 33 million PubMed abstracts and nine curated biomedical repositories. The current release includes articles published before March 2025. It supports diverse applications, including reinforcement learning, link prediction, and semantic search. The GLKB Agent is an agentic architecture that seamlessly connects LLMs to GLKB. It enables autonomous retrieval, reasoning, and deep research capabilities. Our evaluations demonstrate that the GLKB Agent dramatically improves LLM performance. Eight state-of-the-art LLMs achieve average accuracy gains of 27.5% on PubMedQA-HC, 24.8% on PubMedQA-Artificial, and 6.0% on BioASQ. Ablation tests confirm the agentic architecture is particularly effective for complex reasoning tasks. During datasource ablation tests, GLKB outperforms alternative data sources including PubMed, Wikipedia, and arXiv. Beyond question-answering, GLKB agent also demonstrates deep research capabilities through test-time reasoning. It generates comprehensive reports for literature reviews and hypothesis generation. The GLKB and GLKB Agent together provide a strong foundation for next-generation biomedical AI. Access is available at https://glkb.org.",
+    "month": 5,
+    "contact_url": "mailto:drjieliu@umich.edu",
+    "liu_lab_primary": true
+  },
+  {
     "id": 52,
     "title": "Synthetic Immunological Niche Reveals Early Immune Dysregulation and Stratifies Therapeutic Response in Type 1 Diabetes",
     "authors": "J Roy, Y Jiang, R Mao, J L King, A Talekar, L Holman, H Zeng, X Luo, P Sajjakulnukit, B Ha, K Liu, E J Bealer, L M Rad, S Sohail, A Holmes, B Wonski, K Kang, D Awad, A H Morris, C A Lyssiotis, J Liu, L D Shea",
