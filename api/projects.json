@@ -29,7 +29,7 @@
       { "tag": "Github", "url": "https://github.com/liu-bioinfo-lab/general_AI_model" },
       { "tag": "Model Checkpoints", "url": "https://huggingface.co/spaces/drjieliu/EPCOTv2-app/tree/main/models" },
       { "tag": "Tutorial", "url": "https://colab.research.google.com/github/liu-bioinfo-lab/general_AI_model/blob/main/epcotv2_basic_tutorial.ipynb" },
-      { "tag": "Web Portal", "url": "https://huggingface.co/spaces/drjieliu/EPCOTv2-app" }
+      { "tag": "Web Portal", "url": "https://epcot.io/" }
     ],
     "content": "**EPCOT** (Epigenome, Chromatin Organization, and Transcription) is a unified **deep learning** framework that integrates **DNA sequence** and **chromatin accessibility** data to jointly predict epigenomic features, gene expression, chromatin organization, and enhancer activity within a single architecture. Built on a **pre-training and fine-tuning** paradigm, EPCOT generalizes across diverse and unseen cell types, enabling **in silico** prediction of experimentally intensive assays, including **ChIP-seq**, **Hi-C**, and **CAGE-seq**, substantially reducing experimental cost and technical barriers. Interpretable outputs further reveal **transcription factor** binding patterns and **enhancer–gene** regulatory relationships, supporting broad applications in disease biology and **precision medicine**."
   },
