@@ -404,7 +404,10 @@
   border-color: var(--d3-blue);
   background-color: rgba(64, 110, 180, 0.08);
 }
-.home-projects-filter-active {
+/* 内层 <p> 必须一起写：上面的 .home-projects-filter-text p 显式给 p 上了灰色，
+   会盖掉从父元素继承来的蓝色 —— 只改父元素的话，看到的字仍然是灰的。 */
+.home-projects-filter-active,
+.home-projects-filter-active p {
   color: var(--d3-blue);
   font-weight: 700;
 }
