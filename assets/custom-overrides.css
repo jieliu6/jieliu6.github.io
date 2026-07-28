@@ -900,3 +900,18 @@
   height: 100%;
   object-fit: contain;
 }
+
+/* --------------------------------------------------------------------------
+   16. 姓名超链接
+   --------------------------------------------------------------------------
+   由 custom-enhancements.js 把 "Jie Liu" 包成 <a>（CSS 无法创建链接）。
+   这里让它在视觉上与原来的纯文字一致，只在悬停时给出可点击的提示。 */
+.home-profile-name a {
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+}
+.home-profile-name a:hover,
+.home-profile-name a:focus-visible {
+  text-decoration: underline;
+}
