@@ -1,5 +1,5 @@
 {
-  "content": "Dr. Liu's research lab develops computational methods, tools, and resources for understanding the human genome and diseases such as diabetes. Recently, the methodology focuses are knowledge graphs and foundation models. We have developed a knowledge graph [GenomicKB](/projects/genomic-knowledge-graph) to accumulate human-readable knowledge about the human genome. We have extracted genomic knowledge from PubMed and developed another knowledge graph [GLKB](/projects/genomic-literature-knowledge-base). We have also developed a genomic foundation model [EPCOT](/projects/epcot) which comprehensively predicts multiple genomic modalities.\n\nThe lab currently participates in several NIH consortia, including 4DN, IGVF, HIRN, CFDE, and the recent PanKbase program. In particular, Dr. Liu co-leads the Machine Learning Focus Group at IGVF, and leads the development of [PanKgraph](https://pankgraph.org/), the knowledge graph within the PanKbase system.",
+  "content": "Dr. Liu's research lab develops computational methods, tools, and resources for understanding the human genome and diseases such as diabetes. Recently, the methodology focuses are knowledge graphs, foundation AI models, agentic AI, Bayesian experiment design, AI model auditing, and text mining. We have developed a knowledge graph [GenomicKB](/projects/genomic-knowledge-graph) to accumulate human-readable knowledge about the human genome with a focus of 3D chromatin organization. We have extracted genomic knowledge from PubMed and developed another knowledge graph [GLKB](/projects/genomic-literature-knowledge-base) which supports agentic AI and deep research. We have also developed a genomic foundation model [EPCOT](/projects/epcot) which comprehensively predicts multiple genomic modalities under a unified framework.\n\nThe lab currently participates in several NIH consortia, including 4DN, IGVF, HIRN, CFDE, and the PanKbase program. In particular, Dr. Liu co-leads the Machine Learning Focus Group at IGVF, and leads the development of [PanKgraph](https://pankgraph.org/), the knowledge graph within the PanKbase system.\n\nIn the recent NIH's Multimodal AI program, Dr. Liu leads the [Multimodal AI for Type 1 Diabetes](/projects/mai-t1d) (MAI-T1D) project, which aims to use the latest advances in AI alongside a wide range of multimodal data to speed up discoveries to better treat and prevent T1D.",
   "researchAreas": {
     "title": "Research Areas",
     "items": [
@@ -26,14 +26,14 @@
     "title": "Associate Professor",
     "university": "University of Michigan, Ann Arbor",
     "affiliations": [
-      "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, Medical School",
+      "Computational Medicine and Bioinformatics, Medical School",
       "Electrical Engineering and Computer Science, College of Engineering"
     ],
     "image": "/images/people/avatar_jie_liu.svg",
     "contacts": [
-      { "type": "scholar", "url": "https://medschool.umich.edu/profile/5544/jie-liu", "ariaLabel": "Google Scholar", "icon": "/images/icons/homeVector.svg" },
+      { "type": "scholar", "url": "https://scholar.google.com/citations?user=h6EgPkEAAAAJ&hl=en", "ariaLabel": "Google Scholar", "icon": "/images/icons/homeVector.svg" },
       { "type": "github", "url": "#", "ariaLabel": "GitHub", "icon": "/images/icons/homeVector(1).svg" },
-      { "type": "email", "url": "#", "ariaLabel": "Email", "icon": "/images/icons/homeVector (2).svg" },
+      { "type": "email", "url": "mailto:drjieliu@umich.edu", "ariaLabel": "Email", "icon": "/images/icons/homeVector (2).svg" },
       { "type": "cv", "url": "/CV_liu.docx.pdf", "ariaLabel": "CV", "icon": "/images/icons/Vector.png" }
     ]
   }

@@ -1,0 +1,917 @@
+/* ==========================================================================
+   custom-overrides.css
+   --------------------------------------------------------------------------
+   首页改版：对齐 Figma 设计稿 "final / Desktop - 2"
+     file : https://www.figma.com/design/gC2eE8oLs5yS5km1u4tgEP/  node-id 39:204
+     frame: 1440 x 3769
+
+   注意：照片 / 姓名 / 职称 / 院系这四块挂在 section "final" 上、浮于画板之上，
+   不是画板的子节点，坐标需要减去画板偏移 (299, 304) 才是相对画板的位置。
+   下面注释里写的都是已换算好的相对坐标。
+
+   为什么是一个独立的覆盖文件，而不是直接改 assets/index-*.css：
+     本仓库只有构建产物，源码下落不明。index-*.css 是压缩成一整行的 213KB，
+     直接改会让 git diff 完全不可读，也没法 review。这里把所有改动集中成一份
+     可读的样式表，在原样式之后加载。原 bundle 一个字节都没动 —— 想整体回滚，
+     删掉 index.html 里那行 <link> 即可。
+
+   将来拿到源码后，本文件的每条规则都能一一对应搬进对应组件的 CSS，
+   因为选择器用的都是构建产物里保留下来的语义类名。
+
+   注意：原 bundle 的尺寸全部写成 calc(Npx * var(--density))，
+   而 --density 在 1024-1439px 区间是 0.65、1440-1535 是 0.8、>=1536 才是 1。
+   Figma 稿是 1440 下的 1:1 绝对像素，所以这里一律用绝对 px 覆盖，
+   不去改 --density 本身 —— 那会波及其他所有页面。
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. 设计令牌（取自 Figma，非猜测）
+   -------------------------------------------------------------------------- */
+:root {
+  --d3-navy:          #244475;  /* 导航栏底色 */
+  --d3-blue:          #406eb4;  /* 主蓝：区块标题 / 链接 / 按钮 / 标签 */
+  --d3-ink:           #333;     /* 正文 */
+  --d3-card-title:    #1a2d50;  /* 卡片标题 */
+  --d3-card-desc:     #6e7684;  /* 卡片描述 */
+  --d3-chip-text:     #4a5568;  /* 芯片文字 */
+  --d3-chip-border:   #dde1e8;  /* 芯片描边 */
+  --d3-card-border:   #e3e6ec;  /* 卡片描边 */
+  --d3-image-well:    #f1f3f6;  /* 图片占位底色 */
+
+  --d3-content:       1200px;   /* 内容区宽度（Figma: x=119, w=1200 @1440）*/
+  --d3-nav-h:         84px;
+}
+
+/* 内容容器：>=1248px 视口时恒为 1200px 居中，更窄时留 24px 边距 */
+@media (min-width: 1024px) {
+  .home-main-content,
+  .home-projects-section,
+  .home-news-section,
+  .home-publications-section {
+    width: min(var(--d3-content), calc(100% - 48px));
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. 导航栏  (Figma 44:1204)
+   深藏青底 + 白字；高度 84px；左右留白 56px
+   背景色是 JS 写的行内样式，必须 !important 才能盖住
+   -------------------------------------------------------------------------- */
+.navigation-desktop,
+.navigation-mobile {
+  background-color: var(--d3-navy) !important;
+}
+
+.navigation-desktop {
+  box-shadow: none;
+}
+
+@media (min-width: 1024px) {
+  .navigation-desktop {
+    height: var(--d3-nav-h);
+  }
+  .navigation-desktop-container {
+    max-width: 1440px;
+    padding: 0 56px;
+  }
+  /* 标志是绝对定位、写死 left:calc(140px*density)=112px，
+     容器的 padding 管不到它，得单独覆盖 */
+  .navigation-logo {
+    left: 56px;
+  }
+  /* 导航项组：Figma 中为 850px 宽、两端对齐 */
+  .navigation-links {
+    right: 56px;
+    width: 850px;
+    gap: 0;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+}
+
+/* 标志 28px SemiBold 白 */
+.navigation-logo,
+.navigation-logo-blue,
+.navigation-mobile-logo {
+  color: #fff !important;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* 导航项 20px：当前页 SemiBold，其余 Light，全部白色 */
+.navigation-link,
+.navigation-link-gray,
+.navigation-link-blue {
+  color: #fff !important;
+  font-size: 20px;
+  line-height: 24px;
+}
+.navigation-link-light  { font-weight: 300; }
+.navigation-link-semibold { font-weight: 600; }
+
+/* 汉堡按钮描边改白，否则深底上看不见 */
+.navigation-hamburger .navigation-hamburger-line,
+.navigation-hamburger-menu .navigation-hamburger-line {
+  background-color: #fff;
+}
+
+/* 导航顺序：Figma 为 Home / Projects / News / Publications / …
+   构建产物里 Publications 排在 News 前面，用 flex order 调换。
+   仅影响视觉顺序，DOM 与 Tab 顺序不变。 */
+@media (min-width: 1024px) {
+  .navigation-links { display: flex; }
+  .navigation-links > a:nth-child(1) { order: 1; }
+  .navigation-links > a:nth-child(2) { order: 2; }
+  .navigation-links > a:nth-child(3) { order: 4; } /* Publications */
+  .navigation-links > a:nth-child(4) { order: 3; } /* News */
+  .navigation-links > a:nth-child(5) { order: 5; }
+  .navigation-links > a:nth-child(6) { order: 6; }
+  .navigation-links > a:nth-child(7) { order: 7; }
+}
+
+/* --------------------------------------------------------------------------
+   3. Hero 区  (Figma 44:1215 / 44:1405 / 44:1413)
+   -------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  /* 左栏 119-912 (793)，右栏 961-1319 (358)，间距 49px。
+     793 是 Figma 正文文本框的宽度，必须精确 —— 少 2px 会让
+     "…a genomic foundation model" 那行的 "model" 折到下一行，
+     第一段就从 8 行变 9 行，下面所有内容整体下移 24px。 */
+  .home-main-content { gap: 49px; }
+  .home-left-column  { max-width: 793px; flex: 1 1 793px; }
+  .home-right-column { flex: 0 0 358px; width: 358px; }
+}
+
+/* 正文：16px Light，行高 24，左对齐（原为两端对齐） */
+.home-description,
+.home-description p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: var(--d3-ink);
+  text-align: left;
+}
+/* 正文里的链接实际类名是 .highlight（原规则 font-weight:500），
+   选择器要够具体才盖得住 */
+.home-description a,
+.home-description .highlight,
+.home-description a.highlight {
+  color: var(--d3-blue);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* 姓名 28px SemiBold 主蓝 */
+.home-profile-name,
+.home-profile-name p {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--d3-blue);
+}
+
+/* 职称 / 单位 20px Medium */
+.home-subtitle-profile,
+.home-subtitle-profile p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--d3-ink);
+}
+
+/* 院系两行：Desktop-3 曾删掉，Desktop-2 又恢复了（Figma 44:1425，641-761）
+   Montserrat Light 16px / 行高 24 / #333，两段共 5 行 = 120px */
+.home-affiliations,
+.home-affiliations li,
+.home-affiliations p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: var(--d3-ink);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* 职称/单位 → 院系五行 12px（按标注）。放在院系的上边距上而不是职称的下边距：
+   职称元素同时带 .home-subtitle 和 .home-subtitle-profile 两个类，
+   有更高优先级的规则把它的 margin-bottom 压成 0 了。
+
+   宽度 289px：标注图里院系块的红框明显窄于职称块的蓝框，右侧「52」就是两者
+   的宽度差 —— 职称块 341（"University of Michigan, Ann Arbor" 的自然宽度），
+   341 − 52 = 289。这个宽度让两条院系信息正好折成 5 行、总高 120px：
+     Computational Medicine and / Bioinformatics, Medical School /
+     Electrical Engineering and / Computer Science, College of / Engineering */
+.home-affiliations {
+  margin-top: 12px;
+}
+/* 289px 只在桌面端生效。之前写在媒体查询外面，漏到了移动端 ——
+   窄屏下这个宽度会把两条院系信息挤成 5 行，和原站的 2 行差很多。 */
+@media (min-width: 1024px) {
+  .home-affiliations {
+    width: 289px;
+    max-width: 289px;
+  }
+}
+
+/* 头像 269x269 */
+@media (min-width: 1024px) {
+  .home-profile-picture,
+  .home-profile-picture img {
+    width: 269px;
+    height: 269px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Research Areas  (Figma 44:1216)
+   竖排链接 → 横排描边芯片；标题图标移除
+   -------------------------------------------------------------------------- */
+.home-research-areas-icon { display: none !important; }
+
+/* Figma 44:1216 是 flex-col + gap:24px。
+   原样式给 header 写死了 height:calc(24px*density)=19px，而标题按 Figma 放大到
+   20px/24 之后会溢出这个矮盒子，导致下面的芯片往上顶 —— 实测重叠 21px。
+   这里改成 header 高度自适应，间距交给父级的 gap 统一控制。 */
+.home-research-areas {
+  display: flex;
+  flex-direction: column;
+  /* Figma 44:1216 的 gap 就是 24px：标题 500-524，芯片块 548-624。
+     芯片块底边 624 与右栏职称块底边 626 本就基本齐平 —— 这是设计稿自带的关系，
+     不需要额外调整。 */
+  gap: 24px;
+}
+.home-research-areas-header {
+  height: auto;
+  margin-bottom: 0;
+  overflow: visible;
+}
+.home-research-areas-header-content { align-items: center; }
+
+.home-research-areas-title,
+.home-research-areas-title p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--d3-ink);
+  margin: 0;
+}
+.home-research-areas-title { height: 24px; justify-content: flex-start; }
+
+.home-research-areas-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px 10px;          /* 行间距 12 / 列间距 10 */
+  margin-top: 0;           /* 间距已由 .home-research-areas 的 gap 提供 */
+}
+
+/* Figma 里五个芯片长得完全一样，没有选中态。
+   原样式给第一个加了 #406eb426 底色 + 深蓝字 + 下划线，这里一并抹平。
+   垂直内距用 8px 而非 Figma 标注的 9px：Figma 的描边画在盒子内侧，
+   CSS 的 border 加在盒子外侧，8+14+8+2 = 32px 才等于 Figma 的芯片高度。 */
+.home-research-area-item,
+.home-research-area-item-highlight {
+  background: #fff !important;
+  border: 1px solid var(--d3-chip-border);
+  border-radius: 4px;
+  padding: 8px 15px;
+  align-items: center;
+}
+
+.home-research-area-text,
+.home-research-area-text p,
+.home-research-area-item-highlight .home-research-area-text,
+.home-research-area-item-highlight .home-research-area-text p {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.66px;
+  color: var(--d3-chip-text);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Lab Highlights 轮播：Desktop-3 中已移除 */
+.home-lab-highlights { display: none !important; }
+
+@media (min-width: 1024px) {
+  .home-sections-container { gap: 0; }
+}
+
+/* --------------------------------------------------------------------------
+   5. 三个内容区块的通用骨架
+   原本是「左侧竖排标题+筛选 | 右侧内容」两栏，
+   Desktop-3 改为「标题 + 横排筛选在上，内容通栏在下」
+   -------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .home-projects-section,
+  .home-news-section,
+  .home-publications-section {
+    flex-direction: column;
+    gap: 28px;
+    padding-bottom: 0;
+  }
+  /* Research Areas 底 / 院系底（765）→ Projects 标题，72px */
+  .home-projects-section { padding-top: 72px; }
+  .home-publications-section { gap: 24px; }
+  /* 区块之间 104px：Figma 中 Projects 块底 581 → News 块顶 685 → Pub 块顶 1637 */
+  .home-news-section,
+  .home-publications-section { padding-top: 104px; }
+
+  .home-projects-sidebar,
+  .home-news-sidebar,
+  .home-publications-sidebar {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 0;
+  }
+
+  .home-projects-content,
+  .home-news-content,
+  .home-publications-content {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+/* 区块标题 28px SemiBold 主蓝，独占一行 */
+.home-projects-title,
+.home-news-title,
+.home-publications-title,
+.home-projects-title p,
+.home-news-title p,
+.home-publications-title p {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--d3-blue);
+}
+/* Figma 的标题文本框高 36px、行高 24px（文字在框内垂直居中），
+   下方间距按此计算：
+     Projects  标题底 36 → 筛选行顶 64  = 28px   (16 + 12px wrap gap)
+     News/Pub  标题底 36 → 列表顶   84  = 48px   (20 + 28px section gap) */
+.home-projects-title,
+.home-news-title,
+.home-publications-title {
+  flex: 0 0 100%;
+  height: 36px;
+  justify-content: center;
+}
+.home-projects-title    { margin-bottom: 16px; }   /* 16 + 12px wrap gap = 28 */
+.home-news-title        { margin-bottom: 20px; }   /* 20 + 28px section gap = 48 */
+/* Desktop-2 的 Publications 标题到列表只有 24px（Desktop-3 是 48px） */
+.home-publications-title { margin-bottom: 0; }
+
+/* --------------------------------------------------------------------------
+   6. 筛选芯片  (Figma 44:1233)
+   -------------------------------------------------------------------------- */
+.home-projects-filter-item {
+  background: #fff;
+  border: 1px solid var(--d3-chip-border);
+  border-radius: 4px;
+  padding: 8px 15px;       /* 同上：含 1px 边框后总高 32px，与 Figma 一致 */
+  display: flex;
+  align-items: center;
+  /* 原规则是 width:100%（竖排列表用），横排芯片必须改回按内容宽 */
+  width: auto;
+  flex: 0 0 auto;
+}
+
+.home-projects-filter-text,
+.home-projects-filter-text p {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;      /* 内层 <p> 自带行高，不一起改的话芯片会高出 5px */
+  letter-spacing: 0.66px;
+  color: var(--d3-chip-text);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* 选中态：实心蓝描边 + 淡蓝底 + 蓝字 Bold。
+   Figma 标的是 rgba(64,110,180,0.5) 的半透明描边，但未选中态的文字色
+   #4a5568 本身就偏蓝灰，两者对比太弱、一眼看不出哪个在选中，
+   所以这里把描边加到不透明并补一层淡蓝底。 */
+.home-projects-filter-item:has(.home-projects-filter-active) {
+  border-color: var(--d3-blue);
+  background-color: rgba(64, 110, 180, 0.08);
+}
+/* 内层 <p> 必须一起写：上面的 .home-projects-filter-text p 显式给 p 上了灰色，
+   会盖掉从父元素继承来的蓝色 —— 只改父元素的话，看到的字仍然是灰的。 */
+.home-projects-filter-active,
+.home-projects-filter-active p {
+  color: var(--d3-blue);
+  font-weight: 700;
+}
+
+/* News 区在 Desktop-3 中没有分类筛选 */
+.home-news-filter-item { display: none !important; }
+
+/* --------------------------------------------------------------------------
+   7. 项目卡片  (Figma 44:1243)
+   原顺序 图→标题→描述→标签
+   Desktop-3 图→标签→标题→描述→View Project →
+   -------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .home-projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+/* 首页收起状态只展示 3 张卡片（Figma 的网格就是 1200x389 一行三张）。
+   构建产物默认渲染 4 张，所以隐藏第 4 张。
+
+   关键：":not(:has(> :nth-child(5)))" 把这条规则限定在「收起」状态。
+   "See More" 是就地展开、不是跳转 —— 点击后网格里会变成 9 张卡片。
+   没有这个限定的话，展开出来的卡片会被一起隐藏，点按钮看起来毫无反应。
+   收起时最多 4 张（永远没有第 5 个子元素），展开后有第 5 个，规则自动失效。
+
+   拿到源码后应改为在取数时 slice(0,3)，这条规则随之删除。 */
+.home-projects-grid:not(:has(> :nth-child(5))) > .home-projects-card:nth-child(n + 4) {
+  display: none;
+}
+
+.home-projects-card {
+  background: #fff;
+  border: 1px solid var(--d3-card-border);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: none;            /* 原为 2/2/6 黑 15%，Desktop-3 改用描边 */
+}
+
+/* 图位底色用白色而非 Figma 的 #f1f3f6：配图用 contain 完整显示后两侧会留白，
+   灰底会形成明显的色带；白底与卡片同色，留白就隐形了。 */
+.home-projects-card-image {
+  height: 218px;
+  background: #fff;
+}
+
+/* 卡片配图的尺寸与裁切方式，保持原站行为，不做覆盖。
+   原 bundle 的规则是：
+     .home-projects-card-image img       { width:60%;   height:60%;  object-fit:contain }
+     .home-projects-card-image-cover img { width:66.5%; height:76%;  object-fit:cover   }
+   即图片按图位的 66.5%×76% 内嵌、裁切填充，四周留一圈白边 —— 这就是改版前
+   卡片看起来是宽幅矩形的原因（GLKB 源图 3206x2960 近正方形，是被裁成宽幅的）。
+
+   此前我曾改成 100% 满铺，裁切幅度从约 30% 增到 64%，GLKB 那张被切废；
+   随后又改成 contain 完整显示，宽幅效果随之消失。两次都偏离了原站，
+   最终按要求还原：这里不写任何 img 尺寸规则。 */
+
+.home-projects-card-content {
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* 原为 center/center，会把内容和 View Project 挤到居中 */
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  flex: 1;
+  min-height: 0;
+}
+
+.home-projects-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+/* Desktop-3 顺序：标签 → 标题 → 描述（原为标题 → 描述 → 标签） */
+.home-projects-card-tags        { order: 1; gap: 10px; margin-top: 0; }
+.home-projects-card-title       { order: 2; }
+.home-projects-card-description { order: 3; }
+
+/* Figma 44:1248：标签框总高 24px、宽 172px（文字 156 + 左右各 8）。
+   Figma 描边画在盒内，CSS 描边加在盒外，所以内距用 7px、行高用 22px，
+   加上 1px 边框正好 24px 高 / 172px 宽。内层 <p> 的行高必须一起改，
+   否则它自带的行高会把框撑高 —— 这就是标签看起来和框贴太近/太松的原因。 */
+.home-projects-card-tag {
+  border: 1px solid var(--d3-blue);
+  border-radius: 5px;
+  padding: 0 7px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.home-projects-card-tag-text,
+.home-projects-card-tag-text p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--d3-blue);
+  text-transform: none;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.home-projects-card-title,
+.home-projects-card-title p {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: -0.17px;
+  color: var(--d3-card-title);
+}
+
+.home-projects-card-description,
+.home-projects-card-description p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  color: var(--d3-card-desc);
+}
+
+/* "View Project →"：构建产物的 DOM 里没有这个元素，用伪元素补出来。
+   拿到源码后应改为真实的 <a>，这条规则随之删除。 */
+.home-projects-card-content::after {
+  content: "View Project  \2192";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: var(--d3-card-title);
+}
+
+/* --------------------------------------------------------------------------
+   8. See More 按钮  (Figma 44:1279)
+   -------------------------------------------------------------------------- */
+/* 列表容器原本是 flex 行 ——「列表 | See More」左右并排（实测：容器 1200px 里
+   列表只分到 402px，剩下全给了按钮）。Desktop-3 要的是「列表通栏，按钮另起一行
+   右对齐」，所以把主轴改成纵向。只改方向、不动 display，避免影响内部布局。 */
+.home-publications-list-container,
+.news-content-container,
+.home-projects-grid-container {
+  flex-direction: column;
+}
+
+/* 列表左右各有 38px 内缩，Desktop-3 是通栏 */
+.home-publications-list-container,
+.home-news-list-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.home-projects-see-more,
+.home-news-see-more,
+.home-publications-see-more {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 28px;
+}
+
+/* 按钮本体就是 .button.button-primary。原 bundle 用同样的选择器 + !important
+   写死了 padding:calc(8px*density) calc(32px*density)，不加 !important 盖不住。 */
+.home-projects-see-more .button,
+.home-news-see-more .button,
+.home-publications-see-more .button {
+  padding: 8px 32px !important;
+  border-radius: 8px;
+}
+.home-projects-see-more .button-content,
+.home-news-see-more .button-content,
+.home-publications-see-more .button-content,
+.home-projects-see-more .button-content p,
+.home-news-see-more .button-content p,
+.home-publications-see-more .button-content p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* --------------------------------------------------------------------------
+   9. 区块顺序
+   构建产物的 DOM 顺序是 Projects → Publications → News，
+   Desktop-3 是 Projects → News → Publications。
+   同样只改视觉顺序，DOM 顺序不变。
+   `> *` 兜底 order:5 是为了万一容器里还有别的子元素（页脚等），
+   不会因为默认 order:0 被顶到最前面。
+   -------------------------------------------------------------------------- */
+.page-layout-inner {
+  display: flex;
+  flex-direction: column;
+}
+.page-layout-inner > *        { order: 5; }
+.page-layout-inner > .home-main-content         { order: 1; }
+.page-layout-inner > .home-projects-section     { order: 2; }
+.page-layout-inner > .home-news-section         { order: 3; }
+.page-layout-inner > .home-publications-section { order: 4; }
+
+/* --------------------------------------------------------------------------
+   10. News 条目  (Figma 44:1285)
+   行高 156px；左侧日期列 130px + 20px 间距；卡片 20px 左内距 + 投影
+   -------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .news-items { gap: 24px; }          /* Figma: 条目 156 高、间隔 180 → 24 */
+
+  .news-item {
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .news-item-date-container {
+    width: 130px;
+    flex: 0 0 130px;
+    gap: 12px;
+    align-items: center;
+  }
+  .news-item-date-icon { width: 32px; height: 32px; flex: 0 0 32px; }
+
+  .news-item-content {
+    min-height: 156px;
+    padding-left: 20px;
+    background: #fff;
+    box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.15);
+  }
+  .news-item-content-inner { align-items: center; }
+
+  .news-item-text { gap: 12px; }
+
+  /* 图片框 227x156，内层图 180x120（Figma 44:1297 / 44:1298）。
+     原样式把容器压成 calc(120px*density)=96px，且图片只占 60%。
+     Figma 44:1299 的图是 180 宽满铺、按原比例定高，所以用 contain 不裁切。 */
+  .news-item-image-container {
+    width: 227px;
+    flex: 0 0 227px;
+    height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .news-item-image {
+    width: 180px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .news-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.news-item-date,
+.news-item-date p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: var(--d3-ink);
+}
+
+.news-item-title,
+.news-item-title p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--d3-ink);
+}
+
+/* 分类标签：8px 圆角、12px 左右内距、14px 字（比项目卡片的标签大一号） */
+.news-item-category {
+  border: 1px solid var(--d3-blue);
+  border-radius: 8px;
+  padding: 0 12px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.news-item-category-text,
+.news-item-category-text p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--d3-blue);
+  margin: 0;
+}
+
+.news-item-featured-icon-desktop { width: 24px; height: 24px; }
+
+/* --------------------------------------------------------------------------
+   11. Publications 条目  (Figma 44:1350)
+   行高 180px；文本列与右侧封面两端对齐；20px 左内距 + 投影
+   -------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .home-publications-list-items { gap: 16px; }   /* 180 高、间隔 196 → 16 */
+
+  .home-publications-item {
+    min-height: 180px;
+    padding-left: 20px;
+    background: #fff;
+    box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.15);
+    align-items: center;
+    justify-content: space-between;
+  }
+  .home-publications-item-content { gap: 8px; }
+
+  /* 封面框 269x180，内层 180x120 裁切填充（Figma 44:1360 / 44:1361 / 44:1362 用的是 object-cover）。
+     原样式是 calc(160px*density)=128 宽，且图片只占 60%。 */
+  .home-publications-item-image-desktop {
+    width: 269px !important;
+    flex: 0 0 269px;
+    height: 180px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-publications-item-image-desktop .home-publications-item-image-inner {
+    width: 180px;
+    height: 120px;
+    overflow: hidden;
+  }
+  /* Figma 标注的是 object-cover，因为样稿里放的是竖版期刊封面。
+     但真实数据里大量是横版会议横幅（ACL / ISMB / Genome Research），
+     cover 会把字裁掉 —— 实测确认。这里用 contain 保证内容完整。
+     这是我依据真实数据做的偏离，唯一一处不照搬 Figma 的地方。 */
+  .home-publications-item-image-desktop img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.home-publications-item-title,
+.home-publications-item-title p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--d3-ink);
+}
+
+.home-publications-item-authors,
+.home-publications-item-authors p,
+.home-publications-item-journal,
+.home-publications-item-journal p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  color: var(--d3-ink);
+}
+
+.home-publications-item-meta { gap: 12px; align-items: center; }
+
+/* DOI / PMID 徽章：Figma 固定 20px 高 */
+.home-publications-item-badge {
+  border: 1px solid var(--d3-blue);
+  border-radius: 5px;
+  padding: 0 8px;
+  height: 20px;
+  box-sizing: border-box;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.home-publications-item-badge-text,
+.home-publications-item-badge-text p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--d3-blue);
+  margin: 0;
+}
+
+/* --------------------------------------------------------------------------
+   12. Hero 内部间距  (Figma 44:1215 / 44:1411 / 44:1405 / 44:1406 / 44:1413)
+   头像底 427 → 姓名 446(gap 19) → 姓名底 482 → 图标 518(gap 36)
+   → 图标底 553 → 职称 570(gap 17)
+   正文底 421 → Research Areas 500 (gap 79)
+   -------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .home-main-content { padding-top: 157px; }   /* 导航 84 + 73 */
+
+  .home-left-column { gap: 0; }
+
+  /* 右栏逐段间距，按标注（盒对盒，与 Figma 的测量方式一致）：
+       照片 ─20─ Jie Liu ─12─ 图标 ─12─ 职称/单位 ─12─ 院系五行
+     用逐段外边距而不是统一 gap，因为四段的间距各不相同。 */
+  .home-profile-section { gap: 0; }
+  .home-profile-picture  { margin-top: 4px; margin-bottom: 20px; }
+  /* 原规则给姓名加了 margin-top:calc(18px*density)=14.4px，必须清掉，
+     否则会在照片与姓名之间多塞 14px */
+  .home-profile-name     { height: 36px; margin-top: 0; margin-bottom: 12px; justify-content: center; }
+  /* Figma 图标行高 35px（图标本身 32，最高的那个矢量到 35） */
+  .home-contact-icons    { gap: 36px; height: 35px; margin-bottom: 12px; }
+  .home-contact-icon     { width: 32px; height: 32px; }
+  .home-subtitle-profile { margin-bottom: 0; }
+
+  /* Research Areas 整块「底部对齐」右栏的院系两行（都落在 765）。
+     margin-top:auto 把它顶到左栏底部 —— 左栏被 flex 拉伸到与右栏等高，
+     底边因此自然对齐，且不受正文字数变化影响。
+     margin-bottom 必须清零（原规则给了 calc(64px*density)=51.2px），
+     否则整块会被从底部往上顶 51px。
+     到 Projects 的 72px 间距交给 .home-projects-section 的 padding-top ——
+     此时左右两栏底边齐平，加在哪边都一样准。
+     副作用：正文到 Research Areas 的间距变成 99px（由底对齐反推），
+     不再是 72px。这两者互斥，按要求以底对齐优先。 */
+  .home-description { height: auto; }
+  .home-sections-container { margin-top: auto; margin-bottom: 0; }
+
+  .home-main-content { padding-top: 157px; padding-bottom: 0; }
+}
+
+/* 段落间距 26px（按标注调整，原为 24px）。
+   margin-top 必须显式清零 —— 浏览器给 <p> 的默认上边距是 1em(16px)，
+   它会把首行文字往下推 16px，导致正文看起来比右边的照片低一截。 */
+.home-description p { margin-top: 0; margin-bottom: 26px; }
+.home-description p:last-child { margin-bottom: 0; }
+
+/* 首段上提 3px，让「文字的视觉顶部」与照片上沿(158)齐平。
+   这是本页唯一一处刻意偏离 Figma 的地方：Figma 的正文文本框顶在 157，
+   但 16px 字配 24px 行高会在字上方留 (24-16)/2 = 4px 半行距，
+   照片却是硬边缘，所以照搬坐标反而看着不齐。像素扫描实测补偿量为 3px。 */
+.home-description p:first-child { margin-top: -3px; }
+
+
+/* --------------------------------------------------------------------------
+   13. GLKB 详情页专用配图
+   --------------------------------------------------------------------------
+   卡片、Projects 列表和详情页原本共用同一个文件 /images/projects/glkb.png
+   （都取自 projects.json 的 image_url），所以只靠数据改不出「只换详情页」。
+
+   这里用 CSS 的 content 在详情页把渲染源换成另一张图：
+     .pankbase-detail-image   只在项目详情页存在
+     img[alt="…"]             锁定 GLKB 这一个项目
+   两者组合后，首页卡片和 /projects 列表都不受影响，仍用原图。
+
+   容器本身是 object-fit:contain（92% 尺寸），新图为近正方形（4064x3900），
+   会完整显示、不裁切不拉伸。
+
+   拿到源码后应改为在数据里加一个独立的详情页配图字段，这条规则随之删除。 */
+.pankbase-detail-image img[alt="Genomic Literature Knowledge Base"] {
+  content: url("/images/projects/glkb-detail.png");
+}
+
+/* --------------------------------------------------------------------------
+   14. 窄屏（< 1024px）修正
+   --------------------------------------------------------------------------
+   桌面版的定位规则都包在 @media (min-width:1024px) 里，不会影响窄屏；
+   这里只处理窄屏下需要单独成立的两点。 */
+@media (max-width: 1023px) {
+  /* 照片与四个图标居中；姓名、职称、院系仍保持左对齐（与原站一致）。
+
+     关键：.home-profile-section 是 flex 项，默认收缩到最宽子元素的宽度
+     （实测 549px，而内容区是 772px），所以在它内部居中会偏左 —— 必须先
+     让它撑满内容区，居中才是相对整个内容宽度的。 */
+  .home-profile-section {
+    width: 100%;
+    align-self: stretch;
+  }
+  .home-profile-picture {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-contact-icons {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   15. 卡片配图：一律完整显示，不裁切
+   --------------------------------------------------------------------------
+   原站是 object-fit:cover 裁切填充（图片盒 256x166，比例 1.55），
+   而各项目配图的比例差异很大，裁切量是零和的：
+
+       图片盒比例    EPCOT      GLKB
+          1.55     裁宽 10%   裁高 30%   ← 原站设定
+          1.40     裁宽 18%   裁高 23%
+          1.17     裁宽 32%   裁高  8%
+
+   没有哪个统一比例能让所有图都少裁。这些是科研示意图，裁边就丢信息，
+   所以改成 contain：图片按原比例完整缩放，铺满图位的可用范围，一张都不裁。
+   留白落在图位底色上，而图位底色已设为白色（与卡片同色），所以留白不可见。 */
+.home-projects-card-image img,
+.home-projects-card-image-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* --------------------------------------------------------------------------
+   16. 姓名超链接
+   --------------------------------------------------------------------------
+   由 custom-enhancements.js 把 "Jie Liu" 包成 <a>（CSS 无法创建链接）。
+   这里让它在视觉上与原来的纯文字一致，只在悬停时给出可点击的提示。 */
+.home-profile-name a {
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+}
+.home-profile-name a:hover,
+.home-profile-name a:focus-visible {
+  text-decoration: underline;
+}
