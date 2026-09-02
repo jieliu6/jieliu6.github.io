@@ -915,19 +915,3 @@
 .home-profile-name a:focus-visible {
   text-decoration: underline;
 }
-
-/* --------------------------------------------------------------------------
-   17. People 卡片姓名超链接
-   --------------------------------------------------------------------------
-   同 16，由 custom-enhancements.js 包成 <a>（CSS 无法创建链接）。
-   卡片姓名本身就是 #406eb4，继承颜色后与未加链接的成员完全一致，
-   只在悬停 / 键盘聚焦时给出可点击的提示。 */
-.person-card-name a {
-  color: inherit;
-  font: inherit;
-  text-decoration: none;
-}
-.person-card-name a:hover,
-.person-card-name a:focus-visible {
-  text-decoration: underline;
-}
