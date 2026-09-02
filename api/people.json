@@ -484,5 +484,25 @@
     "category": "researchAssistant",
     "type": "Current",
     "pankgraph_title": null
+  },
+  {
+    "id": 57,
+    "name": "Xiang Zhang",
+    "title": null,
+    "department": "Department of Statistics",
+    "image_url": "/images/people/avatar_xiang_zhang.jpg",
+    "category": "researchAssistant",
+    "type": "Current",
+    "pankgraph_title": null
+  },
+  {
+    "id": 58,
+    "name": "Zhuoxuan Ju",
+    "title": null,
+    "department": "Department of Statistics",
+    "image_url": "/images/people/avatar_zhuoxuan_ju.jpg",
+    "category": "researchAssistant",
+    "type": "Current",
+    "pankgraph_title": null
   }
 ]
