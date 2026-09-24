@@ -649,6 +649,8 @@
     justify-content: center;
   }
   .news-item-image {
+    position: relative;
+    inset: auto;
     width: 180px;
     height: 120px;
     display: flex;
@@ -661,6 +663,15 @@
     height: 100%;
     object-fit: contain;
   }
+}
+
+/* HIRN 标志保留原始宽高比，并在新闻图片框内留出空白。 */
+.news-item-image img[src="/images/news/hirn-logo.svg"] {
+  width: auto;
+  height: auto;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
 }
 
 .news-item-date,
