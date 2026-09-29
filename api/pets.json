@@ -4,6 +4,7 @@
     { "name": "Boba", "image": "/images/pets/boba.png" },
     { "name": "NuoNuo", "image": "/images/pets/nuonuo.png" },
     { "name": "Offer", "image": "/images/pets/offer.png" },
-    { "name": "Snow ball", "image": "/images/pets/snow_ball.jpeg"}
+    { "name": "Snow ball", "image": "/images/pets/snow_ball.jpeg" },
+    { "name": "Xiao Tao", "image": "/images/pets/xiao_tao.png" }
   ]
 }
