@@ -34,7 +34,7 @@
       { "type": "scholar", "url": "https://scholar.google.com/citations?user=h6EgPkEAAAAJ&hl=en", "ariaLabel": "Google Scholar", "icon": "/images/icons/homeVector.svg" },
       { "type": "github", "url": "#", "ariaLabel": "GitHub", "icon": "/images/icons/homeVector(1).svg" },
       { "type": "email", "url": "mailto:drjieliu@umich.edu", "ariaLabel": "Email", "icon": "/images/icons/homeVector (2).svg" },
-      { "type": "cv", "url": "/CV_liu.docx.pdf", "ariaLabel": "CV", "icon": "/images/icons/Vector.png" }
+      { "type": "cv", "url": "/CV_liu.docx.pdf?v=20261006", "ariaLabel": "CV", "icon": "/images/icons/Vector.png" }
     ]
   }
 }
