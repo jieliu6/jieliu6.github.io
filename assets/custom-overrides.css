@@ -665,7 +665,10 @@
   }
 }
 
-/* HIRN 标志保留原始宽高比，并在新闻图片框内留出空白。 */
+/* 新闻标志保留原始宽高比，并在图片框内留出空白。 */
+.news-item-image img[src="/images/publications/kdd-2027-logo.png"],
+.news-item-image img[src="/images/publications/jci-logo.png"],
+.news-item-image img[src="/images/publications/neurips-logo.svg"],
 .news-item-image img[src="/images/news/hirn-logo.svg"] {
   width: auto;
   height: auto;

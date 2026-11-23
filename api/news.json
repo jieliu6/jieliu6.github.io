@@ -1,5 +1,41 @@
 [
   {
+    "id": 35,
+    "date": "2026-11-20",
+    "title": "Xin Luo's VOICE paper was accepted at KDD 2027 and selected for an oral presentation. Congratulations to Xin and the rest of the team!",
+    "category": "Publications",
+    "image_url": "/images/publications/kdd-2027-logo.png",
+    "featured": 1,
+    "link_url": "https://arxiv.org/abs/2608.08366"
+  },
+  {
+    "id": 36,
+    "date": "2026-11-20",
+    "title": "Zheyu Zhang's paper \"Few-Shot Adaptation Gain Cannot by Itself Identify Perturbation-Specific Transfer: A Correspondence-Breaking Audit\" was accepted at KDD 2027. Congratulations to Zheyu and the rest of the team!",
+    "category": "Publications",
+    "image_url": "/images/publications/kdd-2027-logo.png",
+    "featured": 1,
+    "link_url": null
+  },
+  {
+    "id": 37,
+    "date": "2026-11-03",
+    "title": "Our collaborative paper with the Shea Lab, \"Synthetic immunological niche reveals early immune dysregulation and stratifies therapeutic response in type 1 diabetes\", was published in the Journal of Clinical Investigation. Congratulations to the whole team!",
+    "category": "Publications",
+    "image_url": "/images/publications/jci-logo.png",
+    "featured": 1,
+    "link_url": "https://doi.org/10.1172/JCI206433"
+  },
+  {
+    "id": 38,
+    "date": "2026-09-24",
+    "title": "Zheyu Zhang's paper \"A low-rank decoder bottleneck bounds reliability in foundation-model perturbation prediction\" was accepted at NeurIPS 2026. Congratulations to Zheyu, Yuanhao, and Fan!",
+    "category": "Publications",
+    "image_url": "/images/publications/neurips-logo.svg",
+    "featured": 1,
+    "link_url": "https://neurips.cc/virtual/2026/poster/154415"
+  },
+  {
     "id": 34,
     "date": "2026-09-22",
     "title": "Yiqun Wang received a HIRN 2026 Trainee Scholarship (Poster Award)",
